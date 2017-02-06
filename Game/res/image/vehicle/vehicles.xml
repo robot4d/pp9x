@@ -1,0 +1,5172 @@
+<things version="1">
+  <entity name="sheet-jinyuzuoji01" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jinyuzuoji01.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>52</x>
+          <y>10</y>
+        </_0>
+        <_1>
+          <x>52</x>
+          <y>10</y>
+        </_1>
+        <_2>
+          <x>52</x>
+          <y>10</y>
+        </_2>
+        <_3>
+          <x>52</x>
+          <y>10</y>
+        </_3>
+        <_4>
+          <x>52</x>
+          <y>10</y>
+        </_4>
+        <_5>
+          <x>-52</x>
+          <y>10</y>
+        </_5>
+        <_6>
+          <x>-52</x>
+          <y>10</y>
+        </_6>
+        <_7>
+          <x>-52</x>
+          <y>10</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-99</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jinyuzuoji01" template="vehicle-controller"/>
+  <entity name="sheet-jinyuzuoji02" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jinyuzuoji02.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>2</y>
+        </_0>
+        <_1>
+          <x>73</x>
+          <y>19</y>
+        </_1>
+        <_2>
+          <x>108</x>
+          <y>58</y>
+        </_2>
+        <_3>
+          <x>78</x>
+          <y>99</y>
+        </_3>
+        <_4>
+          <x>-4</x>
+          <y>120</y>
+        </_4>
+        <_5>
+          <x>-78</x>
+          <y>99</y>
+        </_5>
+        <_6>
+          <x>-108</x>
+          <y>58</y>
+        </_6>
+        <_7>
+          <x>-73</x>
+          <y>19</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-99</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jinyuzuoji02" template="vehicle-controller"/>
+  <entity name="sheet-baohulu" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/baohulu.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>116</y>
+        </_0>
+        <_1>
+          <x>-36</x>
+          <y>110</y>
+        </_1>
+        <_2>
+          <x>-50</x>
+          <y>86</y>
+        </_2>
+        <_3>
+          <x>-25</x>
+          <y>55</y>
+        </_3>
+        <_4>
+          <x>-3</x>
+          <y>22</y>
+        </_4>
+        <_5>
+          <x>25</x>
+          <y>55</y>
+        </_5>
+        <_6>
+          <x>50</x>
+          <y>86</y>
+        </_6>
+        <_7>
+          <x>36</x>
+          <y>110</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+        <_1>
+          <x>-35</x>
+          <y>15</y>
+        </_1>
+        <_2>
+          <x>-45</x>
+          <y>-3</y>
+        </_2>
+        <_3>
+          <x>-30</x>
+          <y>-15</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-20</y>
+        </_4>
+        <_5>
+          <x>30</x>
+          <y>-15</y>
+        </_5>
+        <_6>
+          <x>45</x>
+          <y>-3</y>
+        </_6>
+        <_7>
+          <x>35</x>
+          <y>15</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-baohulu" template="vehicle-controller"/>
+  <entity name="sheet-baohulu3" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/baohulu3.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>105</y>
+        </_0>
+        <_1>
+          <x>-33</x>
+          <y>95</y>
+        </_1>
+        <_2>
+          <x>-48</x>
+          <y>73</y>
+        </_2>
+        <_3>
+          <x>-26</x>
+          <y>44</y>
+        </_3>
+        <_4>
+          <x>-2</x>
+          <y>26</y>
+        </_4>
+        <_5>
+          <x>26</x>
+          <y>44</y>
+        </_5>
+        <_6>
+          <x>48</x>
+          <y>73</y>
+        </_6>
+        <_7>
+          <x>33</x>
+          <y>95</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>26</y>
+        </_0>
+        <_1>
+          <x>-30</x>
+          <y>20</y>
+        </_1>
+        <_2>
+          <x>-41</x>
+          <y>8</y>
+        </_2>
+        <_3>
+          <x>-32</x>
+          <y>-11</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-14</y>
+        </_4>
+        <_5>
+          <x>32</x>
+          <y>-11</y>
+        </_5>
+        <_6>
+          <x>41</x>
+          <y>8</y>
+        </_6>
+        <_7>
+          <x>30</x>
+          <y>20</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-baohulu3" template="vehicle-controller"/>
+  <entity name="sheet-dayan" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/dayan.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>3</x>
+          <y>52</y>
+        </_0>
+        <_1>
+          <x>-4</x>
+          <y>51</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>48</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>43</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>45</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>43</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>48</y>
+        </_6>
+        <_7>
+          <x>4</x>
+          <y>51</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-2</y>
+        </_0>
+        <_1>
+          <x>4</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>2</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>0</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>0</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>2</y>
+        </_6>
+        <_7>
+          <x>-4</x>
+          <y>0</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-dayan" template="vehicle-controller"/>
+  <entity name="sheet-diao" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/diao.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>61</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-diao" template="vehicle-controller"/>
+  <entity name="sheet-diao2" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/diao2.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>57</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>62</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>55</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>66</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>65</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>66</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>55</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>62</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-diao2" template="vehicle-controller"/>
+  <entity name="sheet-fangzhou" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/fangzhou.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>53</y>
+        </_0>
+        <_1>
+          <x>-6</x>
+          <y>33</y>
+        </_1>
+        <_2>
+          <x>-13</x>
+          <y>20</y>
+        </_2>
+        <_3>
+          <x>-5</x>
+          <y>10</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>15</y>
+        </_4>
+        <_5>
+          <x>5</x>
+          <y>10</y>
+        </_5>
+        <_6>
+          <x>13</x>
+          <y>20</y>
+        </_6>
+        <_7>
+          <x>6</x>
+          <y>33</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>8</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>5</y>
+        </_1>
+        <_2>
+          <x>-15</x>
+          <y>5</y>
+        </_2>
+        <_3>
+          <x>-12</x>
+          <y>0</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-5</y>
+        </_4>
+        <_5>
+          <x>12</x>
+          <y>0</y>
+        </_5>
+        <_6>
+          <x>15</x>
+          <y>5</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>5</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-fangzhou" template="vehicle-controller"/>
+  <entity name="sheet-feijian" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/feijian.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>2</y>
+        </_0>
+        <_1>
+          <x>-2</x>
+          <y>12</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>12</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>12</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>11</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>12</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>12</y>
+        </_6>
+        <_7>
+          <x>2</x>
+          <y>12</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-35</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>-30</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>-30</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>-30</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-25</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>-30</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>-30</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>-30</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-feijian" template="vehicle-controller"/>
+  <entity name="sheet-feijian1" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/feijian1.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>-2</x>
+          <y>57</y>
+        </_0>
+        <_1>
+          <x>-2</x>
+          <y>57</y>
+        </_1>
+        <_2>
+          <x>-2</x>
+          <y>57</y>
+        </_2>
+        <_3>
+          <x>-2</x>
+          <y>57</y>
+        </_3>
+        <_4>
+          <x>-2</x>
+          <y>57</y>
+        </_4>
+        <_5>
+          <x>2</x>
+          <y>57</y>
+        </_5>
+        <_6>
+          <x>2</x>
+          <y>57</y>
+        </_6>
+        <_7>
+          <x>2</x>
+          <y>57</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>30</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-feijian1" template="vehicle-controller"/>
+  <entity name="sheet-feijian2" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/feijian2.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>53</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>30</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-feijian2" template="vehicle-controller"/>
+  <entity name="sheet-feijian3" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/feijian3.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>55</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-feijian3" template="vehicle-controller"/>
+  <entity name="sheet-feijian4" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/feijian4.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>57</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>30</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-feijian4" template="vehicle-controller"/>
+  <entity name="sheet-fenghuang" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/fenghuang.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>53</y>
+        </_0>
+        <_1>
+          <x>-3</x>
+          <y>51</y>
+        </_1>
+        <_2>
+          <x>-9</x>
+          <y>52</y>
+        </_2>
+        <_3>
+          <x>-3</x>
+          <y>53</y>
+        </_3>
+        <_4>
+          <x>-3</x>
+          <y>45</y>
+        </_4>
+        <_5>
+          <x>3</x>
+          <y>53</y>
+        </_5>
+        <_6>
+          <x>9</x>
+          <y>52</y>
+        </_6>
+        <_7>
+          <x>3</x>
+          <y>51</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>10</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>14</y>
+        </_1>
+        <_2>
+          <x>-12</x>
+          <y>13</y>
+        </_2>
+        <_3>
+          <x>-10</x>
+          <y>7</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>8</y>
+        </_4>
+        <_5>
+          <x>10</x>
+          <y>7</y>
+        </_5>
+        <_6>
+          <x>12</x>
+          <y>13</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>14</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-fenghuang" template="vehicle-controller"/>
+  <entity name="sheet-fenghuolun" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/fenghuolun.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>60</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>58</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>59</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>54</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>55</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>54</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>59</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>58</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>25</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-fenghuolun" template="vehicle-controller"/>
+  <entity name="sheet-hudie" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/hudie.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>74</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>75</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>66</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>78</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>69</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>78</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>66</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>75</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>25</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-hudie" template="vehicle-controller"/>
+  <entity name="sheet-jileniao" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jileniao.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>92</y>
+        </_0>
+        <_1>
+          <x>8</x>
+          <y>88</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>73</y>
+        </_2>
+        <_3>
+          <x>4</x>
+          <y>76</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>87</y>
+        </_4>
+        <_5>
+          <x>-4</x>
+          <y>76</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>73</y>
+        </_6>
+        <_7>
+          <x>-8</x>
+          <y>88</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>18</y>
+        </_0>
+        <_1>
+          <x>10</x>
+          <y>32</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>36</y>
+        </_2>
+        <_3>
+          <x>-4</x>
+          <y>34</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>34</y>
+        </_4>
+        <_5>
+          <x>4</x>
+          <y>34</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>36</y>
+        </_6>
+        <_7>
+          <x>-10</x>
+          <y>32</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jileniao" template="vehicle-controller"/>
+  <entity name="sheet-jinnang" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jinnang.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>54</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-10</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jinnang" template="vehicle-controller"/>
+  <entity name="sheet-jinnang1" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jinnang1.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>66</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-10</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jinnang1" template="vehicle-controller"/>
+  <entity name="sheet-jinnang2" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jinnang2.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>64</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-10</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jinnang2" template="vehicle-controller"/>
+  <entity name="sheet-jinyuzuoji" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jinyuzuoji.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>4</x>
+          <y>106</y>
+        </_0>
+        <_1>
+          <x>-59</x>
+          <y>89</y>
+        </_1>
+        <_2>
+          <x>-44</x>
+          <y>50</y>
+        </_2>
+        <_3>
+          <x>-57</x>
+          <y>17</y>
+        </_3>
+        <_4>
+          <x>6</x>
+          <y>35</y>
+        </_4>
+        <_5>
+          <x>57</x>
+          <y>17</y>
+        </_5>
+        <_6>
+          <x>44</x>
+          <y>50</y>
+        </_6>
+        <_7>
+          <x>59</x>
+          <y>89</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-3</x>
+          <y>17</y>
+        </_0>
+        <_1>
+          <x>-53</x>
+          <y>1</y>
+        </_1>
+        <_2>
+          <x>-41</x>
+          <y>-40</y>
+        </_2>
+        <_3>
+          <x>-60</x>
+          <y>-78</y>
+        </_3>
+        <_4>
+          <x>3</x>
+          <y>-93</y>
+        </_4>
+        <_5>
+          <x>60</x>
+          <y>-78</y>
+        </_5>
+        <_6>
+          <x>41</x>
+          <y>-40</y>
+        </_6>
+        <_7>
+          <x>53</x>
+          <y>1</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jinyuzuoji" template="vehicle-controller"/>
+  <entity name="sheet-juanzhou" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/juanzhou.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>98</y>
+        </_0>
+        <_1>
+          <x>-24</x>
+          <y>74</y>
+        </_1>
+        <_2>
+          <x>-16</x>
+          <y>50</y>
+        </_2>
+        <_3>
+          <x>-20</x>
+          <y>44</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>37</y>
+        </_4>
+        <_5>
+          <x>20</x>
+          <y>44</y>
+        </_5>
+        <_6>
+          <x>16</x>
+          <y>50</y>
+        </_6>
+        <_7>
+          <x>24</x>
+          <y>74</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>25</y>
+        </_0>
+        <_1>
+          <x>-20</x>
+          <y>25</y>
+        </_1>
+        <_2>
+          <x>-20</x>
+          <y>15</y>
+        </_2>
+        <_3>
+          <x>-25</x>
+          <y>5</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>1</y>
+        </_4>
+        <_5>
+          <x>25</x>
+          <y>5</y>
+        </_5>
+        <_6>
+          <x>20</x>
+          <y>15</y>
+        </_6>
+        <_7>
+          <x>20</x>
+          <y>25</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-juanzhou" template="vehicle-controller"/>
+  <entity name="sheet-lianhua" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/lianhua.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>2</x>
+          <y>52</y>
+        </_0>
+        <_1>
+          <x>2</x>
+          <y>52</y>
+        </_1>
+        <_2>
+          <x>2</x>
+          <y>52</y>
+        </_2>
+        <_3>
+          <x>2</x>
+          <y>52</y>
+        </_3>
+        <_4>
+          <x>2</x>
+          <y>52</y>
+        </_4>
+        <_5>
+          <x>-2</x>
+          <y>52</y>
+        </_5>
+        <_6>
+          <x>-2</x>
+          <y>52</y>
+        </_6>
+        <_7>
+          <x>-2</x>
+          <y>52</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-lianhua" template="vehicle-controller"/>
+  <entity name="sheet-lianhua2" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/lianhua2.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>2</x>
+          <y>52</y>
+        </_0>
+        <_1>
+          <x>2</x>
+          <y>52</y>
+        </_1>
+        <_2>
+          <x>2</x>
+          <y>52</y>
+        </_2>
+        <_3>
+          <x>2</x>
+          <y>52</y>
+        </_3>
+        <_4>
+          <x>2</x>
+          <y>52</y>
+        </_4>
+        <_5>
+          <x>-2</x>
+          <y>52</y>
+        </_5>
+        <_6>
+          <x>-2</x>
+          <y>52</y>
+        </_6>
+        <_7>
+          <x>-2</x>
+          <y>52</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-14</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-lianhua2" template="vehicle-controller"/>
+  <entity name="sheet-long" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/long.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>60</y>
+        </_0>
+        <_1>
+          <x>4</x>
+          <y>46</y>
+        </_1>
+        <_2>
+          <x>-9</x>
+          <y>43</y>
+        </_2>
+        <_3>
+          <x>-11</x>
+          <y>44</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>56</y>
+        </_4>
+        <_5>
+          <x>11</x>
+          <y>44</y>
+        </_5>
+        <_6>
+          <x>9</x>
+          <y>43</y>
+        </_6>
+        <_7>
+          <x>-4</x>
+          <y>46</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-30</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>-30</y>
+        </_1>
+        <_2>
+          <x>-15</x>
+          <y>-35</y>
+        </_2>
+        <_3>
+          <x>-15</x>
+          <y>-40</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-30</y>
+        </_4>
+        <_5>
+          <x>15</x>
+          <y>-40</y>
+        </_5>
+        <_6>
+          <x>15</x>
+          <y>-35</y>
+        </_6>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-long" template="vehicle-controller"/>
+  <entity name="sheet-long2" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/long2.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>-1</x>
+          <y>60</y>
+        </_0>
+        <_1>
+          <x>-4</x>
+          <y>58</y>
+        </_1>
+        <_2>
+          <x>-6</x>
+          <y>53</y>
+        </_2>
+        <_3>
+          <x>-9</x>
+          <y>57</y>
+        </_3>
+        <_4>
+          <x>-4</x>
+          <y>73</y>
+        </_4>
+        <_5>
+          <x>9</x>
+          <y>57</y>
+        </_5>
+        <_6>
+          <x>6</x>
+          <y>53</y>
+        </_6>
+        <_7>
+          <x>4</x>
+          <y>58</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-7</x>
+          <y>-30</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>-30</y>
+        </_1>
+        <_2>
+          <x>-15</x>
+          <y>-37</y>
+        </_2>
+        <_3>
+          <x>-15</x>
+          <y>-40</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-30</y>
+        </_4>
+        <_5>
+          <x>15</x>
+          <y>-40</y>
+        </_5>
+        <_6>
+          <x>15</x>
+          <y>-37</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>-30</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-long2" template="vehicle-controller"/>
+  <entity name="sheet-motan" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/motan.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>18</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-41</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-motan" template="vehicle-controller"/>
+  <entity name="sheet-ruyi" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/ruyi.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>2</x>
+          <y>35</y>
+        </_0>
+        <_1>
+          <x>-1</x>
+          <y>35</y>
+        </_1>
+        <_2>
+          <x>-1</x>
+          <y>41</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>46</y>
+        </_3>
+        <_4>
+          <x>-4</x>
+          <y>59</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>46</y>
+        </_5>
+        <_6>
+          <x>1</x>
+          <y>41</y>
+        </_6>
+        <_7>
+          <x>1</x>
+          <y>35</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-2</x>
+          <y>22</y>
+        </_0>
+        <_1>
+          <x>8</x>
+          <y>24</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>24</y>
+        </_2>
+        <_3>
+          <x>-2</x>
+          <y>24</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>18</y>
+        </_4>
+        <_5>
+          <x>2</x>
+          <y>24</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>24</y>
+        </_6>
+        <_7>
+          <x>-8</x>
+          <y>24</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-ruyi" template="vehicle-controller"/>
+  <entity name="sheet-ruyi2" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/ruyi2.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>35</y>
+        </_0>
+        <_1>
+          <x>-1</x>
+          <y>36</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>44</y>
+        </_2>
+        <_3>
+          <x>-2</x>
+          <y>41</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>66</y>
+        </_4>
+        <_5>
+          <x>2</x>
+          <y>41</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>44</y>
+        </_6>
+        <_7>
+          <x>1</x>
+          <y>36</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-2</x>
+          <y>20</y>
+        </_0>
+        <_1>
+          <x>6</x>
+          <y>22</y>
+        </_1>
+        <_2>
+          <x>4</x>
+          <y>24</y>
+        </_2>
+        <_3>
+          <x>-2</x>
+          <y>20</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>16</y>
+        </_4>
+        <_5>
+          <x>2</x>
+          <y>20</y>
+        </_5>
+        <_6>
+          <x>-4</x>
+          <y>24</y>
+        </_6>
+        <_7>
+          <x>-6</x>
+          <y>22</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-ruyi2" template="vehicle-controller"/>
+  <entity name="sheet-ruyi3" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/ruyi3.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>2</x>
+          <y>33</y>
+        </_0>
+        <_1>
+          <x>1</x>
+          <y>42</y>
+        </_1>
+        <_2>
+          <x>-2</x>
+          <y>52</y>
+        </_2>
+        <_3>
+          <x>2</x>
+          <y>45</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>83</y>
+        </_4>
+        <_5>
+          <x>-2</x>
+          <y>45</y>
+        </_5>
+        <_6>
+          <x>2</x>
+          <y>52</y>
+        </_6>
+        <_7>
+          <x>-1</x>
+          <y>42</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-4</x>
+          <y>28</y>
+        </_0>
+        <_1>
+          <x>8</x>
+          <y>34</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>34</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>31</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>26</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>31</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>34</y>
+        </_6>
+        <_7>
+          <x>-8</x>
+          <y>34</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-ruyi3" template="vehicle-controller"/>
+  <entity name="sheet-shanggulongying" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/shanggulongying.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>59</y>
+        </_0>
+        <_1>
+          <x>-60</x>
+          <y>29</y>
+        </_1>
+        <_2>
+          <x>-80</x>
+          <y>13</y>
+        </_2>
+        <_3>
+          <x>-57</x>
+          <y>-13</y>
+        </_3>
+        <_4>
+          <x>1</x>
+          <y>-20</y>
+        </_4>
+        <_5>
+          <x>57</x>
+          <y>-13</y>
+        </_5>
+        <_6>
+          <x>80</x>
+          <y>13</y>
+        </_6>
+        <_7>
+          <x>60</x>
+          <y>29</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-20</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-1</x>
+          <y>-15</y>
+        </_0>
+        <_1>
+          <x>-56</x>
+          <y>-24</y>
+        </_1>
+        <_2>
+          <x>-80</x>
+          <y>-50</y>
+        </_2>
+        <_3>
+          <x>-58</x>
+          <y>-83</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-87</y>
+        </_4>
+        <_5>
+          <x>58</x>
+          <y>-83</y>
+        </_5>
+        <_6>
+          <x>80</x>
+          <y>-50</y>
+        </_6>
+        <_7>
+          <x>56</x>
+          <y>-24</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-shanggulongying" template="vehicle-controller"/>
+  <entity name="sheet-shanzi" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/shanzi.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>100</y>
+        </_0>
+        <_1>
+          <x>-4</x>
+          <y>94</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>78</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>70</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>72</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>70</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>78</y>
+        </_6>
+        <_7>
+          <x>4</x>
+          <y>94</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>35</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-shanzi" template="vehicle-controller"/>
+  <entity name="sheet-shanzi1" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/shanzi1.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>100</y>
+        </_0>
+        <_1>
+          <x>-5</x>
+          <y>84</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>73</y>
+        </_2>
+        <_3>
+          <x>-2</x>
+          <y>63</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>61</y>
+        </_4>
+        <_5>
+          <x>2</x>
+          <y>63</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>73</y>
+        </_6>
+        <_7>
+          <x>5</x>
+          <y>84</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>35</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-shanzi1" template="vehicle-controller"/>
+  <entity name="sheet-shanzi2" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/shanzi2.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>106</y>
+        </_0>
+        <_1>
+          <x>-4</x>
+          <y>84</y>
+        </_1>
+        <_2>
+          <x>-1</x>
+          <y>80</y>
+        </_2>
+        <_3>
+          <x>-2</x>
+          <y>66</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>75</y>
+        </_4>
+        <_5>
+          <x>2</x>
+          <y>66</y>
+        </_5>
+        <_6>
+          <x>1</x>
+          <y>80</y>
+        </_6>
+        <_7>
+          <x>4</x>
+          <y>84</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>35</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-shanzi2" template="vehicle-controller"/>
+  <entity name="sheet-tiane" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/tiane.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>66</y>
+        </_0>
+        <_1>
+          <x>3</x>
+          <y>66</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>69</y>
+        </_2>
+        <_3>
+          <x>14</x>
+          <y>66</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>85</y>
+        </_4>
+        <_5>
+          <x>-14</x>
+          <y>66</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>69</y>
+        </_6>
+        <_7>
+          <x>-3</x>
+          <y>66</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+        <_1>
+          <x>10</x>
+          <y>20</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>20</y>
+        </_2>
+        <_3>
+          <x>12</x>
+          <y>26</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>35</y>
+        </_4>
+        <_5>
+          <x>-12</x>
+          <y>26</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>20</y>
+        </_6>
+        <_7>
+          <x>-10</x>
+          <y>20</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-tiane" template="vehicle-controller"/>
+  <entity name="sheet-xianhe" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/xianhe.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>71</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-xianhe" template="vehicle-controller"/>
+  <entity name="sheet-xuanwu" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/xuanwu.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>3</x>
+          <y>40</y>
+        </_0>
+        <_1>
+          <x>25</x>
+          <y>26</y>
+        </_1>
+        <_2>
+          <x>27</x>
+          <y>27</y>
+        </_2>
+        <_3>
+          <x>19</x>
+          <y>45</y>
+        </_3>
+        <_4>
+          <x>3</x>
+          <y>55</y>
+        </_4>
+        <_5>
+          <x>-19</x>
+          <y>45</y>
+        </_5>
+        <_6>
+          <x>-27</x>
+          <y>27</y>
+        </_6>
+        <_7>
+          <x>-25</x>
+          <y>26</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-37</y>
+        </_0>
+        <_1>
+          <x>28</x>
+          <y>-50</y>
+        </_1>
+        <_2>
+          <x>25</x>
+          <y>-38</y>
+        </_2>
+        <_3>
+          <x>20</x>
+          <y>-35</y>
+        </_3>
+        <_4>
+          <x>5</x>
+          <y>-25</y>
+        </_4>
+        <_5>
+          <x>-20</x>
+          <y>-35</y>
+        </_5>
+        <_6>
+          <x>-25</x>
+          <y>-38</y>
+        </_6>
+        <_7>
+          <x>-28</x>
+          <y>-50</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-xuanwu" template="vehicle-controller"/>
+  <entity name="sheet-xuanwu2" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/xuanwu2.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>44</y>
+        </_0>
+        <_1>
+          <x>11</x>
+          <y>44</y>
+        </_1>
+        <_2>
+          <x>20</x>
+          <y>45</y>
+        </_2>
+        <_3>
+          <x>13</x>
+          <y>51</y>
+        </_3>
+        <_4>
+          <x>2</x>
+          <y>63</y>
+        </_4>
+        <_5>
+          <x>-13</x>
+          <y>51</y>
+        </_5>
+        <_6>
+          <x>-20</x>
+          <y>45</y>
+        </_6>
+        <_7>
+          <x>-11</x>
+          <y>44</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-8</y>
+        </_0>
+        <_1>
+          <x>15</x>
+          <y>-8</y>
+        </_1>
+        <_2>
+          <x>18</x>
+          <y>-1</y>
+        </_2>
+        <_3>
+          <x>8</x>
+          <y>4</y>
+        </_3>
+        <_4>
+          <x>3</x>
+          <y>9</y>
+        </_4>
+        <_5>
+          <x>-8</x>
+          <y>4</y>
+        </_5>
+        <_6>
+          <x>-18</x>
+          <y>-1</y>
+        </_6>
+        <_7>
+          <x>-15</x>
+          <y>-8</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-xuanwu2" template="vehicle-controller"/>
+  <entity name="sheet-yao" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/yao.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>4</x>
+          <y>23</y>
+        </_0>
+        <_1>
+          <x>4</x>
+          <y>22</y>
+        </_1>
+        <_2>
+          <x>-1</x>
+          <y>27</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>23</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>22</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>23</y>
+        </_5>
+        <_6>
+          <x>1</x>
+          <y>27</y>
+        </_6>
+        <_7>
+          <x>-4</x>
+          <y>22</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-8</y>
+        </_0>
+        <_1>
+          <x>8</x>
+          <y>-5</y>
+        </_1>
+        <_2>
+          <x>1</x>
+          <y>0</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>-4</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>-4</y>
+        </_5>
+        <_6>
+          <x>-1</x>
+          <y>0</y>
+        </_6>
+        <_7>
+          <x>-8</x>
+          <y>-5</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-yao" template="vehicle-controller"/>
+  <entity name="sheet-yun" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/yun.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>69</y>
+        </_0>
+        <_1>
+          <x>12</x>
+          <y>69</y>
+        </_1>
+        <_2>
+          <x>9</x>
+          <y>75</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>77</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>66</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>77</y>
+        </_5>
+        <_6>
+          <x>-9</x>
+          <y>75</y>
+        </_6>
+        <_7>
+          <x>-12</x>
+          <y>69</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>15</y>
+        </_0>
+        <_1>
+          <x>15</x>
+          <y>15</y>
+        </_1>
+        <_2>
+          <x>10</x>
+          <y>15</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>15</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>20</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>15</y>
+        </_5>
+        <_6>
+          <x>-10</x>
+          <y>15</y>
+        </_6>
+        <_7>
+          <x>-15</x>
+          <y>15</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-yun" template="vehicle-controller"/>
+  <entity name="sheet-yun2" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/yun2.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>64</y>
+        </_0>
+        <_1>
+          <x>9</x>
+          <y>66</y>
+        </_1>
+        <_2>
+          <x>5</x>
+          <y>65</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>70</y>
+        </_3>
+        <_4>
+          <x>-2</x>
+          <y>64</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>70</y>
+        </_5>
+        <_6>
+          <x>-5</x>
+          <y>65</y>
+        </_6>
+        <_7>
+          <x>-9</x>
+          <y>66</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>15</y>
+        </_0>
+        <_1>
+          <x>15</x>
+          <y>15</y>
+        </_1>
+        <_2>
+          <x>10</x>
+          <y>15</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>15</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>20</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>15</y>
+        </_5>
+        <_6>
+          <x>-10</x>
+          <y>15</y>
+        </_6>
+        <_7>
+          <x>-15</x>
+          <y>15</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-yun2" template="vehicle-controller"/>
+  <entity name="sheet-tianluan" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/tianluan.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>24</y>
+        </_0>
+        <_1>
+          <x>-3</x>
+          <y>29</y>
+        </_1>
+        <_2>
+          <x>-11</x>
+          <y>22</y>
+        </_2>
+        <_3>
+          <x>-6</x>
+          <y>12</y>
+        </_3>
+        <_4>
+          <x>-2</x>
+          <y>9</y>
+        </_4>
+        <_5>
+          <x>6</x>
+          <y>12</y>
+        </_5>
+        <_6>
+          <x>11</x>
+          <y>22</y>
+        </_6>
+        <_7>
+          <x>3</x>
+          <y>29</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-2</x>
+          <y>-30</y>
+        </_0>
+        <_1>
+          <x>-2</x>
+          <y>-35</y>
+        </_1>
+        <_2>
+          <x>-14</x>
+          <y>-39</y>
+        </_2>
+        <_3>
+          <x>-14</x>
+          <y>-48</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-46</y>
+        </_4>
+        <_5>
+          <x>14</x>
+          <y>-48</y>
+        </_5>
+        <_6>
+          <x>14</x>
+          <y>-39</y>
+        </_6>
+        <_7>
+          <x>2</x>
+          <y>-35</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-tianluan" template="vehicle-controller"/>
+  <entity name="sheet-jinluan" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jinluan.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>24</y>
+        </_0>
+        <_1>
+          <x>-3</x>
+          <y>25</y>
+        </_1>
+        <_2>
+          <x>-11</x>
+          <y>16</y>
+        </_2>
+        <_3>
+          <x>-6</x>
+          <y>12</y>
+        </_3>
+        <_4>
+          <x>-2</x>
+          <y>9</y>
+        </_4>
+        <_5>
+          <x>6</x>
+          <y>12</y>
+        </_5>
+        <_6>
+          <x>11</x>
+          <y>16</y>
+        </_6>
+        <_7>
+          <x>3</x>
+          <y>25</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-30</y>
+        </_0>
+        <_1>
+          <x>-2</x>
+          <y>-35</y>
+        </_1>
+        <_2>
+          <x>-14</x>
+          <y>-39</y>
+        </_2>
+        <_3>
+          <x>-14</x>
+          <y>-48</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-46</y>
+        </_4>
+        <_5>
+          <x>14</x>
+          <y>-48</y>
+        </_5>
+        <_6>
+          <x>14</x>
+          <y>-39</y>
+        </_6>
+        <_7>
+          <x>2</x>
+          <y>-35</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jinluan" template="vehicle-controller"/>
+  <entity name="sheet-fenghuang2" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/fenghuang2.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>77</y>
+        </_0>
+        <_1>
+          <x>-3</x>
+          <y>80</y>
+        </_1>
+        <_2>
+          <x>-11</x>
+          <y>78</y>
+        </_2>
+        <_3>
+          <x>-11</x>
+          <y>56</y>
+        </_3>
+        <_4>
+          <x>3</x>
+          <y>58</y>
+        </_4>
+        <_5>
+          <x>11</x>
+          <y>56</y>
+        </_5>
+        <_6>
+          <x>11</x>
+          <y>78</y>
+        </_6>
+        <_7>
+          <x>3</x>
+          <y>80</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>6</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>24</y>
+        </_1>
+        <_2>
+          <x>-18</x>
+          <y>20</y>
+        </_2>
+        <_3>
+          <x>-12</x>
+          <y>12</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>16</y>
+        </_4>
+        <_5>
+          <x>12</x>
+          <y>12</y>
+        </_5>
+        <_6>
+          <x>18</x>
+          <y>20</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>24</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-fenghuang2" template="vehicle-controller"/>
+  <entity name="sheet-qingluan" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/qingluan.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>61</y>
+        </_0>
+        <_1>
+          <x>-1</x>
+          <y>59</y>
+        </_1>
+        <_2>
+          <x>-7</x>
+          <y>57</y>
+        </_2>
+        <_3>
+          <x>-6</x>
+          <y>54</y>
+        </_3>
+        <_4>
+          <x>4</x>
+          <y>53</y>
+        </_4>
+        <_5>
+          <x>6</x>
+          <y>54</y>
+        </_5>
+        <_6>
+          <x>7</x>
+          <y>57</y>
+        </_6>
+        <_7>
+          <x>1</x>
+          <y>59</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>20</y>
+        </_1>
+        <_2>
+          <x>-7</x>
+          <y>15</y>
+        </_2>
+        <_3>
+          <x>-10</x>
+          <y>15</y>
+        </_3>
+        <_4>
+          <x>4</x>
+          <y>8</y>
+        </_4>
+        <_5>
+          <x>10</x>
+          <y>15</y>
+        </_5>
+        <_6>
+          <x>7</x>
+          <y>15</y>
+        </_6>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-qingluan" template="vehicle-controller"/>
+  <entity name="sheet-mieguihunchuan" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/mieguihunchuan.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>61</y>
+        </_0>
+        <_1>
+          <x>-19</x>
+          <y>43</y>
+        </_1>
+        <_2>
+          <x>-28</x>
+          <y>40</y>
+        </_2>
+        <_3>
+          <x>-19</x>
+          <y>35</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>32</y>
+        </_4>
+        <_5>
+          <x>19</x>
+          <y>35</y>
+        </_5>
+        <_6>
+          <x>28</x>
+          <y>40</y>
+        </_6>
+        <_7>
+          <x>19</x>
+          <y>43</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-4</x>
+          <y>10</y>
+        </_0>
+        <_1>
+          <x>-21</x>
+          <y>8</y>
+        </_1>
+        <_2>
+          <x>-29</x>
+          <y>-11</y>
+        </_2>
+        <_3>
+          <x>-19</x>
+          <y>-23</y>
+        </_3>
+        <_4>
+          <x>3</x>
+          <y>-27</y>
+        </_4>
+        <_5>
+          <x>19</x>
+          <y>-23</y>
+        </_5>
+        <_6>
+          <x>29</x>
+          <y>-11</y>
+        </_6>
+        <_7>
+          <x>21</x>
+          <y>8</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-mieguihunchuan" template="vehicle-controller"/>
+  <entity name="sheet-dayao" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/dayao.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>82</y>
+        </_0>
+        <_1>
+          <x>-13</x>
+          <y>76</y>
+        </_1>
+        <_2>
+          <x>-5</x>
+          <y>66</y>
+        </_2>
+        <_3>
+          <x>-8</x>
+          <y>52</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>65</y>
+        </_4>
+        <_5>
+          <x>8</x>
+          <y>52</y>
+        </_5>
+        <_6>
+          <x>5</x>
+          <y>66</y>
+        </_6>
+        <_7>
+          <x>13</x>
+          <y>76</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-5</x>
+          <y>27</y>
+        </_0>
+        <_1>
+          <x>-4</x>
+          <y>24</y>
+        </_1>
+        <_2>
+          <x>-7</x>
+          <y>17</y>
+        </_2>
+        <_3>
+          <x>-9</x>
+          <y>16</y>
+        </_3>
+        <_4>
+          <x>4</x>
+          <y>15</y>
+        </_4>
+        <_5>
+          <x>9</x>
+          <y>16</y>
+        </_5>
+        <_6>
+          <x>7</x>
+          <y>17</y>
+        </_6>
+        <_7>
+          <x>4</x>
+          <y>24</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-dayao" template="vehicle-controller"/>
+  <entity name="sheet-dayand" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/dayand.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>3</x>
+          <y>52</y>
+        </_0>
+        <_1>
+          <x>-4</x>
+          <y>51</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>48</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>43</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>45</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>43</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>48</y>
+        </_6>
+        <_7>
+          <x>4</x>
+          <y>51</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-2</y>
+        </_0>
+        <_1>
+          <x>4</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>2</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>0</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>0</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>2</y>
+        </_6>
+        <_7>
+          <x>-4</x>
+          <y>0</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-dayand" template="vehicle-controller"/>
+  <entity name="sheet-dayana" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/dayana.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>3</x>
+          <y>52</y>
+        </_0>
+        <_1>
+          <x>-4</x>
+          <y>51</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>48</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>43</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>45</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>43</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>48</y>
+        </_6>
+        <_7>
+          <x>4</x>
+          <y>51</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-2</y>
+        </_0>
+        <_1>
+          <x>4</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>2</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>0</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>0</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>2</y>
+        </_6>
+        <_7>
+          <x>-4</x>
+          <y>0</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-dayana" template="vehicle-controller"/>
+  <entity name="sheet-dayanb" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/dayanb.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>3</x>
+          <y>52</y>
+        </_0>
+        <_1>
+          <x>-4</x>
+          <y>51</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>48</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>43</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>45</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>43</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>48</y>
+        </_6>
+        <_7>
+          <x>4</x>
+          <y>51</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-2</y>
+        </_0>
+        <_1>
+          <x>4</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>2</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>0</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>0</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>2</y>
+        </_6>
+        <_7>
+          <x>-4</x>
+          <y>0</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-dayanb" template="vehicle-controller"/>
+  <entity name="sheet-dayanc" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/dayanc.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>3</x>
+          <y>52</y>
+        </_0>
+        <_1>
+          <x>-4</x>
+          <y>51</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>48</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>43</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>45</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>43</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>48</y>
+        </_6>
+        <_7>
+          <x>4</x>
+          <y>51</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-2</y>
+        </_0>
+        <_1>
+          <x>4</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>2</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>0</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>0</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>2</y>
+        </_6>
+        <_7>
+          <x>-4</x>
+          <y>0</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-dayanc" template="vehicle-controller"/>
+  <entity name="sheet-heifenghuang" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/heifenghuang.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>53</y>
+        </_0>
+        <_1>
+          <x>-3</x>
+          <y>51</y>
+        </_1>
+        <_2>
+          <x>-9</x>
+          <y>52</y>
+        </_2>
+        <_3>
+          <x>-3</x>
+          <y>53</y>
+        </_3>
+        <_4>
+          <x>-3</x>
+          <y>45</y>
+        </_4>
+        <_5>
+          <x>3</x>
+          <y>53</y>
+        </_5>
+        <_6>
+          <x>9</x>
+          <y>52</y>
+        </_6>
+        <_7>
+          <x>3</x>
+          <y>51</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>10</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>14</y>
+        </_1>
+        <_2>
+          <x>-12</x>
+          <y>13</y>
+        </_2>
+        <_3>
+          <x>-10</x>
+          <y>7</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>8</y>
+        </_4>
+        <_5>
+          <x>10</x>
+          <y>7</y>
+        </_5>
+        <_6>
+          <x>12</x>
+          <y>13</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>14</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-heifenghuang" template="vehicle-controller"/>
+  <entity name="sheet-heilong" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/heilong.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>68</y>
+        </_0>
+        <_1>
+          <x>27</x>
+          <y>25</y>
+        </_1>
+        <_2>
+          <x>-18</x>
+          <y>38</y>
+        </_2>
+        <_3>
+          <x>-5</x>
+          <y>35</y>
+        </_3>
+        <_4>
+          <x>1</x>
+          <y>49</y>
+        </_4>
+        <_5>
+          <x>5</x>
+          <y>35</y>
+        </_5>
+        <_6>
+          <x>18</x>
+          <y>38</y>
+        </_6>
+        <_7>
+          <x>-27</x>
+          <y>25</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>-13</x>
+          <y>-21</y>
+        </_2>
+        <_3>
+          <x>-9</x>
+          <y>-25</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>9</x>
+          <y>-25</y>
+        </_5>
+        <_6>
+          <x>13</x>
+          <y>-21</y>
+        </_6>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-50</y>
+        </_0>
+        <_1>
+          <x>-7</x>
+          <y>-42</y>
+        </_1>
+        <_2>
+          <x>-32</x>
+          <y>-54</y>
+        </_2>
+        <_3>
+          <x>-26</x>
+          <y>-66</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-56</y>
+        </_4>
+        <_5>
+          <x>26</x>
+          <y>-66</y>
+        </_5>
+        <_6>
+          <x>32</x>
+          <y>-54</y>
+        </_6>
+        <_7>
+          <x>7</x>
+          <y>-42</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-heilong" template="vehicle-controller"/>
+  <entity name="sheet-heitiane" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/heitiane.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>66</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>66</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>69</y>
+        </_2>
+        <_3>
+          <x>14</x>
+          <y>66</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>85</y>
+        </_4>
+        <_5>
+          <x>-14</x>
+          <y>66</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>69</y>
+        </_6>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+        <_1>
+          <x>10</x>
+          <y>20</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>20</y>
+        </_2>
+        <_3>
+          <x>12</x>
+          <y>26</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>35</y>
+        </_4>
+        <_5>
+          <x>-12</x>
+          <y>26</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>20</y>
+        </_6>
+        <_7>
+          <x>-10</x>
+          <y>20</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-heitiane" template="vehicle-controller"/>
+  <entity name="sheet-honglong" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/honglong.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>68</y>
+        </_0>
+        <_1>
+          <x>27</x>
+          <y>25</y>
+        </_1>
+        <_2>
+          <x>-18</x>
+          <y>38</y>
+        </_2>
+        <_3>
+          <x>-5</x>
+          <y>35</y>
+        </_3>
+        <_4>
+          <x>1</x>
+          <y>49</y>
+        </_4>
+        <_5>
+          <x>5</x>
+          <y>35</y>
+        </_5>
+        <_6>
+          <x>18</x>
+          <y>38</y>
+        </_6>
+        <_7>
+          <x>-27</x>
+          <y>25</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>-13</x>
+          <y>-21</y>
+        </_2>
+        <_3>
+          <x>-9</x>
+          <y>-25</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>9</x>
+          <y>-25</y>
+        </_5>
+        <_6>
+          <x>13</x>
+          <y>-21</y>
+        </_6>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-50</y>
+        </_0>
+        <_1>
+          <x>-7</x>
+          <y>-42</y>
+        </_1>
+        <_2>
+          <x>-32</x>
+          <y>-54</y>
+        </_2>
+        <_3>
+          <x>-26</x>
+          <y>-66</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-56</y>
+        </_4>
+        <_5>
+          <x>26</x>
+          <y>-66</y>
+        </_5>
+        <_6>
+          <x>32</x>
+          <y>-54</y>
+        </_6>
+        <_7>
+          <x>7</x>
+          <y>-42</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-honglong" template="vehicle-controller"/>
+  <entity name="sheet-hudiea" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/hudiea.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>74</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>75</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>66</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>78</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>69</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>78</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>66</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>75</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>25</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-hudiea" template="vehicle-controller"/>
+  <entity name="sheet-jinlong" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jinlong.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>68</y>
+        </_0>
+        <_1>
+          <x>27</x>
+          <y>25</y>
+        </_1>
+        <_2>
+          <x>-18</x>
+          <y>38</y>
+        </_2>
+        <_3>
+          <x>-5</x>
+          <y>35</y>
+        </_3>
+        <_4>
+          <x>1</x>
+          <y>49</y>
+        </_4>
+        <_5>
+          <x>5</x>
+          <y>35</y>
+        </_5>
+        <_6>
+          <x>18</x>
+          <y>38</y>
+        </_6>
+        <_7>
+          <x>-27</x>
+          <y>25</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>-13</x>
+          <y>-21</y>
+        </_2>
+        <_3>
+          <x>-9</x>
+          <y>-25</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>9</x>
+          <y>-25</y>
+        </_5>
+        <_6>
+          <x>13</x>
+          <y>-21</y>
+        </_6>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-50</y>
+        </_0>
+        <_1>
+          <x>-7</x>
+          <y>-42</y>
+        </_1>
+        <_2>
+          <x>-32</x>
+          <y>-54</y>
+        </_2>
+        <_3>
+          <x>-26</x>
+          <y>-66</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-56</y>
+        </_4>
+        <_5>
+          <x>26</x>
+          <y>-66</y>
+        </_5>
+        <_6>
+          <x>32</x>
+          <y>-54</y>
+        </_6>
+        <_7>
+          <x>7</x>
+          <y>-42</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jinlong" template="vehicle-controller"/>
+  <entity name="sheet-lanlong" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/lanlong.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>68</y>
+        </_0>
+        <_1>
+          <x>27</x>
+          <y>25</y>
+        </_1>
+        <_2>
+          <x>-18</x>
+          <y>38</y>
+        </_2>
+        <_3>
+          <x>-5</x>
+          <y>35</y>
+        </_3>
+        <_4>
+          <x>1</x>
+          <y>49</y>
+        </_4>
+        <_5>
+          <x>5</x>
+          <y>35</y>
+        </_5>
+        <_6>
+          <x>18</x>
+          <y>38</y>
+        </_6>
+        <_7>
+          <x>-27</x>
+          <y>25</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>-13</x>
+          <y>-21</y>
+        </_2>
+        <_3>
+          <x>-9</x>
+          <y>-25</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>9</x>
+          <y>-25</y>
+        </_5>
+        <_6>
+          <x>13</x>
+          <y>-21</y>
+        </_6>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-50</y>
+        </_0>
+        <_1>
+          <x>-7</x>
+          <y>-42</y>
+        </_1>
+        <_2>
+          <x>-32</x>
+          <y>-54</y>
+        </_2>
+        <_3>
+          <x>-26</x>
+          <y>-66</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-56</y>
+        </_4>
+        <_5>
+          <x>26</x>
+          <y>-66</y>
+        </_5>
+        <_6>
+          <x>32</x>
+          <y>-54</y>
+        </_6>
+        <_7>
+          <x>7</x>
+          <y>-42</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-lanlong" template="vehicle-controller"/>
+  <entity name="sheet-lvlong" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/lvlong.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>68</y>
+        </_0>
+        <_1>
+          <x>27</x>
+          <y>25</y>
+        </_1>
+        <_2>
+          <x>-18</x>
+          <y>38</y>
+        </_2>
+        <_3>
+          <x>-5</x>
+          <y>35</y>
+        </_3>
+        <_4>
+          <x>1</x>
+          <y>49</y>
+        </_4>
+        <_5>
+          <x>5</x>
+          <y>35</y>
+        </_5>
+        <_6>
+          <x>18</x>
+          <y>38</y>
+        </_6>
+        <_7>
+          <x>-27</x>
+          <y>25</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>-13</x>
+          <y>-21</y>
+        </_2>
+        <_3>
+          <x>-9</x>
+          <y>-25</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>9</x>
+          <y>-25</y>
+        </_5>
+        <_6>
+          <x>13</x>
+          <y>-21</y>
+        </_6>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-50</y>
+        </_0>
+        <_1>
+          <x>-7</x>
+          <y>-42</y>
+        </_1>
+        <_2>
+          <x>-32</x>
+          <y>-54</y>
+        </_2>
+        <_3>
+          <x>-26</x>
+          <y>-66</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-56</y>
+        </_4>
+        <_5>
+          <x>26</x>
+          <y>-66</y>
+        </_5>
+        <_6>
+          <x>32</x>
+          <y>-54</y>
+        </_6>
+        <_7>
+          <x>7</x>
+          <y>-42</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-lvlong" template="vehicle-controller"/>
+  <entity name="sheet-yinlong" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/yinlong.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>68</y>
+        </_0>
+        <_1>
+          <x>27</x>
+          <y>25</y>
+        </_1>
+        <_2>
+          <x>-18</x>
+          <y>38</y>
+        </_2>
+        <_3>
+          <x>-5</x>
+          <y>35</y>
+        </_3>
+        <_4>
+          <x>1</x>
+          <y>49</y>
+        </_4>
+        <_5>
+          <x>5</x>
+          <y>35</y>
+        </_5>
+        <_6>
+          <x>18</x>
+          <y>38</y>
+        </_6>
+        <_7>
+          <x>-27</x>
+          <y>25</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>-13</x>
+          <y>-21</y>
+        </_2>
+        <_3>
+          <x>-9</x>
+          <y>-25</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>9</x>
+          <y>-25</y>
+        </_5>
+        <_6>
+          <x>13</x>
+          <y>-21</y>
+        </_6>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-50</y>
+        </_0>
+        <_1>
+          <x>-7</x>
+          <y>-42</y>
+        </_1>
+        <_2>
+          <x>-32</x>
+          <y>-54</y>
+        </_2>
+        <_3>
+          <x>-26</x>
+          <y>-66</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-56</y>
+        </_4>
+        <_5>
+          <x>26</x>
+          <y>-66</y>
+        </_5>
+        <_6>
+          <x>32</x>
+          <y>-54</y>
+        </_6>
+        <_7>
+          <x>7</x>
+          <y>-42</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-yinlong" template="vehicle-controller"/>
+  <entity name="sheet-shanggulongyinga" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/shanggulongyinga.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>59</y>
+        </_0>
+        <_1>
+          <x>-60</x>
+          <y>29</y>
+        </_1>
+        <_2>
+          <x>-80</x>
+          <y>13</y>
+        </_2>
+        <_3>
+          <x>-57</x>
+          <y>-13</y>
+        </_3>
+        <_4>
+          <x>1</x>
+          <y>-20</y>
+        </_4>
+        <_5>
+          <x>57</x>
+          <y>-13</y>
+        </_5>
+        <_6>
+          <x>80</x>
+          <y>13</y>
+        </_6>
+        <_7>
+          <x>60</x>
+          <y>29</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-20</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>-20</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>-20</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-20</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>-20</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>-20</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>0</y>
+        </_7>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-1</x>
+          <y>-15</y>
+        </_0>
+        <_1>
+          <x>-56</x>
+          <y>-24</y>
+        </_1>
+        <_2>
+          <x>-80</x>
+          <y>-50</y>
+        </_2>
+        <_3>
+          <x>-58</x>
+          <y>-83</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-87</y>
+        </_4>
+        <_5>
+          <x>58</x>
+          <y>-83</y>
+        </_5>
+        <_6>
+          <x>80</x>
+          <y>-50</y>
+        </_6>
+        <_7>
+          <x>56</x>
+          <y>-24</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-shanggulongyinga" template="vehicle-controller"/>
+  <entity name="sheet-shanggulongyingb" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/shanggulongyingb.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>59</y>
+        </_0>
+        <_1>
+          <x>-60</x>
+          <y>29</y>
+        </_1>
+        <_2>
+          <x>-80</x>
+          <y>13</y>
+        </_2>
+        <_3>
+          <x>-57</x>
+          <y>-13</y>
+        </_3>
+        <_4>
+          <x>1</x>
+          <y>-20</y>
+        </_4>
+        <_5>
+          <x>57</x>
+          <y>-13</y>
+        </_5>
+        <_6>
+          <x>80</x>
+          <y>13</y>
+        </_6>
+        <_7>
+          <x>60</x>
+          <y>29</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-20</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-1</x>
+          <y>-15</y>
+        </_0>
+        <_1>
+          <x>-56</x>
+          <y>-24</y>
+        </_1>
+        <_2>
+          <x>-80</x>
+          <y>-50</y>
+        </_2>
+        <_3>
+          <x>-58</x>
+          <y>-83</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-87</y>
+        </_4>
+        <_5>
+          <x>58</x>
+          <y>-83</y>
+        </_5>
+        <_6>
+          <x>80</x>
+          <y>-50</y>
+        </_6>
+        <_7>
+          <x>56</x>
+          <y>-24</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-shanggulongyingb" template="vehicle-controller"/>
+  <entity name="sheet-shanggulongyingc" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/shanggulongyingc.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>59</y>
+        </_0>
+        <_1>
+          <x>-60</x>
+          <y>29</y>
+        </_1>
+        <_2>
+          <x>-80</x>
+          <y>13</y>
+        </_2>
+        <_3>
+          <x>-57</x>
+          <y>-13</y>
+        </_3>
+        <_4>
+          <x>1</x>
+          <y>-20</y>
+        </_4>
+        <_5>
+          <x>57</x>
+          <y>-13</y>
+        </_5>
+        <_6>
+          <x>80</x>
+          <y>13</y>
+        </_6>
+        <_7>
+          <x>60</x>
+          <y>29</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-20</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-1</x>
+          <y>-15</y>
+        </_0>
+        <_1>
+          <x>-56</x>
+          <y>-24</y>
+        </_1>
+        <_2>
+          <x>-80</x>
+          <y>-50</y>
+        </_2>
+        <_3>
+          <x>-58</x>
+          <y>-83</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-87</y>
+        </_4>
+        <_5>
+          <x>58</x>
+          <y>-83</y>
+        </_5>
+        <_6>
+          <x>80</x>
+          <y>-50</y>
+        </_6>
+        <_7>
+          <x>56</x>
+          <y>-24</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-shanggulongyingc" template="vehicle-controller"/>
+  <entity name="sheet-shanggulongyingd" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/shanggulongyingd.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>1</x>
+          <y>59</y>
+        </_0>
+        <_1>
+          <x>-60</x>
+          <y>29</y>
+        </_1>
+        <_2>
+          <x>-80</x>
+          <y>13</y>
+        </_2>
+        <_3>
+          <x>-57</x>
+          <y>-13</y>
+        </_3>
+        <_4>
+          <x>1</x>
+          <y>-20</y>
+        </_4>
+        <_5>
+          <x>57</x>
+          <y>-13</y>
+        </_5>
+        <_6>
+          <x>80</x>
+          <y>13</y>
+        </_6>
+        <_7>
+          <x>60</x>
+          <y>29</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-20</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-1</x>
+          <y>-15</y>
+        </_0>
+        <_1>
+          <x>-56</x>
+          <y>-24</y>
+        </_1>
+        <_2>
+          <x>-80</x>
+          <y>-50</y>
+        </_2>
+        <_3>
+          <x>-58</x>
+          <y>-83</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-87</y>
+        </_4>
+        <_5>
+          <x>58</x>
+          <y>-83</y>
+        </_5>
+        <_6>
+          <x>80</x>
+          <y>-50</y>
+        </_6>
+        <_7>
+          <x>56</x>
+          <y>-24</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-shanggulongyingd" template="vehicle-controller"/>
+  <entity name="sheet-jileniaob" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jileniaob.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>92</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>88</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>73</y>
+        </_2>
+        <_3>
+          <x>4</x>
+          <y>76</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>87</y>
+        </_4>
+        <_5>
+          <x>-4</x>
+          <y>76</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>73</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>88</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>18</y>
+        </_0>
+        <_1>
+          <x>10</x>
+          <y>32</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>36</y>
+        </_2>
+        <_3>
+          <x>-4</x>
+          <y>34</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>34</y>
+        </_4>
+        <_5>
+          <x>4</x>
+          <y>34</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>36</y>
+        </_6>
+        <_7>
+          <x>-10</x>
+          <y>32</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jileniaob" template="vehicle-controller"/>
+  <entity name="sheet-jileniaoc" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jileniaoc.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>92</y>
+        </_0>
+        <_1>
+          <x>8</x>
+          <y>88</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>73</y>
+        </_2>
+        <_3>
+          <x>4</x>
+          <y>76</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>87</y>
+        </_4>
+        <_5>
+          <x>-4</x>
+          <y>76</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>73</y>
+        </_6>
+        <_7>
+          <x>-8</x>
+          <y>88</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>18</y>
+        </_0>
+        <_1>
+          <x>10</x>
+          <y>32</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>36</y>
+        </_2>
+        <_3>
+          <x>-4</x>
+          <y>34</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>34</y>
+        </_4>
+        <_5>
+          <x>4</x>
+          <y>34</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>36</y>
+        </_6>
+        <_7>
+          <x>-10</x>
+          <y>32</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jileniaoc" template="vehicle-controller"/>
+  <entity name="sheet-jileniaod" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jileniaod.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>92</y>
+        </_0>
+        <_1>
+          <x>8</x>
+          <y>88</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>73</y>
+        </_2>
+        <_3>
+          <x>4</x>
+          <y>76</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>87</y>
+        </_4>
+        <_5>
+          <x>-4</x>
+          <y>76</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>73</y>
+        </_6>
+        <_7>
+          <x>-8</x>
+          <y>88</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>18</y>
+        </_0>
+        <_1>
+          <x>10</x>
+          <y>32</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>36</y>
+        </_2>
+        <_3>
+          <x>-4</x>
+          <y>34</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>34</y>
+        </_4>
+        <_5>
+          <x>4</x>
+          <y>34</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>36</y>
+        </_6>
+        <_7>
+          <x>-10</x>
+          <y>32</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jileniaod" template="vehicle-controller"/>
+  <entity name="sheet-jileniaoa" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/jileniaoa.png"/>
+      <frameRate>6</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>92</y>
+        </_0>
+        <_1>
+          <x>8</x>
+          <y>88</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>73</y>
+        </_2>
+        <_3>
+          <x>4</x>
+          <y>76</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>87</y>
+        </_4>
+        <_5>
+          <x>-4</x>
+          <y>76</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>73</y>
+        </_6>
+        <_7>
+          <x>-8</x>
+          <y>88</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>18</y>
+        </_0>
+        <_1>
+          <x>10</x>
+          <y>32</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>36</y>
+        </_2>
+        <_3>
+          <x>-4</x>
+          <y>34</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>34</y>
+        </_4>
+        <_5>
+          <x>4</x>
+          <y>34</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>36</y>
+        </_6>
+        <_7>
+          <x>-10</x>
+          <y>32</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-jileniaoa" template="vehicle-controller"/>
+  <entity name="sheet-shangguxuanshe" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/vehicle/shangguxuanshe.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>126</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>104</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>98</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>83</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>97</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>83</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>98</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>104</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-11</y>
+        </_0>
+        <_1>
+          <x>13</x>
+          <y>-3</y>
+        </_1>
+        <_2>
+          <x>9</x>
+          <y>8</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>7</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>2</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>7</y>
+        </_5>
+        <_6>
+          <x>-9</x>
+          <y>8</y>
+        </_6>
+        <_7>
+          <x>-13</x>
+          <y>-3</y>
+        </_7>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="vehicle-shangguxuanshe" template="vehicle-controller"/>
+</things>
