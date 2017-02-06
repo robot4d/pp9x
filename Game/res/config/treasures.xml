@@ -1,0 +1,808 @@
+<things version="1">
+  <entity name="sheet-hulu1" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/hulu1.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+    </component>
+  </entity>
+  <template name="treasure-hulu1" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-hulu2" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/hulu2.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+    </component>
+  </entity>
+  <template name="treasure-hulu2" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-hulu3" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/hulu3.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+    </component>
+  </entity>
+  <template name="treasure-hulu3" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-hulu4" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/hulu4.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+    </component>
+  </entity>
+  <template name="treasure-hulu4" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-hulu5" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/hulu5.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+    </component>
+  </entity>
+  <template name="treasure-hulu5" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-hulu6" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/hulu6.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+    </component>
+  </entity>
+  <template name="treasure-hulu6" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-dinghaizhu" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/dinghaizhu.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-dinghaizhu" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-dinghaizhu_h" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/dinghaizhu_h.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-dinghaizhu_h" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-fantianyin" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/fantianyin.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-fantianyin" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-fantianyin_h" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/fantianyin_h.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-fantianyin_h" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-hulu" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/hulu.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-hulu" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-xuanwudun" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/xuanwudun.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-10</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-xuanwudun" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-haotianfan" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/haotianfan.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-9</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-haotianfan" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-taijifan" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/taijifan.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-10</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-taijifan" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-lingdang" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/lingdang.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-10</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-lingdang" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping1jie2ji" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping1jie2ji.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping1jie2ji" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping1jie3ji" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping1jie3ji.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping1jie3ji" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping3jie1ji" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping3jie1ji.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping3jie1ji" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping2jie2ji" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping2jie2ji.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping2jie2ji" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping2jie1ji" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping2jie1ji.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping2jie1ji" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping4jie2ji" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping4jie2ji.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping4jie2ji" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping1jie" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping1jie.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping1jie" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujignping10jie" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujignping10jie.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujignping10jie" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping3jie2ji" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping3jie2ji.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping3jie2ji" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping4jie1ji" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping4jie1ji.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-15</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping4jie1ji" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping10jie" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping10jie.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-25</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping10jie" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping5ji" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping5ji.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-25</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping5ji" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping9jie" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping9jie.png"/>
+      <frameRate>6</frameRate>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-24</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping9jie" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping7jie" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping7jie.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-24</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping7jie" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping6ji" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping6ji.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-23</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping6ji" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+  <entity name="sheet-yujingping8jie" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>1</yCount>
+      </divider>
+      <image filename="image/treasure/yujingping8jie.png"/>
+      <directionsPerFrame>1</directionsPerFrame>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>70</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-23</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="treasure-yujingping8jie" template="spatial-mover,treasure-controller,status-render,status-ctrl"/>
+</things>

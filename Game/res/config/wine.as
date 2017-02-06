@@ -1,0 +1,34 @@
+package
+{
+	import flash.display.MovieClip;
+	import flash.system.Security;
+
+	public class wine extends MovieClip
+	{
+		public var configData:Object = null;
+
+		public function wine()
+		{
+			Security.allowDomain('*');
+
+			configData = 
+
+{"cg-1001":{ "approach" : "openChuangguanDlg", "attr" : [ { "class" : "all", "attr" : "hpMax" } ], "description" : "精选仙界百花，千年传承酿造工艺，用心发酵，酒味纯正。饮后可延年益寿，唇齿留香！为蟠桃大会指定用酒！\n获得途径：闯关、限时大奖、好友祝福等。", "kind" : 0, "name" : "百花酒", "wineId" : "cg-1001", "wineList" : [ { "id" : "100101", "minLevel" : 34, "itemId" : "itemTemplate-43123", "value" : 50, "maxTimes" : 100 }, { "id" : "100102", "minLevel" : 34, "itemId" : "itemTemplate-43124", "value" : 50, "maxTimes" : 300 }, { "id" : "100103", "minLevel" : 34, "itemId" : "itemTemplate-43125", "value" : 50, "maxTimes" : 600 } ] }
+,"cg-1002":{ "approach" : "openFriendDlg", "attr" : [ { "class" : "all", "attr" : "hpMax" } ], "description" : "仙界极北，盛产一种耐寒的苦竹，取千年苦竹为材酿造成酒，味道甘苦冷冽却有起死回生之效，长期饮用可与天地同寿！\n获得途径：限时大奖、好友祝福等。", "kind" : 0, "name" : "千竹酒", "wineId" : "cg-1002", "wineList" : [ { "id" : "100201", "minLevel" : 34, "itemId" : "itemTemplate-43203", "value" : 50, "maxTimes" : 100 }, { "id" : "100202", "minLevel" : 34, "itemId" : "itemTemplate-43204", "value" : 50, "maxTimes" : 300 }, { "id" : "100203", "minLevel" : 34, "itemId" : "itemTemplate-43205", "value" : 50, "maxTimes" : 600 } ] }
+,"cg-1003":{ "approach" : "openXianshiDlg", "attr" : [ { "class" : "all", "attr" : "baseDamage" } ], "description" : "取天南火精，以特殊方法蕴养千年，然后萃取精华，以之入酒，味道甘甜火辣，能有效提升自身的功力。\n获得途径：限时大奖、好友祝福等。", "kind" : 0, "name" : "火烈酒", "wineId" : "cg-1003", "wineList" : [ { "id" : "100301", "minLevel" : 34, "itemId" : "itemTemplate-43206", "value" : 1, "maxTimes" : 100 }, { "id" : "100302", "minLevel" : 34, "itemId" : "itemTemplate-43207", "value" : 1, "maxTimes" : 300 }, { "id" : "100303", "minLevel" : 34, "itemId" : "itemTemplate-43208", "value" : 1, "maxTimes" : 600 } ] }
+,"cg-1004":{ "approach" : "openFriendDlg", "attr" : [ { "class" : "all", "attr" : "phyAttackPower" }, { "class" : "yaochi", "attr" : "spellAttackPower" }, { "class" : "taishang", "attr" : "spellAttackPower" } ], "description" : "昔日霸王争霸天下，酷爱此酒，据说其一身力大无比的神通皆由此而来。\n获得途径：限时大奖、好友祝福等。", "kind" : 0, "name" : "霸王酒", "wineId" : "cg-1004", "wineList" : [ { "id" : "100401", "minLevel" : 34, "itemId" : "itemTemplate-43209", "value" : 10, "maxTimes" : 100 }, { "id" : "100402", "minLevel" : 34, "itemId" : "itemTemplate-43210", "value" : 10, "maxTimes" : 300 }, { "id" : "100403", "minLevel" : 34, "itemId" : "itemTemplate-43211", "value" : 10, "maxTimes" : 600 } ] }
+,"cg-1005":{ "approach" : "openXianshiDlg", "attr" : [ { "class" : "all", "attr" : "spellAttackPower" }, { "class" : "leiyin", "attr" : "phyAttackPower" }, { "class" : "jiuzhou", "attr" : "phyAttackPower" } ], "description" : "金麟岂是池中物，一遇风雨化为龙。化龙酒，东海水晶宫独家秘酿，凡人饮之，立时便可呼风唤雨，驾雾腾云！\n获得途径：限时大奖、好友祝福等。", "kind" : 0, "name" : "化龙酒", "wineId" : "cg-1005", "wineList" : [ { "id" : "100501", "minLevel" : 34, "itemId" : "itemTemplate-43212", "value" : 10, "maxTimes" : 100 }, { "id" : "100502", "minLevel" : 34, "itemId" : "itemTemplate-43213", "value" : 10, "maxTimes" : 300 }, { "id" : "100503", "minLevel" : 34, "itemId" : "itemTemplate-43214", "value" : 10, "maxTimes" : 600 } ] }
+,"cg-1006":{ "approach" : "openFriendDlg", "attr" : [ { "class" : "all", "attr" : "phyDefence" } ], "description" : "酒名金刚，滋阴壮阳，长期饮用可肉身成圣，白日飞升！\n获得途径：限时大奖、好友祝福等。", "kind" : 0, "name" : "金刚酒", "wineId" : "cg-1006", "wineList" : [ { "id" : "100601", "minLevel" : 34, "itemId" : "itemTemplate-43215", "value" : 10, "maxTimes" : 100 }, { "id" : "100602", "minLevel" : 34, "itemId" : "itemTemplate-43216", "value" : 10, "maxTimes" : 300 }, { "id" : "100603", "minLevel" : 34, "itemId" : "itemTemplate-43217", "value" : 10, "maxTimes" : 600 } ] }
+,"cg-1007":{ "approach" : "openXianshiDlg", "attr" : [ { "class" : "all", "attr" : "spellDefence" } ], "description" : "精选五行之精，以八卦丹炉中文火淬炼七七四十九天，化而成丹，以之入酒，饮者可自由沟通天地五行元气，诛邪不侵！\n获得途径：限时大奖、好友祝福等。", "kind" : 0, "name" : "五色酒", "wineId" : "cg-1007", "wineList" : [ { "id" : "100701", "minLevel" : 34, "itemId" : "itemTemplate-43218", "value" : 10, "maxTimes" : 100 }, { "id" : "100702", "minLevel" : 34, "itemId" : "itemTemplate-43219", "value" : 10, "maxTimes" : 300 }, { "id" : "100703", "minLevel" : 34, "itemId" : "itemTemplate-43220", "value" : 10, "maxTimes" : 600 } ] }
+,"cg-2001":{ "approach" : "openFubenDlg", "attr" : [ { "class" : "all", "attr" : "hpMax" } ], "description" : "莺鸟含这种仙果，在百鸟朝凤时献给凤。仙宠品尝后可增加其生命上限。\n等级≥45级的玩家，击杀圣兽岛副本怪物有几率获得。", "kind" : 1, "name" : "红樱", "wineId" : "cg-2001", "wineList" : [ { "id" : "200101", "minLevel" : 16, "itemId" : "itemTemplate-43232", "value" : 50, "maxTimes" : 1000 } ] }
+,"cg-2002":{ "approach" : "undefined", "attr" : [ { "class" : "all", "attr" : "spellDefence" } ], "description" : "花果山中唯一的青橙树果实，传说能解百毒。仙宠品尝后可增加其法术防御。\n等级≥45级的玩家，击杀圣兽岛副本怪物有几率获得。", "kind" : 1, "name" : "青橙", "wineId" : "cg-2002", "wineList" : [ { "id" : "200201", "minLevel" : 16, "itemId" : "itemTemplate-43233", "value" : 10, "maxTimes" : 1000 } ] }
+,"cg-2003":{ "approach" : "undefined", "attr" : [ { "class" : "all", "attr" : "spellAttackPower" } ], "description" : "仙界种蟠桃时不小心将种子遗落凡间后长成。仙宠品尝后可增加其法攻强度。\n等级≥45级的玩家，击杀圣兽岛副本怪物有几率获得。", "kind" : 1, "name" : "赤桃", "wineId" : "cg-2003", "wineList" : [ { "id" : "200301", "minLevel" : 16, "itemId" : "itemTemplate-43234", "value" : 10, "maxTimes" : 1000 } ] }
+,"cg-2004":{ "approach" : "undefined", "attr" : [ { "class" : "all", "attr" : "hpMax" } ], "description" : "百年开花百年结果，其灵气为修仙人所钟情。仙宠品尝后可增加其生命上限。\n等级≥45级的玩家，击杀圣兽岛副本怪物有几率获得。", "kind" : 1, "name" : "朱果", "wineId" : "cg-2004", "wineList" : [ { "id" : "200401", "minLevel" : 16, "itemId" : "itemTemplate-43235", "value" : 50, "maxTimes" : 1000 } ] }
+,"cg-2005":{ "approach" : "undefined", "attr" : [ { "class" : "all", "attr" : "baseDamage" } ], "description" : "传说用此果酿成的酒曾轰动仙界。仙宠品尝后可增加其基础伤害。\n等级≥45级的玩家，击杀圣兽岛副本怪物有几率获得。", "kind" : 1, "name" : "黑李", "wineId" : "cg-2005", "wineList" : [ { "id" : "200501", "minLevel" : 16, "itemId" : "itemTemplate-43236", "value" : 1, "maxTimes" : 1000 } ] }
+,"cg-2006":{ "approach" : "undefined", "attr" : [ { "class" : "all", "attr" : "phyAttackPower" } ], "description" : "生长在极寒地区并受那里的神灵保护。仙宠品尝后可增加其物攻强度。\n等级≥45级的玩家，击杀圣兽岛副本怪物有几率获得。", "kind" : 1, "name" : "紫莓", "wineId" : "cg-2006", "wineList" : [ { "id" : "200601", "minLevel" : 16, "itemId" : "itemTemplate-43237", "value" : 10, "maxTimes" : 1000 } ] }
+,"cg-2007":{ "approach" : "undefined", "attr" : [ { "class" : "all", "attr" : "phyDefence" } ], "description" : "此果受七仙女下凡沐浴的水恩泽后长成。仙宠品尝后可增加其物理防御。\n等级≥45级的玩家，击杀圣兽岛副本怪物有几率获得。", "kind" : 1, "name" : "金梨", "wineId" : "cg-2007", "wineList" : [ { "id" : "200701", "minLevel" : 16, "itemId" : "itemTemplate-43238", "value" : 10, "maxTimes" : 1000 } ] }
+};
+
+		}
+	}
+}

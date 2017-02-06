@@ -1,0 +1,17 @@
+{"AddBagMax3":{ "boundGoodsId" : "", "name" : "背包扩展3", "typeName" : "AddBagMax3", "unboundGoodsId" : "goodsTemplate-4448" }
+,"AddWarehouseMax3":{ "boundGoodsId" : "", "name" : "仓库扩展3", "typeName" : "AddWarehouseMax3", "unboundGoodsId" : "goodsTemplate-4454" }
+,"AddWarehouseMax4":{ "boundGoodsId" : "", "name" : "仓库扩展4", "typeName" : "AddWarehouseMax4", "unboundGoodsId" : "goodsTemplate-4455" }
+,"AddWarehouseMax5":{ "boundGoodsId" : "", "name" : "仓库扩展5", "typeName" : "AddWarehouseMax5", "unboundGoodsId" : "goodsTemplate-4456" }
+,"AddVehicleMax1":{ "boundGoodsId" : "goodsTemplate-4458", "name" : "坐骑栏位扩展1", "typeName" : "AddVehicleMax1", "unboundGoodsId" : "goodsTemplate-4457" }
+,"AddVehicleMax2":{ "boundGoodsId" : "goodsTemplate-4460", "name" : "坐骑栏位扩展2", "typeName" : "AddVehicleMax2", "unboundGoodsId" : "goodsTemplate-4459" }
+,"AddVehicleMax3":{ "boundGoodsId" : "", "name" : "坐骑栏位扩展3", "typeName" : "AddVehicleMax3", "unboundGoodsId" : "goodsTemplate-4461" }
+,"AddVehicleMax4":{ "boundGoodsId" : "", "name" : "坐骑栏位扩展4", "typeName" : "AddVehicleMax4", "unboundGoodsId" : "goodsTemplate-4462" }
+,"AddVehicleMax5":{ "boundGoodsId" : "", "name" : "坐骑栏位扩展5", "typeName" : "AddVehicleMax5", "unboundGoodsId" : "goodsTemplate-4463" }
+,"AddVehicleMax6":{ "boundGoodsId" : "", "name" : "坐骑栏位扩展6", "typeName" : "AddVehicleMax6", "unboundGoodsId" : "goodsTemplate-4464" }
+,"AddVehicleMax7":{ "boundGoodsId" : "", "name" : "坐骑栏位扩展7", "typeName" : "AddVehicleMax7", "unboundGoodsId" : "goodsTemplate-4465" }
+,"AddBagMax1":{ "boundGoodsId" : "goodsTemplate-4445", "name" : "背包扩展1", "typeName" : "AddBagMax1", "unboundGoodsId" : "goodsTemplate-4444" }
+,"AddBagMax2":{ "boundGoodsId" : "goodsTemplate-4447", "name" : "背包扩展2", "typeName" : "AddBagMax2", "unboundGoodsId" : "goodsTemplate-4446" }
+,"AddBagMax4":{ "boundGoodsId" : "", "name" : "背包扩展4", "typeName" : "AddBagMax4", "unboundGoodsId" : "goodsTemplate-4449" }
+,"AddWarehouseMax1":{ "boundGoodsId" : "goodsTemplate-4451", "name" : "仓库扩展1", "typeName" : "AddWarehouseMax1", "unboundGoodsId" : "goodsTemplate-4450" }
+,"AddWarehouseMax2":{ "boundGoodsId" : "goodsTemplate-4453", "name" : "仓库扩展2", "typeName" : "AddWarehouseMax2", "unboundGoodsId" : "goodsTemplate-4452" }
+}
