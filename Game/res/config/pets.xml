@@ -1,0 +1,345 @@
+<things version="1">
+  <entity name="sheet-fox" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/pet/fox/stand.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>21</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-21</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/pet/fox/run.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>22</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-22</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-fox" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-2a-ctrl"/>
+  <template name="pet-01dog" template="anim-01dog,pet-controller"/>
+  <template name="pet-01doga" template="anim-01doga,pet-controller"/>
+  <template name="pet-01hebo" template="anim-01hebo,pet-controller"/>
+  <template name="pet-01hongzhuajuxie" template="anim-01hongzhuajuxie,pet-controller"/>
+  <template name="pet-01jiguanshou" template="anim-01jiguanshou,pet-controller"/>
+  <template name="pet-01pangxiejing" template="anim-01pangxiejing,pet-controller"/>
+  <template name="pet-01pangxiejinga" template="anim-01pangxiejinga,pet-controller"/>
+  <template name="pet-01tiangou" template="anim-01tiangou,pet-controller"/>
+  <template name="pet-01wengui" template="anim-01wengui,pet-controller"/>
+  <template name="pet-01xiezi" template="anim-01xiezi,pet-controller"/>
+  <template name="pet-01xiezia" template="anim-01xiezia,pet-controller"/>
+  <template name="pet-01xiezib" template="anim-01xiezib,pet-controller"/>
+  <template name="pet-01yezhu" template="anim-01yezhu,pet-controller"/>
+  <template name="pet-01yezhua" template="anim-01yezhua,pet-controller"/>
+  <template name="pet-01yuren" template="anim-01yuren,pet-controller"/>
+  <template name="pet-01yurena" template="anim-01yurena,pet-controller"/>
+  <template name="pet-01yurenb" template="anim-01yurenb,pet-controller"/>
+  <template name="pet-01zhizhu" template="anim-01zhizhu,pet-controller"/>
+  <template name="pet-01zhizhub" template="anim-01zhizhub,pet-controller"/>
+  <template name="pet-01zhizhuc" template="anim-01zhizhuc,pet-controller"/>
+  <template name="pet-02baigujing" template="anim-02baigujing,pet-controller"/>
+  <template name="pet-02baigujinga" template="anim-02baigujinga,pet-controller"/>
+  <template name="pet-02baigujingb" template="anim-02baigujingb,pet-controller"/>
+  <template name="pet-02baigujingnv" template="anim-02baigujingnv,pet-controller"/>
+  <template name="pet-02baigujingnva" template="anim-02baigujingnva,pet-controller"/>
+  <template name="pet-02baigujingnvb" template="anim-02baigujingnvb,pet-controller"/>
+  <template name="pet-02baowang" template="anim-02baowang,pet-controller"/>
+  <template name="pet-02baozi" template="anim-02baozi,pet-controller"/>
+  <template name="pet-02baozia" template="anim-02baozia,pet-controller"/>
+  <template name="pet-02daoren" template="anim-02daoren,pet-controller"/>
+  <template name="pet-02daorena" template="anim-02daorena,pet-controller"/>
+  <template name="pet-02daorenb" template="anim-02daorenb,pet-controller"/>
+  <template name="pet-02guihun" template="anim-02guihun,pet-controller"/>
+  <template name="pet-02guihuna" template="anim-02guihuna,pet-controller"/>
+  <template name="pet-02guihunb" template="anim-02guihunb,pet-controller"/>
+  <template name="pet-02guihunc" template="anim-02guihunc,pet-controller"/>
+  <template name="pet-02guihund" template="anim-02guihund,pet-controller"/>
+  <template name="pet-02guihune" template="anim-02guihune,pet-controller"/>
+  <template name="pet-02heibangbangzhong" template="anim-02heibangbangzhong,pet-controller"/>
+  <template name="pet-02heibangbangzhonga" template="anim-02heibangbangzhonga,pet-controller"/>
+  <template name="pet-02heibangbangzhongb" template="anim-02heibangbangzhongb,pet-controller"/>
+  <template name="pet-02heibangbangzhongc" template="anim-02heibangbangzhongc,pet-controller"/>
+  <template name="pet-02kulou" template="anim-02kulou,pet-controller"/>
+  <template name="pet-02kuloua" template="anim-02kuloua,pet-controller"/>
+  <template name="pet-02kuloub" template="anim-02kuloub,pet-controller"/>
+  <template name="pet-02kulouc" template="anim-02kulouc,pet-controller"/>
+  <template name="pet-02kuloud" template="anim-02kuloud,pet-controller"/>
+  <template name="pet-02kuloutouling" template="anim-02kuloutouling,pet-controller"/>
+  <template name="pet-02kuloutoulinga" template="anim-02kuloutoulinga,pet-controller"/>
+  <template name="pet-02kuloutoulingb" template="anim-02kuloutoulingb,pet-controller"/>
+  <template name="pet-02kuloutoulingc" template="anim-02kuloutoulingc,pet-controller"/>
+  <template name="pet-02lang" template="anim-02lang,pet-controller"/>
+  <template name="pet-02langa" template="anim-02langa,pet-controller"/>
+  <template name="pet-02langwang" template="anim-02langwang,pet-controller"/>
+  <template name="pet-02qingshejing" template="anim-02qingshejing,pet-controller"/>
+  <template name="pet-02sheyao" template="anim-02sheyao,pet-controller"/>
+  <template name="pet-02sheyaoa" template="anim-02sheyaoa,pet-controller"/>
+  <template name="pet-02sheyaob" template="anim-02sheyaob,pet-controller"/>
+  <template name="pet-02wushi" template="anim-02wushi,pet-controller"/>
+  <template name="pet-02wushia" template="anim-02wushia,pet-controller"/>
+  <template name="pet-02wushib" template="anim-02wushib,pet-controller"/>
+  <template name="pet-02xiedaoshi" template="anim-02xiedaoshi,pet-controller"/>
+  <template name="pet-02xiedaoshia" template="anim-02xiedaoshia,pet-controller"/>
+  <template name="pet-02yuanling" template="anim-02yuanling,pet-controller"/>
+  <template name="pet-02yuanlinga" template="anim-02yuanlinga,pet-controller"/>
+  <template name="pet-02yuanlingb" template="anim-02yuanlingb,pet-controller"/>
+  <template name="pet-03cike" template="anim-03cike,pet-controller"/>
+  <template name="pet-03cikea" template="anim-03cikea,pet-controller"/>
+  <template name="pet-03dutu" template="anim-03dutu,pet-controller"/>
+  <template name="pet-03dutua" template="anim-03dutua,pet-controller"/>
+  <template name="pet-03dutub" template="anim-03dutub,pet-controller"/>
+  <template name="pet-03fanjian" template="anim-03fanjian,pet-controller"/>
+  <template name="pet-03hulijing" template="anim-03hulijing,pet-controller"/>
+  <template name="pet-03hulijinga" template="anim-03hulijinga,pet-controller"/>
+  <template name="pet-03hulijingb" template="anim-03hulijingb,pet-controller"/>
+  <template name="pet-03murongchong" template="anim-03murongchong,pet-controller"/>
+  <template name="pet-03murongchonga" template="anim-03murongchonga,pet-controller"/>
+  <template name="pet-03qiangdao" template="anim-03qiangdao,pet-controller"/>
+  <template name="pet-03qiangdaoa" template="anim-03qiangdaoa,pet-controller"/>
+  <template name="pet-03qiangdaob" template="anim-03qiangdaob,pet-controller"/>
+  <template name="pet-03qiangdaoc" template="anim-03qiangdaoc,pet-controller"/>
+  <template name="pet-03qiangdaod" template="anim-03qiangdaod,pet-controller"/>
+  <template name="pet-03yumianyaohu" template="anim-03yumianyaohu,pet-controller"/>
+  <template name="pet-04bangjing" template="anim-04bangjing,pet-controller"/>
+  <template name="pet-04bangjinga" template="anim-04bangjinga,pet-controller"/>
+  <template name="pet-04bangjingb" template="anim-04bangjingb,pet-controller"/>
+  <template name="pet-04datougui" template="anim-04datougui,pet-controller"/>
+  <template name="pet-04datouguia" template="anim-04datouguia,pet-controller"/>
+  <template name="pet-04gaodengjianling" template="anim-04gaodengjianling,pet-controller"/>
+  <template name="pet-04gaodengjianlinga" template="anim-04gaodengjianlinga,pet-controller"/>
+  <template name="pet-04gaodengjianlingb" template="anim-04gaodengjianlingb,pet-controller"/>
+  <template name="pet-04hanba" template="anim-04hanba,pet-controller"/>
+  <template name="pet-04jianling" template="anim-04jianling,pet-controller"/>
+  <template name="pet-04jianlinga" template="anim-04jianlinga,pet-controller"/>
+  <template name="pet-04jianlingb" template="anim-04jianlingb,pet-controller"/>
+  <template name="pet-04qingxiuhousheng" template="anim-04qingxiuhousheng,pet-controller"/>
+  <template name="pet-04wangzizhi" template="anim-04wangzizhi,pet-controller"/>
+  <template name="pet-04wenshen" template="anim-04wenshen,pet-controller"/>
+  <template name="pet-04wuxingjian" template="anim-04wuxingjian,pet-controller"/>
+  <template name="pet-04xiajing" template="anim-04xiajing,pet-controller"/>
+  <template name="pet-04xiajinga" template="anim-04xiajinga,pet-controller"/>
+  <template name="pet-04yuanhou" template="anim-04yuanhou,pet-controller"/>
+  <template name="pet-04yuanhoua" template="anim-04yuanhoua,pet-controller"/>
+  <template name="pet-04yuanhouab" template="anim-04yuanhouab,pet-controller"/>
+  <template name="pet-04zhongyuanjiangjun" template="anim-04zhongyuanjiangjun,pet-controller"/>
+  <template name="pet-04zhongyuanjiangjuna" template="anim-04zhongyuanjiangjuna,pet-controller"/>
+  <template name="pet-04zhongyuanjiangjunb" template="anim-04zhongyuanjiangjunb,pet-controller"/>
+  <template name="pet-04zhongyuanjiangjunc" template="anim-04zhongyuanjiangjunc,pet-controller"/>
+  <template name="pet-04zhongyuanqibing" template="anim-04zhongyuanqibing,pet-controller"/>
+  <template name="pet-04zhongyuanqijiang" template="anim-04zhongyuanqijiang,pet-controller"/>
+  <template name="pet-04zhongyuanqijianga" template="anim-04zhongyuanqijianga,pet-controller"/>
+  <template name="pet-04zhongyuanqijiangb" template="anim-04zhongyuanqijiangb,pet-controller"/>
+  <template name="pet-04zhongyuanqijiangc" template="anim-04zhongyuanqijiangc,pet-controller"/>
+  <template name="pet-04zhongyuanshibing" template="anim-04zhongyuanshibing,pet-controller"/>
+  <template name="pet-04zhongyuanshibinga" template="anim-04zhongyuanshibinga,pet-controller"/>
+  <template name="pet-04zhongyuanshibingb" template="anim-04zhongyuanshibingb,pet-controller"/>
+  <template name="pet-04zhongyuanshibingc" template="anim-04zhongyuanshibingc,pet-controller"/>
+  <template name="pet-05huajing" template="anim-05huajing,pet-controller"/>
+  <template name="pet-05huajinga" template="anim-05huajinga,pet-controller"/>
+  <template name="pet-05huajingb" template="anim-05huajingb,pet-controller"/>
+  <template name="pet-05huajingling" template="anim-05huajingling,pet-controller"/>
+  <template name="pet-05huajinglinga" template="anim-05huajinglinga,pet-controller"/>
+  <template name="pet-05huayao" template="anim-05huayao,pet-controller"/>
+  <template name="pet-05huayaoa" template="anim-05huayaoa,pet-controller"/>
+  <template name="pet-05hudiejing" template="anim-05hudiejing,pet-controller"/>
+  <template name="pet-05hudiejinga" template="anim-05hudiejinga,pet-controller"/>
+  <template name="pet-05hudiejingb" template="anim-05hudiejingb,pet-controller"/>
+  <template name="pet-05qiannianfengwangjing" template="anim-05qiannianfengwangjing,pet-controller"/>
+  <template name="pet-05shujing" template="anim-05shujing,pet-controller"/>
+  <template name="pet-05shujinga" template="anim-05shujinga,pet-controller"/>
+  <template name="pet-05shujingb" template="anim-05shujingb,pet-controller"/>
+  <template name="pet-05siwanghuamu" template="anim-05siwanghuamu,pet-controller"/>
+  <template name="pet-05siwanghuamua" template="anim-05siwanghuamua,pet-controller"/>
+  <template name="pet-05xiongfengjing" template="anim-05xiongfengjing,pet-controller"/>
+  <template name="pet-05xiongfengjinga" template="anim-05xiongfengjinga,pet-controller"/>
+  <template name="pet-05xiongfengjingb" template="anim-05xiongfengjingb,pet-controller"/>
+  <template name="pet-06aoyunjiao" template="anim-06aoyunjiao,pet-controller"/>
+  <template name="pet-06denglongyu" template="anim-06denglongyu,pet-controller"/>
+  <template name="pet-06denglongyua" template="anim-06denglongyua,pet-controller"/>
+  <template name="pet-06heishabangzhu" template="anim-06heishabangzhu,pet-controller"/>
+  <template name="pet-06jiaolong" template="anim-06jiaolong,pet-controller"/>
+  <template name="pet-06jiaolonga" template="anim-06jiaolonga,pet-controller"/>
+  <template name="pet-06meirenyu" template="anim-06meirenyu,pet-controller"/>
+  <template name="pet-06meirenyua" template="anim-06meirenyua,pet-controller"/>
+  <template name="pet-06meirenyub" template="anim-06meirenyub,pet-controller"/>
+  <template name="pet-06shayuguai" template="anim-06shayuguai,pet-controller"/>
+  <template name="pet-06shayuguaia" template="anim-06shayuguaia,pet-controller"/>
+  <template name="pet-06shilongzhiling" template="anim-06shilongzhiling,pet-controller"/>
+  <template name="pet-06yinglongzhiling" template="anim-06yinglongzhiling,pet-controller"/>
+  <template name="pet-06zhangyu" template="anim-06zhangyu,pet-controller"/>
+  <template name="pet-06zhangyua" template="anim-06zhangyua,pet-controller"/>
+  <template name="pet-06zhangyuc" template="anim-06zhangyuc,pet-controller"/>
+  <template name="pet-06zulongzhiling" template="anim-06zulongzhiling,pet-controller"/>
+  <template name="pet-07feiniaojing" template="anim-07feiniaojing,pet-controller"/>
+  <template name="pet-07feiniaojinga" template="anim-07feiniaojinga,pet-controller"/>
+  <template name="pet-07feiniaojingb" template="anim-07feiniaojingb,pet-controller"/>
+  <template name="pet-07huaxianzi" template="anim-07huaxianzi,pet-controller"/>
+  <template name="pet-07huaxianzia" template="anim-07huaxianzia,pet-controller"/>
+  <template name="pet-07huaxianzib" template="anim-07huaxianzib,pet-controller"/>
+  <template name="pet-07huaxianzic" template="anim-07huaxianzic,pet-controller"/>
+  <template name="pet-07jiuselu" template="anim-07jiuselu,pet-controller"/>
+  <template name="pet-07liuermihou" template="anim-07liuermihou,pet-controller"/>
+  <template name="pet-07lu" template="anim-07lu,pet-controller"/>
+  <template name="pet-07maojing" template="anim-07maojing,pet-controller"/>
+  <template name="pet-07maojinga" template="anim-07maojinga,pet-controller"/>
+  <template name="pet-07maojingb" template="anim-07maojingb,pet-controller"/>
+  <template name="pet-07maoyao" template="anim-07maoyao,pet-controller"/>
+  <template name="pet-07maoyaoa" template="anim-07maoyaoa,pet-controller"/>
+  <template name="pet-07maoyaob" template="anim-07maoyaob,pet-controller"/>
+  <template name="pet-07qingluan" template="anim-07qingluan,pet-controller"/>
+  <template name="pet-07shanmei" template="anim-07shanmei,pet-controller"/>
+  <template name="pet-07yihu" template="anim-07yihu,pet-controller"/>
+  <template name="pet-08jiayezunzhe" template="anim-08jiayezunzhe,pet-controller"/>
+  <template name="pet-08laohu" template="anim-08laohu,pet-controller"/>
+  <template name="pet-08laohua" template="anim-08laohua,pet-controller"/>
+  <template name="pet-08luohan" template="anim-08luohan,pet-controller"/>
+  <template name="pet-08luohana" template="anim-08luohana,pet-controller"/>
+  <template name="pet-08luohanb" template="anim-08luohanb,pet-controller"/>
+  <template name="pet-08luohanc" template="anim-08luohanc,pet-controller"/>
+  <template name="pet-08qiannianshuyao" template="anim-08qiannianshuyao,pet-controller"/>
+  <template name="pet-08renxingkuilei" template="anim-08renxingkuilei,pet-controller"/>
+  <template name="pet-08renxingkuileia" template="anim-08renxingkuileia,pet-controller"/>
+  <template name="pet-08renxingkuileib" template="anim-08renxingkuileib,pet-controller"/>
+  <template name="pet-08renxingkuileic" template="anim-08renxingkuileic,pet-controller"/>
+  <template name="pet-08shuyao" template="anim-08shuyao,pet-controller"/>
+  <template name="pet-08toutuo" template="anim-08toutuo,pet-controller"/>
+  <template name="pet-08toutuoa" template="anim-08toutuoa,pet-controller"/>
+  <template name="pet-08toutuob" template="anim-08toutuob,pet-controller"/>
+  <template name="pet-08toutuoc" template="anim-08toutuoc,pet-controller"/>
+  <template name="pet-08tujiu" template="anim-08tujiu,pet-controller"/>
+  <template name="pet-08tujiua" template="anim-08tujiua,pet-controller"/>
+  <template name="pet-08xiong" template="anim-08xiong,pet-controller"/>
+  <template name="pet-08xionga" template="anim-08xionga,pet-controller"/>
+  <template name="pet-09baiwuchang" template="anim-09baiwuchang,pet-controller"/>
+  <template name="pet-09baozhuangfashi" template="anim-09baozhuangfashi,pet-controller"/>
+  <template name="pet-09cuiminggui" template="anim-09cuiminggui,pet-controller"/>
+  <template name="pet-09heiwuchang" template="anim-09heiwuchang,pet-controller"/>
+  <template name="pet-09heshang" template="anim-09heshang,pet-controller"/>
+  <template name="pet-09heshanga" template="anim-09heshanga,pet-controller"/>
+  <template name="pet-09heshangb" template="anim-09heshangb,pet-controller"/>
+  <template name="pet-09heshangc" template="anim-09heshangc,pet-controller"/>
+  <template name="pet-09jiguanshou" template="anim-09jiguanshou,pet-controller"/>
+  <template name="pet-09jiguanshoua" template="anim-09jiguanshoua,pet-controller"/>
+  <template name="pet-09jiguanshoub" template="anim-09jiguanshoub,pet-controller"/>
+  <template name="pet-09lishikuilei" template="anim-09lishikuilei,pet-controller"/>
+  <template name="pet-09lishikuileia" template="anim-09lishikuileia,pet-controller"/>
+  <template name="pet-09lishikuileib" template="anim-09lishikuileib,pet-controller"/>
+  <template name="pet-09lishikuileic" template="anim-09lishikuileic,pet-controller"/>
+  <template name="pet-09lishikuileid" template="anim-09lishikuileid,pet-controller"/>
+  <template name="pet-09panguan" template="anim-09panguan,pet-controller"/>
+  <template name="pet-09wushi" template="anim-09wushi,pet-controller"/>
+  <template name="pet-09wushia" template="anim-09wushia,pet-controller"/>
+  <template name="pet-10bingshuangjuren" template="anim-10bingshuangjuren,pet-controller"/>
+  <template name="pet-10bingshuangjurena" template="anim-10bingshuangjurena,pet-controller"/>
+  <template name="pet-10bingshuangjurenb" template="anim-10bingshuangjurenb,pet-controller"/>
+  <template name="pet-10langyao" template="anim-10langyao,pet-controller"/>
+  <template name="pet-10langyaoa" template="anim-10langyaoa,pet-controller"/>
+  <template name="pet-10niaoguai" template="anim-10niaoguai,pet-controller"/>
+  <template name="pet-10niaoguaia" template="anim-10niaoguaia,pet-controller"/>
+  <template name="pet-10xuehuaxianzi" template="anim-10xuehuaxianzi,pet-controller"/>
+  <template name="pet-10xueren" template="anim-10xueren,pet-controller"/>
+  <template name="pet-10xuerena" template="anim-10xuerena,pet-controller"/>
+  <template name="pet-10xuerenb" template="anim-10xuerenb,pet-controller"/>
+  <template name="pet-11haidao" template="anim-11haidao,pet-controller"/>
+  <template name="pet-11haidaoa" template="anim-11haidaoa,pet-controller"/>
+  <template name="pet-11jiangshi" template="anim-11jiangshi,pet-controller"/>
+  <template name="pet-11jiangshia" template="anim-11jiangshia,pet-controller"/>
+  <template name="pet-11luchengfeng" template="anim-11luchengfeng,pet-controller"/>
+  <template name="pet-11luochaguia" template="anim-11luochaguia,pet-controller"/>
+  <template name="pet-11luoshagui" template="anim-11luoshagui,pet-controller"/>
+  <template name="pet-11mamian" template="anim-11mamian,pet-controller"/>
+  <template name="pet-11niutou" template="anim-11niutou,pet-controller"/>
+  <template name="pet-11nvfeizei" template="anim-11nvfeizei,pet-controller"/>
+  <template name="pet-11nvfeizeia" template="anim-11nvfeizeia,pet-controller"/>
+  <template name="pet-11nvfeizeib" template="anim-11nvfeizeib,pet-controller"/>
+  <template name="pet-11yangluowang" template="anim-11yangluowang,pet-controller"/>
+  <template name="pet-11yechagui" template="anim-11yechagui,pet-controller"/>
+  <template name="pet-11yechaguia" template="anim-11yechaguia,pet-controller"/>
+  <template name="pet-11yechaguib" template="anim-11yechaguib,pet-controller"/>
+  <template name="pet-12didishaguai" template="anim-12didishaguai,pet-controller"/>
+  <template name="pet-12huoyantongzi" template="anim-12huoyantongzi,pet-controller"/>
+  <template name="pet-12hurenjiangjun" template="anim-12hurenjiangjun,pet-controller"/>
+  <template name="pet-12hurenjiangjuna" template="anim-12hurenjiangjuna,pet-controller"/>
+  <template name="pet-12hurenqijiang" template="anim-12hurenqijiang,pet-controller"/>
+  <template name="pet-12hurenqijianga" template="anim-12hurenqijianga,pet-controller"/>
+  <template name="pet-12hurenshibing" template="anim-12hurenshibing,pet-controller"/>
+  <template name="pet-12hurenshibinga" template="anim-12hurenshibinga,pet-controller"/>
+  <template name="pet-12hurenshibingb" template="anim-12hurenshibingb,pet-controller"/>
+  <template name="pet-12mazei" template="anim-12mazei,pet-controller"/>
+  <template name="pet-12niumowang" template="anim-12niumowang,pet-controller"/>
+  <template name="pet-12niutouren" template="anim-12niutouren,pet-controller"/>
+  <template name="pet-12niutourena" template="anim-12niutourena,pet-controller"/>
+  <template name="pet-12niutourenb" template="anim-12niutourenb,pet-controller"/>
+  <template name="pet-12shadao" template="anim-12shadao,pet-controller"/>
+  <template name="pet-12tiegongzhu" template="anim-12tiegongzhu,pet-controller"/>
+  <template name="pet-13baojing" template="anim-13baojing,pet-controller"/>
+  <template name="pet-13menghujiangjun" template="anim-13menghujiangjun,pet-controller"/>
+  <template name="pet-13shimowang" template="anim-13shimowang,pet-controller"/>
+  <template name="pet-13shiwang" template="anim-13shiwang,pet-controller"/>
+  <template name="pet-13xiangjing" template="anim-13xiangjing,pet-controller"/>
+  <template name="pet-13xiongwang" template="anim-13xiongwang,pet-controller"/>
+  <template name="pet-01zhizhua" template="anim-01zhizhua,pet-controller"/>
+  <template name="pet-13fuling" template="anim-13fuling,pet-controller"/>
+  <template name="pet-13xiangjinga" template="anim-13xiangjinga,pet-controller"/>
+  <template name="pet-13yemo" template="anim-13yemo,pet-controller"/>
+  <template name="pet-14tuzinan" template="anim-14tuzinan,pet-controller"/>
+  <template name="pet-14tuzinv" template="anim-14tuzinv,pet-controller"/>
+  <template name="pet-13huxianshizhe" template="anim-13huxianshizhe,pet-controller"/>
+  <template name="pet-13yexiaojiangjun" template="anim-13yexiaojiangjun,pet-controller"/>
+  <template name="pet-13duomo" template="anim-13duomo,pet-controller"/>
+  <template name="pet-13luxianshizhe" template="anim-13luxianshizhe,pet-controller"/>
+  <template name="pet-13lulidaxian" template="anim-13lulidaxian,pet-controller"/>
+  <template name="pet-13yanglidaxian" template="anim-13yanglidaxian,pet-controller"/>
+  <template name="pet-13yangxianshizhea" template="anim-13yangxianshizhea,pet-controller"/>
+  <template name="pet-13fulinga" template="anim-13fulinga,pet-controller"/>
+  <template name="pet-13fulingb" template="anim-13fulingb,pet-controller"/>
+  <template name="pet-13wanhou" template="anim-13wanhou,pet-controller"/>
+  <template name="pet-13zuiyexingzhe" template="anim-13zuiyexingzhe,pet-controller"/>
+  <template name="pet-13yangxianshizhe" template="anim-13yangxianshizhe,pet-controller"/>
+  <template name="pet-13luchengfeng" template="anim-13luchengfeng,pet-controller"/>
+  <template name="pet-13xinmo" template="anim-13xinmo,pet-controller"/>
+  <template name="pet-13lengxueyingwang" template="anim-13lengxueyingwang,pet-controller"/>
+  <template name="pet-13lengxuefeiying" template="anim-13lengxuefeiying,pet-controller"/>
+  <template name="pet-13lengxuefeiyinga" template="anim-13lengxuefeiyinga,pet-controller"/>
+  <template name="pet-13xiangren" template="anim-13xiangren,pet-controller"/>
+  <template name="pet-15huoji" template="anim-15huoji,pet-controller"/>
+  <template name="pet-xiaoyaojing" template="anim-xiaoyaojing,pet-controller"/>
+  <template name="pet-16caishen" template="anim-16caishen,pet-controller"/>
+  <template name="pet-shizhuangchunjienan" template="anim-shizhuangchunjienan,pet-controller"/>
+  <template name="pet-shizhuangchunjienv" template="anim-shizhuangchunjienv,pet-controller"/>
+</things>

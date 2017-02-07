@@ -1,0 +1,2 @@
+{"soulTemplate-1":{ "soulId" : "soulTemplate-1", "name" : "测试器魂模板", "sealSlotList" : [ "head", "weapon", "hand" ], "description" : "这是一个测试的器魂模板", "propertyList" : [ { "id" : 1, "weight" : 20 }, { "id" : 2, "weight" : 20 }, { "id" : 3, "weight" : 20 } ] }
+}

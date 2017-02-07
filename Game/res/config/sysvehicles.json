@@ -1,0 +1,15 @@
+{"sysvehicleTemplate-1":{ "appearance" : "fenghuolun", "ignoreBlock" : true, "name" : "风火轮", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-1" }
+,"sysvehicleTemplate-2":{ "appearance" : "lianhua", "ignoreBlock" : true, "name" : "莲花", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-2" }
+,"sysvehicleTemplate-3":{ "appearance" : "motan", "ignoreBlock" : false, "name" : "运货飞毯", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-3" }
+,"sysvehicleTemplate-4":{ "appearance" : "motan", "ignoreBlock" : false, "name" : "运货飞毯", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-4" }
+,"sysvehicleTemplate-5":{ "appearance" : "motan", "ignoreBlock" : false, "name" : "运货飞毯", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-5" }
+,"sysvehicleTemplate-6":{ "appearance" : "motan", "ignoreBlock" : false, "name" : "运货飞毯", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-6" }
+,"sysvehicleTemplate-7":{ "appearance" : "motan", "ignoreBlock" : false, "name" : "运货飞毯", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-7" }
+,"sysvehicleTemplate-8":{ "appearance" : "motan", "ignoreBlock" : false, "name" : "运货飞毯", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-8" }
+,"sysvehicleTemplate-9":{ "appearance" : "feijian", "ignoreBlock" : false, "name" : "飞剑", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-9" }
+,"sysvehicleTemplate-10":{ "appearance" : "motan", "ignoreBlock" : false, "name" : "运货飞毯", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-10" }
+,"sysvehicleTemplate-11":{ "appearance" : "diao", "ignoreBlock" : true, "name" : "金雕", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-11" }
+,"sysvehicleTemplate-12":{ "appearance" : "qingluan", "ignoreBlock" : true, "name" : "青鸾", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-12" }
+,"sysvehicleTemplate-13":{ "appearance" : "lianhua", "ignoreBlock" : true, "name" : "莲花", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-13" }
+,"sysvehicleTemplate-14":{ "appearance" : "motan", "ignoreBlock" : false, "name" : "运货飞毯", "positions" : [ { "positionName" : "座位" } ], "sysvehicleId" : "sysvehicleTemplate-14" }
+}

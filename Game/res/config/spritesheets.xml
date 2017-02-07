@@ -1,0 +1,269 @@
+<things version="1">
+	<!-- 玩家角色动作动画 -->
+	<!-- 天龙门角色 -->
+	<entity name="sheet-dachan">
+		<!-- 站立动作 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+			<divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>8</xCount>
+				<yCount>8</yCount>
+			</divider>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>35</y></_0>
+            </shadowOffset>
+            <middleOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </middleOffset>
+            <topOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>-40</y></_0>
+            </topOffset>
+			<image filename="image/avatar/tianlong/stand.png"/>
+		</component>
+		<!-- 跑步动作 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-run">
+			<divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>8</xCount>
+				<yCount>8</yCount>
+			</divider>
+			<image filename="image/avatar/tianlong/run.png"/>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>10</y></_0>
+            </shadowOffset>
+            <middleOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </middleOffset>
+            <topOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>-20</y></_0>
+            </topOffset>
+		</component>
+		<!-- 攻击动作 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-attack">
+			<divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>6</xCount>
+				<yCount>8</yCount>
+			</divider>
+			<image filename="image/avatar/tianlong/attack.png"/>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>52</y></_0>
+            </shadowOffset>
+            <middleOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </middleOffset>
+            <topOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>-45</y></_0>
+            </topOffset>
+		</component>
+		<!-- 被攻击动作 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-wound">
+			<divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>2</xCount>
+				<yCount>8</yCount>
+			</divider>
+			<image filename="image/avatar/tianlong/wound.png"/>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>35</y></_0>
+            </shadowOffset>
+            <middleOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </middleOffset>
+            <topOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>-40</y></_0>
+            </topOffset>
+		</component>
+		<!-- 死亡动作 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-death">
+			<divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>8</xCount>
+				<yCount>8</yCount>
+			</divider>
+			<image filename="image/avatar/tianlong/death.png"/>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>25</x><y>45</y></_0>
+				<_1><x>-10</x><y>45</y></_1>
+				<_2><x>-40</x><y>30</y></_2>
+				<_3><x>-40</x><y>0</y></_3>
+				<_4><x>-15</x><y>-10</y></_4>
+				<_5><x>25</x><y>-10</y></_5>
+				<_6><x>50</x><y>0</y></_6>
+				<_7><x>50</x><y>25</y></_7>
+            </shadowOffset>
+            <middleOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </middleOffset>
+            <topOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>-40</y></_0>
+            </topOffset>
+		</component>
+        <component type="com.longtu.rpg.game.ResourceCacheComponent" name="Cache">
+            <lifeTime>300</lifeTime>
+        </component>
+	</entity>
+	<!-- 天象教角色 -->
+	<!-- 周易书院角色 -->
+	<!-- 大禅寺角色 -->
+	<!-- 太上道角色 -->
+    <entity name="sheet-gnoll">
+		<!-- 站立动作 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComboComponent" name="sheet-stand">
+			<divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>8</xCount>
+				<yCount>8</yCount>
+			</divider>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>15</y></_0>
+            </shadowOffset>
+            <middleOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </middleOffset>
+            <topOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>-40</y></_0>
+            </topOffset>
+			<image filename="image/avatar/gnoll/stand.png"/>
+            <weaponImage filename="image/gear/001/stand.png"/>
+            <weaponOffset><x>0</x><y>-5</y></weaponOffset>
+		</component>
+		<!-- 跑步动作 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComboComponent" name="sheet-run">
+			<divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>8</xCount>
+				<yCount>8</yCount>
+			</divider>
+			<image filename="image/avatar/gnoll/run.png"/>
+            <weaponImage filename="image/gear/001/run.png"/>
+            <weaponOffset><x>-3</x><y>-8</y></weaponOffset>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>10</y></_0>
+            </shadowOffset>
+            <middleOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </middleOffset>
+            <topOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>-20</y></_0>
+            </topOffset>
+		</component>
+		<!-- 攻击动作 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComboComponent" name="sheet-attack">
+			<divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>6</xCount>
+				<yCount>8</yCount>
+			</divider>
+			<image filename="image/avatar/gnoll/attack.png"/>
+            <weaponImage filename="image/gear/001/attack.png"/>
+            <weaponOffset><x>-5</x><y>-5</y></weaponOffset>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>10</y></_0>
+            </shadowOffset>
+            <middleOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </middleOffset>
+            <topOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>-45</y></_0>
+            </topOffset>
+		</component>
+		<!-- 被攻击动作 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComboComponent" name="sheet-wound">
+			<divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>2</xCount>
+				<yCount>8</yCount>
+			</divider>
+			<image filename="image/avatar/gnoll/wound.png"/>
+            <weaponImage filename="image/gear/001/wound.png"/>
+            <weaponOffset><x>0</x><y>-5</y></weaponOffset>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>10</y></_0>
+            </shadowOffset>
+            <middleOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </middleOffset>
+            <topOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>-40</y></_0>
+            </topOffset>
+		</component>
+		<!-- 死亡动作 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComboComponent" name="sheet-death">
+			<divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>8</xCount>
+				<yCount>8</yCount>
+			</divider>
+			<image filename="image/avatar/gnoll/death.png"/>
+            <weaponImage filename="image/gear/001/death.png"/>
+            <weaponOffset><x>0</x><y>-5</y></weaponOffset>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>25</x><y>10</y></_0>
+				<_1><x>-10</x><y>10</y></_1>
+				<_2><x>-40</x><y>10</y></_2>
+				<_3><x>-40</x><y>0</y></_3>
+				<_4><x>-15</x><y>-10</y></_4>
+				<_5><x>25</x><y>-10</y></_5>
+				<_6><x>50</x><y>0</y></_6>
+				<_7><x>50</x><y>10</y></_7>
+            </shadowOffset>
+            <middleOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </middleOffset>
+            <topOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>-40</y></_0>
+            </topOffset>
+		</component>
+        <component type="com.longtu.rpg.game.ResourceCacheComponent" name="Cache">
+            <lifeTime>300</lifeTime>
+        </component>
+	</entity>
+
+	<!-- NPC动作动画 -->
+    <!-- 熊猫 -->
+    <entity name="sheet-panda">
+		<!-- 站立动作 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-stand">
+			<divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>8</xCount>
+				<yCount>8</yCount>
+			</divider>
+            <image filename="image/npc/panda/stand.png"/>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>35</y></_0>
+            </shadowOffset>
+            <middleOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </middleOffset>
+            <topOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>-50</y></_0>
+            </topOffset>
+		</component>
+		<!-- 跑步动作 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-run">
+			<divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>8</xCount>
+				<yCount>8</yCount>
+			</divider>
+			<image filename="image/npc/panda/run.png"/>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>35</y></_0>
+            </shadowOffset>
+            <middleOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </middleOffset>
+            <topOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>-50</y></_0>
+            </topOffset>
+		</component>
+	</entity>
+	
+	
+	<!-- 女青年(蓝色) -->
+	
+	<!-- 女青年(绿色) -->
+	
+    <!-- 怪物动作动画 -->
+	
+    
+	<!-- 宠物动作动画 -->
+    
+    
+    
+    
+    
+    
+	<!-- 图标类 -->
+	
+</things>

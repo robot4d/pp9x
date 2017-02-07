@@ -1,0 +1,2584 @@
+<things version="1">
+    <!-- 全局场景 -->
+	<entity name="Scene">
+        <!-- 对象类型场景 -->
+		<component type="com.longtu.rendering.DisplayObjectScene" name="Scene">
+			<sceneView type="com.longtu.rendering.screens.SceneView" >
+				<name>scene</name>
+				<width>960</width>
+				<height>600</height>
+			</sceneView>
+		</component>
+        <!-- RPG场景对象管理 -->
+        <component type="com.longtu.rpg.scene.SceneSpatialManagerComponent" name="Spatial">
+		</component>
+	</entity>
+    
+    <!-- 系统动画/图标 -->
+	<entity name="sheet-default">
+		<!-- 通用阴影图片 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-shadow">
+			<image filename="image/default/shadow.png"/>
+		</component>
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-rgreen">
+			<image filename="image/default/ring_green.png"/>
+		</component>
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-rred">
+			<image filename="image/default/ring_red.png"/>
+		</component>
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-ryellow">
+			<image filename="image/default/ring_yellow.png"/>
+		</component>
+        <!-- 通用人物替换图片 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-dummy">
+			<image filename="image/default/dummy.png"/>
+			 <directionsPerFrame>1</directionsPerFrame>
+			  <shadowOffset childType="flash.geom.Point">
+				<_0>
+				  <x>0</x>
+				  <y>40</y>
+				</_0>
+			  </shadowOffset>
+			  <middleOffset childType="flash.geom.Point">
+				<_0>
+				  <x>0</x>
+				  <y>-40</y>
+				</_0>
+			  </middleOffset>
+			  <topOffset childType="flash.geom.Point">
+				<_0>
+				  <x>0</x>
+				  <y>-70</y>
+				</_0>
+			  </topOffset>
+		</component>
+		<!-- 通用背景光特效 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-effectbg">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>6</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/effectbg.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>60</y></_0>
+            </shadowOffset>
+		</component>
+        <!-- 掉落包裹图片 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-package">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>3</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/package.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>20</y></_0>
+            </shadowOffset>
+		</component>
+		<!-- 头顶掉血文字 -->
+        <component type="com.longtu.rendering.spritesheet.SpriteSheetComponent" name="sheet-label">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>14</xCount>
+				<yCount>7</yCount>
+			</divider>
+			<image filename="image/default/label.png"/>
+		</component>
+        <!-- 鼠标点击位置动画 -->
+        <!-- 不可到达 -->
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-block">
+			<image filename="image/default/block.png"/>
+		</component>
+        <!-- 可到达 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-position">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>6</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/position.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+		</component>
+		<!-- 传送点动画 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-teleport">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>6</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/teleport.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>30</y></_0>
+            </shadowOffset>
+		</component>
+		<!-- 魔界之门动画 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-door">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>4</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/door.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>30</y></_0>
+            </shadowOffset>
+            <topOffset childType="flash.geom.Point">
+				<_0><x>0</x><y>-50</y></_0>
+			  </topOffset>
+		</component>
+        <!-- 绿色感叹号动画 -->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-tanhao">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>5</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/tanhao.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>40</y></_0>
+            </shadowOffset>
+		</component>
+        <!-- 绿色问号动画 -->
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-wenhao">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>5</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/wenhao.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>40</y></_0>
+            </shadowOffset>
+		</component>
+        <!-- 灰色问号动画 -->
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-wenhao1">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>5</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/wenhao1.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>40</y></_0>
+            </shadowOffset>
+		</component>
+        <!-- 升级动画 -->
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-levelup">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>6</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/levelup.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>80</y></_0>
+            </shadowOffset>
+		</component>
+		<!--挂机中文字-->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-autofightext">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>2</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/autofightext.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>185</y></_0>
+            </shadowOffset>
+		</component>
+		<!--斗法中文字-->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-battlefight">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>2</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/battlefight.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>185</y></_0>
+            </shadowOffset>
+		</component>
+		<!--寻路中文字-->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-findpath">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>2</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/findpath.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>185</y></_0>
+            </shadowOffset>
+		</component>
+		<!--自动采集中文字-->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-autocollect">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>2</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/autocollect.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>185</y></_0>
+            </shadowOffset>
+		</component>
+		<!--打坐中文字-->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-dazuoing">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>1</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/dazuoing.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>185</y></_0>
+            </shadowOffset>
+		</component>
+		<!--双修中文字-->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-shuangxiu">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>1</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/shuangxiu.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>185</y></_0>
+            </shadowOffset>
+		</component>
+		<!--拔剑中文字-->
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bajian">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>2</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/bajian.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>185</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+    
+    <!-- 通用场景管理之屏幕定点组件 -->
+    <template name="spatial-none">
+        <component type="com.longtu.rpg.scene.SceneCellSpatialComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+            <ignoreShade>true</ignoreShade>
+        </component>
+    </template>
+    <!-- 通用场景管理之可移动组件 -->
+    <template name="spatial-mover">
+        <component type="com.longtu.rpg.scene.Scene8DMoveComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+        </component>
+    </template>
+    <!-- 通用场景管理之定点位置 -->
+    <template name="spatial-stick">
+        <component type="com.longtu.rpg.scene.SceneStickComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+		</component>
+    </template>
+    <!-- 通用场景管理之跟踪位置 -->
+    <template name="spatial-target">
+        <component type="com.longtu.rpg.scene.SceneTargetComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+		</component>
+    </template>
+    <!-- 通用场景管理附加位置(P-P) -->
+    <template name="spatial-attach-p-p">
+        <component type="com.longtu.rpg.scene.SceneAttachComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+		</component>
+    </template>
+    <!-- 通用场景管理附加位置(S-S) -->
+    <template name="spatial-attach-s-s">
+        <component type="com.longtu.rpg.scene.SceneAttachComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+            <desAttach>shadow</desAttach>
+            <srcAttach>shadow</srcAttach>
+		</component>
+    </template>
+    <!-- 通用场景管理附加位置(S-T) -->
+    <template name="spatial-attach-s-t">
+        <component type="com.longtu.rpg.scene.SceneAttachComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+            <srcAttach>shadow</srcAttach>
+            <desAttach>top</desAttach>
+		</component>
+    </template>
+    <!-- 通用场景管理附加位置(S-M) -->
+    <template name="spatial-attach-s-m">
+        <component type="com.longtu.rpg.scene.SceneAttachComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+            <srcAttach>shadow</srcAttach>
+            <desAttach>middle</desAttach>
+		</component>
+    </template>
+    <!-- 通用组件之Label显示 -->
+    <template name="label-render">
+        <component type="com.longtu.rpg.game.LabelRender" name="LRender">
+			<!--<title>Unknown</title>-->
+			<scene entityName="Scene" componentName="Scene"/>
+			<fontColor>0xFFFFFF</fontColor>
+			<fontSize>12</fontSize>
+			<layerIndex>4</layerIndex>
+            <positionProperty>@Spatial.titleOffset</positionProperty>
+            <extents type="flash.geom.Point">
+                <x>200</x><y>50</y>
+            </extents>
+		</component>
+    </template>
+    <!-- 通用组件之单次播放 -->
+    <template name="playonce">
+        <component type="com.longtu.rpg.game.PlayOnceComponent" name="Playonce">
+            <AnimationStartedEvent>AnimationStarted</AnimationStartedEvent>
+			<AnimationFinishedEvent>AnimationFinished</AnimationFinishedEvent>
+        </component>
+    </template>
+	<!-- 播放时间 -->
+	<template name="playtime">
+		<component type="com.longtu.rpg.game.PlayTimerComponent" name="Playtime">
+			<lifetime>5</lifetime>
+		</component>
+	</template>
+    <!-- 通用组件之资源缓存 -->
+    <template name="resource-cache">
+        <component type="com.longtu.rpg.game.ResourceCacheComponent" name="Cache">
+            <lifeTime>60</lifeTime>
+        </component>
+    </template>
+    <!-- 通用组件之阴影渲染 -->
+    <template name="shadow-render">
+        <component type="com.longtu.rendering.SpriteSheetRenderer" name="SRender">
+            <positionProperty>@Spatial.shadowOffset</positionProperty>
+            <scene entityName="Scene" componentName="Scene"/>
+            <spriteSheet entityName="sheet-default" componentName="sheet-shadow"/>
+            <layerIndex>2</layerIndex>
+        </component>
+    </template>
+    <!-- 通用组件之动画渲染器 -->
+    <template name="anim-render">
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+            <positionProperty>@Spatial.position</positionProperty>
+            <directionReference>@Spatial.direction</directionReference>
+            <scene entityName="Scene" componentName="Scene"/>
+            <!--<spriteSheet entityName="sheet-spider" componentName="sheet-stand"/> -->
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+            <layerIndex>2</layerIndex>
+			<initSheet entityName="sheet-default" componentName="sheet-dummy"/>
+			<simpleSheet entityName="sheet-default" componentName="sheet-dummy"/>
+        </component>
+    </template>
+	<!-- 通用组件之技能组合特效渲染器 -->
+	<template name="effect-render-comb">
+		<component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+            <positionProperty>@Spatial.position</positionProperty>
+            <directionReference>@Spatial.direction</directionReference>
+            <scene entityName="Scene" componentName="Scene"/>
+            <spriteIndex>-1</spriteIndex>
+            <layerIndex>4</layerIndex>
+			<alpha>0.8</alpha>
+        </component>
+		<component type="com.longtu.rendering.SpriteSheet8DRenderer" name="BRender">
+			<positionProperty>@Spatial.position</positionProperty>
+            <directionReference>@Spatial.direction</directionReference>
+			<scene entityName="Scene" componentName="Scene"/>
+            <spriteIndex>-1</spriteIndex>
+			<layerIndex>1</layerIndex>
+            <alpha>0.8</alpha>
+		</component>
+	</template>
+    <!-- 通用组件之技能效果渲染器（默认） -->
+    <template name="effect-render">
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+            <directionReference>@Spatial.direction</directionReference>
+			<scene entityName="Scene" componentName="Scene"/>
+            <!-- <spriteSheet componentReference="sheet-effect-032"/> -->
+            <spriteIndex>-1</spriteIndex>
+			<layerIndex>4</layerIndex>
+            <alpha>0.8</alpha>
+		</component>
+    </template>
+	<!-- 通用组件之技能效果渲染器（高亮） -->
+    <template name="effect-render-hardlight">
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+            <directionReference>@Spatial.direction</directionReference>
+			<scene entityName="Scene" componentName="Scene"/>
+            <spriteIndex>-1</spriteIndex>
+			<layerIndex>4</layerIndex>
+            <alpha>0.8</alpha>
+			<blendMode>hardlight</blendMode>
+		</component>
+    </template>
+    <!-- 通用组件之技能效果渲染器（不透明） -->
+    <template name="effect-render-opaque">
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+            <directionReference>@Spatial.direction</directionReference>
+			<scene entityName="Scene" componentName="Scene"/>
+            <!-- <spriteSheet componentReference="sheet-effect-032"/> -->
+            <spriteIndex>-1</spriteIndex>
+			<layerIndex>4</layerIndex>
+		</component>
+    </template>
+	<!-- 通用组件之技能组合动画控制器 -->
+	<template name="effect-ctrl-comb">
+		<component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>10</frameRate>
+					<loop>true</loop>
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+            <paused>true</paused>
+		</component>
+		<component type="com.longtu.rendering.AnimationController" name="BAnimation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>10</frameRate>
+					<loop>true</loop>
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@BRender.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@BRender.spriteIndex</currentFrameReference>
+            <paused>true</paused>
+		</component>
+	</template>
+    <!-- 通用组件之技能动画控制器（默认10帧） -->
+    <template name="effect-ctrl">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>10</frameRate>
+					<loop>true</loop>
+					<!-- <spriteSheet componentReference="sheet-effect-032"/> -->
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+            <paused>true</paused>
+		</component>
+    </template>
+	<!-- 通用组件之技能动画控制器（1帧） -->
+    <template name="effect-ctrl-1">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>1</frameRate>
+					<loop>true</loop>
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+            <paused>true</paused>
+		</component>
+    </template>
+	<!-- 通用组件之技能动画控制器（2帧） -->
+    <template name="effect-ctrl-2">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>2</frameRate>
+					<loop>true</loop>
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+            <paused>true</paused>
+		</component>
+    </template>
+	<!-- 通用组件之技能动画控制器（4帧） -->
+    <template name="effect-ctrl-4">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>4</frameRate>
+					<loop>true</loop>
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+            <paused>true</paused>
+		</component>
+    </template>
+	<!-- 通用组件之技能动画控制器（6帧） -->
+    <template name="effect-ctrl-6">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>6</frameRate>
+					<loop>true</loop>
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+            <paused>true</paused>
+		</component>
+    </template>
+	<!-- 通用组件之技能动画控制器（8帧） -->
+    <template name="effect-ctrl-8">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>8</frameRate>
+					<loop>true</loop>
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+            <paused>true</paused>
+		</component>
+    </template>
+	<!-- 通用组件之技能动画控制器（10帧） -->
+    <template name="effect-ctrl-10">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>10</frameRate>
+					<loop>true</loop>
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+            <paused>true</paused>
+		</component>
+    </template>
+	<!-- 通用组件之技能动画控制器（12帧） -->
+    <template name="effect-ctrl-12">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>12</frameRate>
+					<loop>true</loop>
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+            <paused>true</paused>
+		</component>
+    </template>
+	<!-- 通用组件之技能动画控制器（16帧） -->
+    <template name="effect-ctrl-16">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>16</frameRate>
+					<loop>true</loop>
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+            <paused>true</paused>
+		</component>
+    </template>
+	<!-- 通用组件之技能动画控制器（20帧） -->
+    <template name="effect-ctrl-20">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>20</frameRate>
+					<loop>true</loop>
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+            <paused>true</paused>
+		</component>
+    </template>
+    <!-- 通用组件之8方向动画控制器(5动作) -->
+    <template name="anim-8d-ctrl">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+            <animations childType="com.longtu.rendering.AnimationControllerInfo">
+                <Idle>
+                    <frameRate>1</frameRate>
+                    <loop>true</loop>
+                </Idle>
+                <Death>
+                    <frameRate>2</frameRate>
+                    <loop>false</loop>
+                    <startEvent>DeathStarted</startEvent>
+                    <completeEvent>DeathFinished</completeEvent>
+                </Death>
+                <Run>
+                    <frameRate>6</frameRate>
+                    <loop>true</loop>
+                </Run>
+                <Attack>
+                    <frameRate>12</frameRate>
+                    <loop>false</loop>
+                    <startEvent>AttackStarted</startEvent>
+                    <completeEvent>AttackFinished</completeEvent>
+                </Attack>
+                <Wound>
+                    <frameRate>6</frameRate>
+                    <loop>false</loop>
+                    <startEvent>WoundStarted</startEvent>
+                    <completeEvent>WoundFinished</completeEvent>
+                </Wound>
+				<Cast>
+					<frameRate>6</frameRate>
+					<loop>false</loop>
+					<startEvent>CastStarted</startEvent>
+					<completeEvent>CastFinished</completeEvent>
+				</Cast>
+				<Critical>
+					<frameRate>12</frameRate>
+					<loop>false</loop>
+					<startEvent>CriticalStarted</startEvent>
+					<completeEvent>CriticalFinished</completeEvent>
+				</Critical>
+				<Sitting>
+				    <frameRate>1</frameRate>
+				    <loop>true</loop>
+				</Sitting>
+            </animations>
+            <paused>true</paused>
+            <defaultAnimation>Idle</defaultAnimation>
+            <spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+            <currentFrameReference>@Render.spriteIndex</currentFrameReference>
+            <currentAnimationReference>@Ctrl.currentAnimation</currentAnimationReference>
+            <changeAnimationEvent type="String">AnimationEvent</changeAnimationEvent>
+        </component>
+    </template>
+    <template name="anim-all" template="anim-render,anim-8d-ctrl">
+    </template>
+    <!-- 通用组件之8方向动画控制器(1动作) -->
+    <template name="anim-8d-1a-ctrl">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>1</frameRate>
+					<loop>true</loop>
+					<!--<spriteSheet entityName="sheet-panda" componentName="sheet-stand"/>-->
+				</Idle>
+			</animations>
+            <paused>true</paused>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+			<currentAnimationReference>@Ctrl.currentAnimation</currentAnimationReference>
+			<changeAnimationEvent type="String">AnimationEvent</changeAnimationEvent> 
+		</component>
+    </template>
+    <template name="anim-8d-1a-s-ctrl">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>4</frameRate>
+					<loop>false</loop>
+					<!--<spriteSheet entityName="sheet-panda" componentName="sheet-stand"/>-->
+				</Idle>
+			</animations>
+            <paused>true</paused>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+			<currentAnimationReference>@Ctrl.currentAnimation</currentAnimationReference>
+			<changeAnimationEvent type="String">AnimationEvent</changeAnimationEvent> 
+		</component>
+    </template>
+    <!-- 通用组件之8方向动画控制器(2动作) -->
+    <template name="anim-8d-2a-ctrl">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>1</frameRate>
+					<loop>true</loop>
+					<!--<spriteSheet entityName="sheet-panda" componentName="sheet-stand"/>-->
+				</Idle>
+                <Run>
+                    <frameRate>6</frameRate>
+                    <loop>true</loop>
+                    <!--<spriteSheet entityName="sheet-boar" componentName="sheet-run"/>-->
+                </Run>
+			</animations>
+            <paused>true</paused>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+			<currentAnimationReference>@Ctrl.currentAnimation</currentAnimationReference>
+			<changeAnimationEvent type="String">AnimationEvent</changeAnimationEvent> 
+		</component>
+    </template>
+    <!-- 通用组件之状态渲染器 -->
+    <template name="status-render">
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<!--<spriteSheet entityName="sheet-default" componentName="sheet-tanhao"/>-->
+			<layerIndex>4</layerIndex>
+		</component>
+    </template>
+    <!-- 通用组件之状态动画控制器 -->
+    <template name="status-ctrl">
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<!-- 所有动作分类 -->
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>8</frameRate>
+					<loop>true</loop>
+					<!-- <spriteSheet entityName="sheet-default" componentName="sheet-tanhao"/>-->
+				</Idle>
+			</animations>
+            <paused>true</paused>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+    </template>
+    <!-- 通用组件之尸体控制 -->
+    <template name="corpse-controller" template="playtime">
+        <!--<component type="com.longtu.rpg.monster.CorpsePacketHandler" name="Network">
+        </component>-->
+        <component type="com.longtu.rpg.monster.CorpseAIComponent" name="AI">
+        </component>
+        <component type="com.longtu.rpg.monster.CorpseController" name="Ctrl">
+        </component>
+    </template>
+    <!-- 通用组件之怪物控制 -->
+    <template name="mob-controller">
+        <component type="com.longtu.rpg.monster.MonsterPacketHandler" name="Network">
+        </component>
+        <component type="com.longtu.rpg.monster.MonsterAIComponent" name="AI">
+        </component>
+        <component type="com.longtu.rpg.monster.MonsterController" name="Ctrl">
+        </component>
+    </template>
+    <!-- 通用组件之玩家角色主动控制 -->
+    <template name="avatar-actor">
+		<component type="com.longtu.sound.EventSoundTrigger" name="Sound">
+		</component>
+        <component type="com.longtu.rpg.avatar.AvatarActorPacketHandler" name="Network">
+        </component>
+        <component type="com.longtu.rpg.avatar.AvatarActorAIComponent" name="AI">
+        </component>
+        <component type="com.longtu.rpg.avatar.AvatarActorController" name="Ctrl">
+            <input childType="com.longtu.engine.core.InputKey">
+                <onMouseClick>MOUSE_BUTTON</onMouseClick>
+                <onMouseClick>MOUSE_RIGHT</onMouseClick>
+                <onShortcut01>ONE</onShortcut01>
+                <onShortcut02>TWO</onShortcut02>
+                <onShortcut03>THREE</onShortcut03>
+                <onShortcut04>FOUR</onShortcut04>
+                <onShortcut05>FIVE</onShortcut05>
+                <onShortcut06>SIX</onShortcut06>
+                <onShortcut07>SEVEN</onShortcut07>
+                <onShortcut08>EIGHT</onShortcut08>
+                <onShortcut09>NINE</onShortcut09>
+                <onShortcut00>ZERO</onShortcut00>
+				<onShortcut0Minus>MINUS</onShortcut0Minus>
+				<onShortcut0Plus>PLUS</onShortcut0Plus>
+				<onShortcut11>SHIFT_ONE</onShortcut11>
+                <onShortcut12>SHIFT_TWO</onShortcut12>
+                <onShortcut13>SHIFT_THREE</onShortcut13>
+                <onShortcut14>SHIFT_FOUR</onShortcut14>
+                <onShortcut15>SHIFT_FIVE</onShortcut15>
+                <onShortcut16>SHIFT_SIX</onShortcut16>
+                <onShortcut17>SHIFT_SEVEN</onShortcut17>
+                <onShortcut18>SHIFT_EIGHT</onShortcut18>
+                <onShortcut19>SHIFT_NINE</onShortcut19>
+                <onShortcut10>SHIFT_ZERO</onShortcut10>
+				<onShortcut1Minus>SHIFT_MINUS</onShortcut1Minus>
+				<onShortcut1Plus>SHIFT_PLUS</onShortcut1Plus>
+				<onTransDlg>SHIFT_E</onTransDlg>
+                <onLootPick>SPACE</onLootPick>
+				<onVehicleSwitch>T</onVehicleSwitch>
+                <onExitUIDialog>ESCAPE</onExitUIDialog>
+                <onSelectTarget>TAB</onSelectTarget>
+                <onMapOpen>M</onMapOpen>
+                <onAvatarOpen>C</onAvatarOpen>
+				<onSpellOpen>X</onSpellOpen>
+                <onBagOpen>B</onBagOpen>
+                <onVehicle>Z</onVehicle>
+                <onPet>P</onPet>
+                <onRobot>SHIFT_H</onRobot>
+				<onStartRobot>H</onStartRobot>
+				<onTask>Q</onTask>
+				<onTeam>V</onTeam>
+				<onFriend>F</onFriend>
+				<onParty>O</onParty>
+				<onMall>Y</onMall>
+				<onTrans>E</onTrans>
+				<onTele>R</onTele>
+				<onAchieve>G</onAchieve>
+				<onGuild>I</onGuild>
+				<onRank>K</onRank>
+				<onHideAround>QUOTE</onHideAround>
+				<onSwitchTarget>TILDE</onSwitchTarget>
+				<onSwitchPVPTarget>A</onSwitchPVPTarget>
+				<onSitting>L</onSitting>
+                <!--<onAttack>A</onAttack>
+                <onWound>W</onWound>
+                <onAlive>S</onAlive>-->
+            </input>
+        </component>
+    </template>
+    <!-- 通用组件之玩家角色被动控制 -->
+    <template name="avatar-controller">
+        <component type="com.longtu.rpg.avatar.AvatarPacketHandler" name="Network">
+        </component>
+        <component type="com.longtu.rpg.avatar.AvatarAIComponent" name="AI">
+        </component>
+        <component type="com.longtu.rpg.avatar.AvatarController" name="Ctrl">
+        </component>
+    </template>
+    <!-- 通用组件之NPC控制 -->
+    <template name="npc-controller">
+        <component type="com.longtu.rpg.npc.NpcPacketHandler" name="Network">
+        </component>
+        <component type="com.longtu.rpg.npc.NpcAIComponent" name="AI">
+        </component>
+        <component type="com.longtu.rpg.npc.NpcController" name="Ctrl">
+        </component>
+    </template>
+    <!-- 通用组件之宠物控制 -->
+    <template name="pet-controller">
+        <component type="com.longtu.rpg.pet.PetPacketHandler" name="Network">
+        </component>
+        <component type="com.longtu.rpg.pet.PetAIComponent" name="AI">
+        </component>
+        <component type="com.longtu.rpg.pet.PetController" name="Ctrl">
+        </component>
+    </template>
+    <!-- 通用组件之坐骑控制 -->
+    <template name="vehicle-controller">
+        <component type="com.longtu.rpg.vehicle.VehiclePacketHandler" name="Network">
+        </component>
+		<component type="com.longtu.rpg.vehicle.VehicleAIComponent" name="AI">
+        </component>
+        <component type="com.longtu.rpg.vehicle.VehicleController" name="Ctrl">
+        </component>
+    </template>
+	<!-- 通用组件之法宝控制 -->
+	<template name="treasure-controller">
+		<component type="com.longtu.rpg.treasure.TreasureController" name="Ctrl">
+        </component>
+	</template>
+    <template name="dummy-render">
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+            <positionProperty>@Spatial.position</positionProperty>
+            <directionReference>@Spatial.direction</directionReference>
+            <!--<scene entityName="Scene" componentName="Scene"/> -->
+            <!--<spriteSheet entityName="sheet-spider" componentName="sheet-stand"/> -->
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+            <layerIndex>2</layerIndex>
+        </component>
+    </template>
+    <!-- 通用组件之采集点信息 -->
+    <template name="collection-default" template="spatial-stick,dummy-render">
+        <component type="com.longtu.rpg.collection.CollectionAIComponent" name="AI">
+        </component>
+        <component type="com.longtu.rpg.collection.CollectionController" name="Ctrl">
+        </component>
+    </template>
+    <template name="collection-anim" template="spatial-stick,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+    <template name="collection-object" template="collection-anim">
+        <component type="com.longtu.rpg.collection.CollectionObjectController" name="Ctrl">
+        </component>
+    </template>
+    
+    <!-- 鼠标点击场景位置的定位动画 -->
+    <!-- 可行走 -->
+    <entity name="position" template="spatial-stick">
+        <!-- 渲染器 -->
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-position"/>
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>2</layerIndex>
+		</component>
+        <!-- 动画控制 -->
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>6</frameRate>
+					<loop>true</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-position"/>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+    </entity>
+    <!-- 不可行走 -->
+    <entity name="block" template="spatial-stick">
+        <!-- 渲染器 -->
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-block"/>
+			<layerIndex>2</layerIndex>
+		</component>
+     </entity>
+    
+    <!-- 包裹动画 -->
+    <template name="package" template="spatial-stick">
+		<!-- 渲染器 -->
+		<component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-package"/>
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>2</layerIndex>
+		</component>
+        <!-- 动画控制 -->
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>3</frameRate>
+					<loop>true</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-package"/>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+        <component type="com.longtu.rpg.bag.BagAIComponent" name="AI">
+        </component>
+		<component type="com.longtu.rpg.bag.BagPacketHandler" name="Network" >
+		</component>
+    </template>
+    
+    <!-- 传动点动画 -->
+    <template name="teleport" template="spatial-stick,label-render">
+        <!-- 渲染器 -->
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-teleport"/>
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>2</layerIndex>
+		</component>
+        <!-- 动画控制 -->
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>6</frameRate>
+					<loop>true</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-teleport"/>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+    </template>
+    
+    <!-- 魔界之门动画 -->
+    <template name="door" template="spatial-stick,label-render">
+        <!-- 渲染器 -->
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-door"/>
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>2</layerIndex>
+		</component>
+        <!-- 动画控制 -->
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>6</frameRate>
+					<loop>true</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-door"/>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+		<component type="com.longtu.rpg.door.DoorAIComponent" name="AI">
+        </component>
+		<component type="com.longtu.rpg.door.DoorPacketHandler" name="Network" >
+		</component>
+    </template>
+    
+    <!-- 升级动画 -->
+    <template name="levelup" template="spatial-attach-s-s,playonce">
+        <!-- 渲染器 -->
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-levelup"/>
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>3</layerIndex>
+            <alpha>0.8</alpha>
+		</component>
+        <!-- 动画控制 -->
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>4</frameRate>
+					<loop>false</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-levelup"/>
+                    <startEvent>AnimationStarted</startEvent>
+                    <completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+    </template>
+	
+	<!-- 挂机中文字 -->
+    <template name="autofightext" template="spatial-attach-s-s">
+        <!-- 渲染器 -->
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-autofightext"/>
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>5</layerIndex>
+		</component>
+        <!-- 动画控制 -->
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>4</frameRate>
+					<loop>true</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-autofightext"/>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+	</template>
+	
+	<!-- 斗法中文字 -->
+    <template name="battlefight" template="spatial-attach-s-s">
+        <!-- 渲染器 -->
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-battlefight"/>
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>5</layerIndex>
+		</component>
+        <!-- 动画控制 -->
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>4</frameRate>
+					<loop>true</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-battlefight"/>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+	</template>
+	
+	<!-- 寻路中文字 -->
+    <template name="findpath" template="spatial-attach-s-s">
+        <!-- 渲染器 -->
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-findpath"/>
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>5</layerIndex>
+		</component>
+        <!-- 动画控制 -->
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>4</frameRate>
+					<loop>true</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-findpath"/>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+	</template>
+	
+	<!-- 自动采集中文字 -->
+    <template name="autocollect" template="spatial-attach-s-s">
+        <!-- 渲染器 -->
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-autocollect"/>
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>5</layerIndex>
+		</component>
+        <!-- 动画控制 -->
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>4</frameRate>
+					<loop>true</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-autocollect"/>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+	</template>
+	
+	<!-- 打坐中文字 -->
+    <template name="dazuoing" template="spatial-attach-s-s">
+        <!-- 渲染器 -->
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-dazuoing"/>
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>5</layerIndex>
+		</component>
+        <!-- 动画控制 -->
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>1</frameRate>
+					<loop>true</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-dazuoing"/>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+	</template>
+	
+	<!-- 双修中文字 -->
+    <template name="shuangxiu" template="spatial-attach-s-s">
+        <!-- 渲染器 -->
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-shuangxiu"/>
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>5</layerIndex>
+		</component>
+        <!-- 动画控制 -->
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>1</frameRate>
+					<loop>true</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-shuangxiu"/>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+	</template>
+	
+	<!-- 拔剑中文字 -->
+    <template name="bajian" template="spatial-attach-s-s">
+        <!-- 渲染器 -->
+        <component type="com.longtu.rendering.SpriteSheet8DRenderer" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-bajian"/>
+            <zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>5</layerIndex>
+		</component>
+        <!-- 动画控制 -->
+        <component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>4</frameRate>
+					<loop>true</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-bajian"/>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+	</template>
+	
+	<!--冲穴特效-->
+	<entity name="sheet-chongxue" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>6</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/chongxue.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>32</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+	<template name="chongxue" template="spatial-stick,effect-render,effect-ctrl-6">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>true</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>chongxue</effectId>
+            <effectType>stick</effectType>
+        </component>
+    </template>
+    
+    <!--爆竹特效-->
+    <entity name="sheet-baozhu" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>6</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/baozhu.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>50</x><y>200</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+	<template name="baozhu" template="spatial-stick,effect-render,effect-ctrl-6">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>true</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>baozhu</effectId>
+            <effectType>stick</effectType>
+        </component>
+    </template>
+
+    <!--组合爆竹特效-->
+    <template name="multi-baozhu">
+        <component type="com.longtu.rpg.effect.EffectBaozhuController" name="Ctrl">
+            <interval>0.5</interval>
+            <level>3</level>
+            <step>100</step>
+            <effectId>baozhu</effectId>
+            <effectType>stick</effectType>
+        </component>
+    </template>
+
+    <!--灯笼特效-->
+    <entity name="sheet-denglong" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>8</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/denglong.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>200</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+	<template name="denglong" template="spatial-stick,effect-render,effect-ctrl-6">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>true</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>denglong</effectId>
+            <effectType>stick</effectType>
+        </component>
+    </template>
+    
+    <!--灯笼组合特效-->
+    <template name="multi-denglong">
+        <component type="com.longtu.rpg.effect.EffectDenglongController" name="Ctrl">
+            <interval>0.5</interval>
+            <level>5</level>
+            <step>40</step>
+            <effectId>denglong</effectId>
+            <effectType>stick</effectType>
+        </component>
+    </template>
+    
+    <!--普通巡游组合特效-->
+    <template name="lihua1">
+        <component type="com.longtu.rpg.effect.EffectLihuaController" name="Ctrl">
+            <interval>0.4</interval>
+            <level>6</level>
+            <step>60</step>
+            <effectIds>effect-487</effectIds>
+            <effectType>stick</effectType>
+        </component>
+    </template>
+    
+    <!--中级巡游组合特效-->
+    <template name="lihua2">
+        <component type="com.longtu.rpg.effect.EffectLihuaController" name="Ctrl">
+            <interval>0.3</interval>
+            <level>9</level>
+            <step>80</step>
+            <effectIds>effect-487,effect-498</effectIds>
+            <useHUE>1,0</useHUE>
+            <effectType>stick</effectType>
+        </component>i
+    </template>
+    
+    <!--豪华巡游组合特效-->
+    <template name="lihua3">
+        <component type="com.longtu.rpg.effect.EffectLihuaController" name="Ctrl">
+            <interval>0.2</interval>
+            <level>15</level>
+            <step>100</step>
+            <effectIds>effect-487,effect-498,effect-486</effectIds>
+            <useHUE>1,0,0</useHUE>
+            <effectType>stick</effectType>
+        </component>
+    </template>
+
+	<!-- 范围冲穴特效 -->
+	<template name="multi-chongxue">
+        <component type="com.longtu.rpg.effect.EffectSquareController" name="Ctrl">
+            <step>60</step>
+            <effectId>chongxue</effectId>
+            <effectType>stick</effectType>
+        </component>
+	</template>
+
+    <!-- 跳动文字 -->
+    <template name="caption">
+        <!-- 文字动画 -->
+        <component type="com.longtu.rpg.scene.SceneCaptionTweenComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+            <desAttach>caption</desAttach>
+			<duration>1</duration>
+			<objectAlpha>@Render.alpha</objectAlpha>
+			<fromAlpha>0.5</fromAlpha>
+			<toAlpha>1</toAlpha>
+            <objectPos>@Render.positionOffset</objectPos>
+			<fromPos>
+                <x>10</x><y>0</y>
+            </fromPos>
+			<toPos>
+                <x>10</x><y>-20</y>
+            </toPos>
+		</component>
+        <!-- 文字显示 -->
+        <component type="com.longtu.rpg.game.BitmapLabelRender" name="Render">
+            <spriteSheet entityName="sheet-default" componentName="sheet-label"/>
+			<scene entityName="Scene" componentName="Scene"/>
+            <alpha>0.5</alpha>
+			<layerIndex>6</layerIndex>
+            <positionProperty>@Spatial.position</positionProperty>
+		</component>
+    </template>
+    
+    <!-- 属性变化文字 -->
+    <template name="attrtween">
+    	<!-- 文字动画 -->
+        <component type="com.longtu.rpg.scene.SceneAttributeTweenComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+            <desAttach>caption</desAttach>
+			<duration>1</duration>
+			<objectAlpha>@Render.alpha</objectAlpha>
+			<fromAlpha>0.5</fromAlpha>
+			<toAlpha>1</toAlpha>
+            <objectPos>@Render.positionOffset</objectPos>
+			<fromPos>
+                <x>10</x><y>0</y>
+            </fromPos>
+			<toPos>
+                <x>10</x><y>-20</y>
+            </toPos>
+		</component>
+        <!-- 文字显示 -->
+        <component type="com.longtu.rpg.game.AttributeLabelRender" name="Render">
+        	<spriteSheet entityName="sheet-default" componentName="sheet-label"/>
+			<scene entityName="Scene" componentName="Scene"/>
+			<alpha>0.5</alpha>
+			<layerIndex>6</layerIndex>
+            <positionProperty>@Spatial.position</positionProperty>
+		</component>
+    </template>
+    
+    <!-- 冲穴倒计时效果 -->
+    <template name="countdown">
+        <!-- 文字动画 -->
+        <component type="com.longtu.rpg.scene.SceneCountDownTweenComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+            <desAttach>caption</desAttach>
+			<duration>1</duration>
+			<objectAlpha>@Render.alpha</objectAlpha>
+			<fromAlpha>0.5</fromAlpha>
+			<toAlpha>1</toAlpha>
+            <objectPos>@Render.positionOffset</objectPos>
+			<fromPos>
+                <x>10</x><y>0</y>
+            </fromPos>
+			<toPos>
+                <x>10</x><y>-20</y>
+            </toPos>
+		</component>
+        <!-- 文字显示 -->
+        <component type="com.longtu.rpg.game.CountDownLabelRender" name="Render">
+        	<spriteSheet entityName="sheet-default" componentName="sheet-label"/>
+			<scene entityName="Scene" componentName="Scene"/>
+			<alpha>0.5</alpha>
+			<layerIndex>6</layerIndex>
+            <positionProperty>@Spatial.position</positionProperty>
+		</component>
+    </template>
+    
+    <!-- 通用动态文字特效 -->
+	<template name="animatext" template="spatial-attach-s-t,playonce">
+		<!-- 渲染器 -->
+		<component type="com.longtu.rpg.game.AnimateTextRender" name="Render">
+			<positionProperty>@Spatial.position</positionProperty>
+			<scene entityName="Scene" componentName="Scene"/>
+			<spriteSheet entityName="sheet-default" componentName="sheet-effectbg"/>
+			<zIndexProperty>@Spatial.zIndex</zIndexProperty>
+			<layerIndex>4</layerIndex>
+			<alpha>0.8</alpha>
+		</component>
+		<!-- 动画控制 -->
+		<component type="com.longtu.rendering.AnimationController" name="Animation">
+			<animations childType="com.longtu.rendering.AnimationControllerInfo">
+				<Idle>
+					<frameRate>3</frameRate>
+					<loop>false</loop>
+					<spriteSheet entityName="sheet-default" componentName="sheet-effectbg"/>
+					<startEvent>AnimationStarted</startEvent>
+					<completeEvent>AnimationFinished</completeEvent>
+				</Idle>
+			</animations>
+			<defaultAnimation>Idle</defaultAnimation>
+			<spriteSheetReference>@Render.spriteSheet</spriteSheetReference>
+			<currentFrameReference>@Render.spriteIndex</currentFrameReference>
+		</component>
+	</template>
+	
+	<!-- 自言自语 -->
+	<template name="selftalk">
+		<component type="com.longtu.rpg.scene.SceneAttachComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+            <desAttach>caption</desAttach>
+		</component>
+		<component type="com.longtu.rpg.game.BkgrdLabelRender" name="Render">
+			<title>Unknown</title>
+			<scene entityName="Scene" componentName="Scene"/>
+			<fontColor>0xFFFFFF</fontColor>
+			<fontSize>12</fontSize>
+            <fontBold>false</fontBold>
+			<fontAlign>left</fontAlign>
+            <alpha>0</alpha>
+			<labelWidth>200</labelWidth>
+			<duration>5</duration>
+			<backgroundColor>0</backgroundColor>
+			<transparency>0.5</transparency>
+			<layerIndex>3</layerIndex>
+            <positionProperty>@Spatial.position</positionProperty>
+		</component>
+	</template>
+	
+	<!-- 组队标识 -->
+	<template name="teamflag">
+		<component type="com.longtu.rpg.scene.SceneAttachComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+            <desAttach>top</desAttach>
+		</component>
+		<component type="com.longtu.rpg.game.TeamFlagRender" name="Render">
+			<scene entityName="Scene" componentName="Scene"/>
+			<layerIndex>3</layerIndex>
+			<positionProperty>@Spatial.position</positionProperty>
+		</component>
+	</template>
+	
+	<!-- 头顶血条 -->
+	<template name="headHpBar">
+		<component type="com.longtu.rpg.scene.SceneAttachComponent" name="Spatial">
+            <spatialManager entityName="Scene" componentName="Spatial"/>
+            <desAttach>top</desAttach>
+		</component>
+		<component type="com.longtu.rpg.game.HeadHpBarRenderer" name="Render">
+			<scene entityName="Scene" componentName="Scene"/>
+			<layerIndex>3</layerIndex>
+			<positionProperty>@Spatial.position</positionProperty>
+		</component>
+	</template>
+	
+	<!-- 场景特效 -->
+	<template name="sceneEffect" template="spatial-stick">
+		<component type="com.longtu.rpg.game.SceneEffectRender" name="Render">
+			<scene entityName="Scene" componentName="Scene"/>
+			<layerIndex>1</layerIndex>
+			<positionProperty>@Spatial.position</positionProperty>
+		</component>
+	</template>
+	
+	<!-- 打坐组合特效 -->
+    <entity name="sheet-effect-dazuo" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>5</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/dazuo_front.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>24</y></_0>
+            </shadowOffset>
+        </component>
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>5</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/dazuo_back.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>24</y></_0>
+            </shadowOffset>
+        </component>
+    </entity>
+    <template name="effect-dazuo" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-dazuo</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!-- 打坐组合特效1 -->
+    <entity name="sheet-effect-dazuo1" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>5</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/dazuo1_front.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>24</y></_0>
+            </shadowOffset>
+        </component>
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>5</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/dazuo1_back.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>24</y></_0>
+            </shadowOffset>
+        </component>
+    </entity>
+    <template name="effect-dazuo1" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-dazuo1</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+
+    <!--符文外显特效1 -->
+    <entity name="sheet-effect-sign1" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>8</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/sign1.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>70</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-sign1" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-sign1</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+	
+	<!--符文外显特效2 -->
+    <entity name="sheet-effect-sign2" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>8</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/sign2.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>70</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-sign2" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-sign2</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+	
+	<!--符文外显特效3-->
+    <entity name="sheet-effect-sign3" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>8</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/sign3.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>70</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-sign3" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-sign3</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--坐骑升阶特效1-->
+    <entity name="sheet-effect-vehicleRank1" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>2</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/vehicleRank1.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+	<template name="effect-vehicleRank1" template="spatial-attach-s-s,effect-render-opaque,effect-ctrl-4">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-vehicleRank1</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--坐骑升阶特效2-->
+    <entity name="sheet-effect-vehicleRank2" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>3</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/vehicleRank2.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+	<template name="effect-vehicleRank2" template="spatial-attach-s-s,effect-render-opaque,effect-ctrl-4">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-vehicleRank2</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--坐骑升阶特效3-->
+    <entity name="sheet-effect-vehicleRank3" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>3</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/vehicleRank3.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+	<template name="effect-vehicleRank3" template="spatial-attach-s-s,effect-render-opaque,effect-ctrl-4">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-vehicleRank3</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+        <!--坐骑升阶特效4-->
+    <entity name="sheet-effect-vehicleRank4" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>3</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/vehicleRank4.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+	<template name="effect-vehicleRank4" template="spatial-attach-s-s,effect-render-opaque,effect-ctrl-4">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-vehicleRank4</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--坐骑升阶特效5-->
+    <entity name="sheet-effect-vehicleRank5" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>3</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/vehicleRank5.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+	<template name="effect-vehicleRank5" template="spatial-attach-s-s,effect-render-opaque,effect-ctrl-4">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-vehicleRank5</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--坐骑升阶特效6-->
+    <entity name="sheet-effect-vehicleRank6" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>3</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/vehicleRank6.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+	<template name="effect-vehicleRank6" template="spatial-attach-s-s,effect-render-opaque,effect-ctrl-4">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-vehicleRank6</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+
+    <!--坐骑升阶特效7-->
+    <entity name="sheet-effect-vehicleRank7" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>3</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/vehicleRank7.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+	<template name="effect-vehicleRank7" template="spatial-attach-s-s,effect-render-opaque,effect-ctrl-4">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-vehicleRank7</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--坐骑升阶特效8-->
+    <entity name="sheet-effect-vehicleRank8" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>3</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/vehicleRank8.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+	<template name="effect-vehicleRank8" template="spatial-attach-s-s,effect-render-opaque,effect-ctrl-4">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-vehicleRank8</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--坐骑升阶特效9-->
+    <entity name="sheet-effect-vehicleRank9" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>3</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/vehicleRank9.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>0</y></_0>
+            </shadowOffset>
+		</component>
+	</entity>
+	<template name="effect-vehicleRank9" template="spatial-attach-s-s,effect-render-opaque,effect-ctrl-4">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-vehicleRank9</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+	<!--家族战胜利特效-->
+    <entity name="sheet-battleSuccess" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>2</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/battleSuccess.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+		</component>
+	</entity>
+	<template name="battleSuccess" template="spatial-none,effect-render-opaque,effect-ctrl-2">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>battleSuccess</effectId>
+            <effectType>none</effectType>
+        </component>
+    </template>
+
+    <!--家族战失败特效-->
+    <entity name="sheet-battleFail" template="resource-cache">
+		<component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+				<xCount>2</xCount>
+				<yCount>1</yCount>
+			</divider>
+			<image filename="image/default/battleFail.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+		</component>
+	</entity>
+	<template name="battleFail" template="spatial-none,effect-render-opaque,effect-ctrl-2">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>battleFail</effectId>
+            <effectType>none</effectType>
+        </component>
+    </template>
+    
+    <!--Ready-Fight动画-->
+    <entity name="sheet-readyfight" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/readyfight.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+        </component>
+    </entity>
+
+    <!--真龙护体特效1-->
+    <entity name="sheet-effect-bloodRank1" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/bloodRank1.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>90</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-bloodRank1" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-bloodRank1</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--真龙护体特效2-->
+    <entity name="sheet-effect-bloodRank2" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/bloodRank2.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>90</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-bloodRank2" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-bloodRank2</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--真龙护体特效3-->
+    <entity name="sheet-effect-bloodRank3" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/bloodRank3.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>90</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-bloodRank3" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-bloodRank3</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--真龙护体特效4-->
+    <entity name="sheet-effect-bloodRank4" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/bloodRank4.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>90</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-bloodRank4" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-bloodRank4</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--真龙护体特效5-->
+    <entity name="sheet-effect-bloodRank5" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/bloodRank5.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>90</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-bloodRank5" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-bloodRank5</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--真龙护体特效6-->
+    <entity name="sheet-effect-bloodRank6" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/bloodRank6.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>90</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-bloodRank6" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-bloodRank6</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--真龙护体特效7-->
+    <entity name="sheet-effect-bloodRank7" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/bloodRank7.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>90</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-bloodRank7" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-bloodRank7</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--真龙护体特效8-->
+    <entity name="sheet-effect-bloodRank8" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/bloodRank8.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>90</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-bloodRank8" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-bloodRank8</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--真龙护体特效9-->
+    <entity name="sheet-effect-bloodRank9" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/bloodRank9.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>90</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-bloodRank9" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-bloodRank9</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--真龙护体特效10-->
+    <entity name="sheet-effect-bloodRank10" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/bloodRank10.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>90</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-bloodRank10" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-bloodRank10</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--真龙护体特效11-->
+    <entity name="sheet-effect-bloodRank11" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-bottom">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/bloodRank11.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>90</y></_0>
+            </shadowOffset>
+        </component>   
+    </entity>
+    <template name="effect-bloodRank11" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-bloodRank11</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--新符文外显1-->
+    <entity name="sheet-effect-runeRank1" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/runeRank1.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>54</y></_0>
+            </shadowOffset>
+        </component>
+    </entity>
+    <template name="effect-runeRank1" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-runeRank1</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--新符文外显2-->
+    <entity name="sheet-effect-runeRank2" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/runeRank2.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>54</y></_0>
+            </shadowOffset>
+        </component>
+    </entity>
+    <template name="effect-runeRank2" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-runeRank2</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--新符文外显3-->
+    <entity name="sheet-effect-runeRank3" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/runeRank3.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>54</y></_0>
+            </shadowOffset>
+        </component>
+    </entity>
+    <template name="effect-runeRank3" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-runeRank3</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--新符文外显4-->
+    <entity name="sheet-effect-runeRank4" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/runeRank4.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>54</y></_0>
+            </shadowOffset>
+        </component>
+    </entity>
+    <template name="effect-runeRank4" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-runeRank4</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--新符文外显5-->
+    <entity name="sheet-effect-runeRank5" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/runeRank5.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>54</y></_0>
+            </shadowOffset>
+        </component>
+    </entity>
+    <template name="effect-runeRank5" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-runeRank5</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--新符文外显6-->
+    <entity name="sheet-effect-runeRank6" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/runeRank6.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>4</frameRate>
+            <shadowOffset childType="flash.geom.Point">
+                <_0><x>0</x><y>54</y></_0>
+            </shadowOffset>
+        </component>
+    </entity>
+    <template name="effect-runeRank6" template="spatial-attach-s-s,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <playOnce>false</playOnce>
+            <delay>0</delay>
+            <lifeTime>0</lifeTime>
+            <effectId>effect-runeRank6</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--法宝外显1-->
+    <entity name="sheet-effect-fabaoRank1" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/fabaoRank1.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+        </component>
+    </entity>
+    <template name="effect-fabaoRank1" template="spatial-attach-s-m,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <effectId>effect-fabaoRank1</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--法宝外显2-->
+    <entity name="sheet-effect-fabaoRank2" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/fabaoRank2.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+        </component>
+    </entity>
+    <template name="effect-fabaoRank2" template="spatial-attach-s-m,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <effectId>effect-fabaoRank2</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--法宝外显3-->
+    <entity name="sheet-effect-fabaoRank3" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/fabaoRank3.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+        </component>
+    </entity>
+    <template name="effect-fabaoRank3" template="spatial-attach-s-m,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <effectId>effect-fabaoRank3</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--法宝外显4-->
+    <entity name="sheet-effect-fabaoRank4" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/fabaoRank4.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+        </component>
+    </entity>
+    <template name="effect-fabaoRank4" template="spatial-attach-s-m,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <effectId>effect-fabaoRank4</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--法宝外显5-->
+    <entity name="sheet-effect-fabaoRank5" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/fabaoRank5.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+        </component>
+    </entity>
+    <template name="effect-fabaoRank5" template="spatial-attach-s-m,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <effectId>effect-fabaoRank5</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--法宝外显6-->
+    <entity name="sheet-effect-fabaoRank6" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/fabaoRank6.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+        </component>
+    </entity>
+    <template name="effect-fabaoRank6" template="spatial-attach-s-m,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <effectId>effect-fabaoRank6</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--法宝外显7-->
+    <entity name="sheet-effect-fabaoRank7" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/fabaoRank7.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+        </component>
+    </entity>
+    <template name="effect-fabaoRank7" template="spatial-attach-s-m,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <effectId>effect-fabaoRank7</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--法宝外显8-->
+    <entity name="sheet-effect-fabaoRank8" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/fabaoRank8.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+        </component>
+    </entity>
+    <template name="effect-fabaoRank8" template="spatial-attach-s-m,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <effectId>effect-fabaoRank8</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--法宝外显9-->
+    <entity name="sheet-effect-fabaoRank9" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/fabaoRank9.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+        </component>
+    </entity>
+    <template name="effect-fabaoRank9" template="spatial-attach-s-m,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <effectId>effect-fabaoRank9</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+    
+    <!--法宝外显10-->
+    <entity name="sheet-effect-fabaoRank10" template="resource-cache">
+        <component type="com.longtu.rendering.spritesheet.SpriteSheet8DComponent" name="sheet-default">
+            <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+                <xCount>6</xCount>
+                <yCount>1</yCount>
+            </divider>
+            <image filename="image/default/fabaoRank10.png"/>
+            <directionsPerFrame>1</directionsPerFrame>
+            <frameRate>6</frameRate>
+        </component>
+    </entity>
+    <template name="effect-fabaoRank10" template="spatial-attach-s-m,effect-render-comb,effect-ctrl-comb">
+        <component type="com.longtu.rpg.effect.EffectSimpleController" name="Ctrl">
+            <effectId>effect-fabaoRank10</effectId>
+            <effectType>attach</effectType>
+        </component>
+    </template>
+
+</things>

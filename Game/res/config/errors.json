@@ -1,0 +1,577 @@
+{"0":{ "errorId" : 0, "error" : "OK" }
+,"1":{ "error" : "异常状态", "errorId" : 1 }
+,"2":{ "error" : "技能所需消耗不足", "errorId" : 2 }
+,"3":{ "error" : "技能冷却未完成", "errorId" : 3 }
+,"4":{ "error" : "目标不在同一个场景", "errorId" : 4 }
+,"5":{ "error" : "不能对这个目标施放技能", "errorId" : 5 }
+,"6":{ "error" : "目标超出技能施放距离", "errorId" : 6 }
+,"7":{ "error" : "冷却未完成", "errorId" : 7 }
+,"8":{ "error" : "这个场景不允许开启PvP", "errorId" : 8 }
+,"9":{ "error" : "这个场景不能关闭PvP", "errorId" : 9 }
+,"10":{ "error" : "现在还不能关闭PvP", "errorId" : 10 }
+,"11":{ "error" : "技能不存在", "errorId" : 11 }
+,"12":{ "error" : "目标不存在", "errorId" : 12 }
+,"13":{ "error" : "卡片不存在", "errorId" : 13 }
+,"14":{ "error" : "没有变身技能", "errorId" : 14 }
+,"15":{ "error" : "称号不存在", "errorId" : 15 }
+,"16":{ "error" : "称号已经在使用中", "errorId" : 16 }
+,"17":{ "error" : "玩家等级不够", "errorId" : 17 }
+,"18":{ "error" : "称号已经卸下", "errorId" : 18 }
+,"19":{ "error" : "配方不存在", "errorId" : 19 }
+,"20":{ "error" : "配方正在冷却中", "errorId" : 20 }
+,"21":{ "error" : "物品不存在", "errorId" : 21 }
+,"22":{ "error" : "物品不在背包中", "errorId" : 22 }
+,"23":{ "error" : "物品正在冷却中", "errorId" : 23 }
+,"24":{ "error" : "数量无效", "errorId" : 24 }
+,"25":{ "error" : "目标的级别不够", "errorId" : 25 }
+,"26":{ "error" : "境界的级别不够", "errorId" : 26 }
+,"27":{ "error" : "门派不符", "errorId" : 27 }
+,"28":{ "error" : "性别不符", "errorId" : 28 }
+,"29":{ "error" : "装备耐久度为零", "errorId" : 29 }
+,"30":{ "error" : "装备没有装备在身上", "errorId" : 30 }
+,"31":{ "errorId" : 31, "error" : "Soul not found" }
+,"32":{ "error" : "装备不在背包中或者身上", "errorId" : 32 }
+,"33":{ "error" : "已经是最高等级", "errorId" : 33 }
+,"34":{ "errorId" : 34, "error" : "fusion not found" }
+,"35":{ "errorId" : 35, "error" : "fusion is not in bag" }
+,"36":{ "errorId" : 36, "error" : "Jade not found" }
+,"37":{ "error" : "宝石不存在", "errorId" : 37 }
+,"38":{ "error" : "物品不在背包或者仓库中", "errorId" : 38 }
+,"39":{ "error" : "背包或者仓库空间不足", "errorId" : 39 }
+,"40":{ "error" : "价格无效", "errorId" : 40 }
+,"41":{ "error" : "出售者不存在", "errorId" : 41 }
+,"42":{ "error" : "该物品没有在出售", "errorId" : 42 }
+,"43":{ "error" : "赠送失败", "errorId" : 43 }
+,"44":{ "error" : "只有装备才能操作", "errorId" : 44 }
+,"45":{ "error" : "品质不够", "errorId" : 45 }
+,"46":{ "errorId" : 46, "error" : "smelt jade not found" }
+,"47":{ "errorId" : 47, "error" : "change finace failed" }
+,"48":{ "error" : "参数无效", "errorId" : 48 }
+,"49":{ "error" : "点数不够", "errorId" : 49 }
+,"50":{ "error" : "坐骑不存在", "errorId" : 50 }
+,"51":{ "error" : "已经骑上坐骑了", "errorId" : 51 }
+,"52":{ "error" : "已经有一个坐骑骑上了", "errorId" : 52 }
+,"53":{ "error" : "已经下坐骑了", "errorId" : 53 }
+,"54":{ "error" : "骑乘状态下的坐骑不能升级品质或星级", "errorId" : 54 }
+,"55":{ "error" : "已经是最高品质", "errorId" : 55 }
+,"56":{ "error" : "宠物不存在", "errorId" : 56 }
+,"57":{ "error" : "非休息状态的宠物不能升星", "errorId" : 57 }
+,"58":{ "error" : "已经是最高星级", "errorId" : 58 }
+,"59":{ "error" : "骑乘状态下不能放生坐骑", "errorId" : 59 }
+,"60":{ "error" : "非休息状态不能放生宠物", "errorId" : 60 }
+,"61":{ "error" : "名字太长", "errorId" : 61 }
+,"62":{ "error" : "法宝不存在", "errorId" : 62 }
+,"63":{ "error" : "宠物战斗模式异常", "errorId" : 63 }
+,"64":{ "error" : "宠物已达最大生命周期", "errorId" : 64 }
+,"65":{ "errorId" : 65, "error" : "smeltPoints is invalid" }
+,"66":{ "errorId" : 66, "error" : "smeltPoints not enough" }
+,"67":{ "errorId" : 67, "error" : "slot not found" }
+,"68":{ "error" : "宝石不存在", "errorId" : 68 }
+,"69":{ "errorId" : 69, "error" : "already active" }
+,"70":{ "errorId" : 70, "error" : "already unactive" }
+,"71":{ "errorId" : 71, "error" : "please active treasure first" }
+,"72":{ "errorId" : 72, "error" : "no need to back" }
+,"73":{ "errorId" : 73, "error" : "spellList error" }
+,"74":{ "errorId" : 74, "error" : "spellList out of range" }
+,"75":{ "error" : "技能不存在", "errorId" : 75 }
+,"76":{ "error" : "道具不够", "errorId" : 76 }
+,"77":{ "error" : "坐骑状态错误", "errorId" : 77 }
+,"78":{ "error" : "已经在队伍中", "errorId" : 78 }
+,"79":{ "errorId" : 79, "error" : "not in team or team id error" }
+,"80":{ "errorId" : 80, "error" : "not in team or not team leader" }
+,"81":{ "error" : "距离太远", "errorId" : 81 }
+,"82":{ "errorId" : 82, "error" : "Conversation not found" }
+,"83":{ "errorId" : 83, "error" : "Conversation step error" }
+,"84":{ "errorId" : 84, "error" : "Invalid Option No" }
+,"85":{ "error" : "正在使用物品", "errorId" : 85 }
+,"86":{ "error" : "这个物品不能在这里使用", "errorId" : 86 }
+,"87":{ "error" : "这个物品不能在这里装备", "errorId" : 87 }
+,"88":{ "error" : "这个物品不能在这里卸下", "errorId" : 88 }
+,"89":{ "error" : "金钱不够", "errorId" : 89 }
+,"90":{ "error" : "材料不够", "errorId" : 90 }
+,"91":{ "error" : "消耗物品失败", "errorId" : 91 }
+,"92":{ "error" : "合成失败", "errorId" : 92 }
+,"93":{ "error" : "玩家已经死亡", "errorId" : 93 }
+,"95":{ "error" : "操作太频繁", "errorId" : 95 }
+,"96":{ "error" : "强化失败", "errorId" : 96 }
+,"97":{ "errorId" : 97, "error" : "Point is invalid" }
+,"98":{ "errorId" : 98, "error" : "Not Enough Points" }
+,"99":{ "errorId" : 99, "error" : "consume treasures failed" }
+,"100":{ "errorId" : 100, "error" : "slot can not inset" }
+,"101":{ "errorId" : 101, "error" : "slot type not match" }
+,"102":{ "errorId" : 102, "error" : "slot type not match" }
+,"103":{ "errorId" : 103, "error" : "energy points not enough" }
+,"104":{ "errorId" : 104, "error" : "treasure is in cooldown" }
+,"105":{ "error" : "施放效果失败", "errorId" : 105 }
+,"106":{ "errorId" : 106, "error" : "create treasure effect failed" }
+,"107":{ "error" : "移除坐骑效果失败", "errorId" : 107 }
+,"108":{ "errorId" : 108, "error" : "unactive treasure can not be out" }
+,"109":{ "errorId" : 109, "error" : "unout treasure can not be back" }
+,"110":{ "error" : "卸下称号失败", "errorId" : 110 }
+,"111":{ "error" : "创建称号效果失败", "errorId" : 111 }
+,"112":{ "error" : "移除称号效果失败", "errorId" : 112 }
+,"113":{ "error" : "主合成材料无效", "errorId" : 113 }
+,"114":{ "error" : "主合成材料不在背包中", "errorId" : 114 }
+,"115":{ "error" : "合成材料不足", "errorId" : 115 }
+,"116":{ "error" : "合成材料数量和配方不符", "errorId" : 116 }
+,"117":{ "errorId" : 117, "error" : "aided stuff not enough" }
+,"118":{ "error" : "合成材料不存在", "errorId" : 118 }
+,"119":{ "error" : "合成失败", "errorId" : 119 }
+,"120":{ "error" : "库存不足", "errorId" : 120 }
+,"121":{ "error" : "不能购买", "errorId" : 121 }
+,"122":{ "error" : "这件商品没有在出售", "errorId" : 122 }
+,"123":{ "error" : "不能卖物品到这个商店", "errorId" : 123 }
+,"124":{ "error" : "背包格数已经超过该道具可加背包格数上限", "errorId" : 124 }
+,"125":{ "errorId" : 125, "error" : "multiple invalid" }
+,"126":{ "errorId" : 126, "error" : "warehouseMax is bigger than max" }
+,"127":{ "error" : "背包空间不足", "errorId" : 127 }
+,"128":{ "error" : "装备位不符", "errorId" : 128 }
+,"129":{ "error" : "套装不存在", "errorId" : 129 }
+,"130":{ "error" : "物品等级不够", "errorId" : 130 }
+,"131":{ "error" : "这件套装不包含这个装备位", "errorId" : 131 }
+,"132":{ "errorId" : 132, "error" : "no soul found" }
+,"133":{ "error" : "强化失败", "errorId" : 133 }
+,"134":{ "errorId" : 134, "error" : "fusion item has no soul" }
+,"135":{ "error" : "物品等级无效", "errorId" : 135 }
+,"136":{ "error" : "没有空的铭刻孔了", "errorId" : 136 }
+,"137":{ "error" : "已经有这个称号了", "errorId" : 137 }
+,"138":{ "error" : "坐骑空位已经满了", "errorId" : 138 }
+,"139":{ "error" : "已经有这个配方了", "errorId" : 139 }
+,"140":{ "error" : "已经有这个技能了", "errorId" : 140 }
+,"141":{ "error" : "宠物栏位不足", "errorId" : 141 }
+,"142":{ "error" : "坐骑栏位不足", "errorId" : 142 }
+,"143":{ "errorId" : 143, "error" : "can not transform others" }
+,"144":{ "error" : "没有设定变身目标", "errorId" : 144 }
+,"145":{ "error" : "技能等级不够", "errorId" : 145 }
+,"146":{ "error" : "怪物辨识度未满", "errorId" : 146 }
+,"147":{ "error" : "接受任务失败", "errorId" : 147 }
+,"148":{ "error" : "提交任务失败", "errorId" : 148 }
+,"149":{ "error" : "任务不存在", "errorId" : 149 }
+,"150":{ "errorId" : 150, "error" : "quest track status invalid" }
+,"151":{ "errorId" : 151, "error" : "max tracking quests" }
+,"152":{ "error" : "创建坐骑效果失败", "errorId" : 152 }
+,"153":{ "errorId" : 153, "error" : "remove vehicle effect failed" }
+,"154":{ "errorId" : 154, "error" : "points is bigger than avatar level" }
+,"155":{ "errorId" : 155, "error" : "pill not enough" }
+,"156":{ "errorId" : 156, "error" : "invalid vehicle" }
+,"157":{ "error" : "合成失败", "errorId" : 157 }
+,"158":{ "error" : "技能选择出错", "errorId" : 158 }
+,"159":{ "errorId" : 159, "error" : "vehicle not enough" }
+,"160":{ "error" : "添加好友失败", "errorId" : 160 }
+,"161":{ "error" : "删除好友失败", "errorId" : 161 }
+,"162":{ "error" : "添加仇敌失败", "errorId" : 162 }
+,"163":{ "error" : "删除仇敌失败", "errorId" : 163 }
+,"164":{ "error" : "清空仇敌失败", "errorId" : 164 }
+,"165":{ "error" : "添加黑名单失败", "errorId" : 165 }
+,"166":{ "error" : "删除黑名单失败", "errorId" : 166 }
+,"167":{ "error" : "清空黑名单失败", "errorId" : 167 }
+,"168":{ "error" : "更改队长失败", "errorId" : 168 }
+,"169":{ "error" : "踢出队员失败", "errorId" : 169 }
+,"170":{ "error" : "申请加入队伍失败", "errorId" : 170 }
+,"171":{ "error" : "确认入队申请失败", "errorId" : 171 }
+,"172":{ "error" : "拒绝入队申请失败", "errorId" : 172 }
+,"173":{ "error" : "退出队伍失败", "errorId" : 173 }
+,"174":{ "errorId" : 174, "error" : "dismiss team failed" }
+,"175":{ "errorId" : 175, "error" : "confirm team invite failed" }
+,"176":{ "errorId" : 176, "error" : "reject team invite failed" }
+,"177":{ "error" : "邀请队员失败", "errorId" : 177 }
+,"178":{ "error" : "邮件接收者不存在", "errorId" : 178 }
+,"179":{ "error" : "已经在联盟里了", "errorId" : 179 }
+,"180":{ "error" : "申请联盟失败", "errorId" : 180 }
+,"181":{ "error" : "用户验证失败", "errorId" : 181 }
+,"182":{ "errorId" : 182, "error" : "user information invalid" }
+,"183":{ "errorId" : 183, "error" : "protocol version error" }
+,"184":{ "errorId" : 184, "error" : "unknown client server type" }
+,"185":{ "errorId" : 185, "error" : "send message failed" }
+,"186":{ "errorId" : 186, "error" : "invalid server id" }
+,"187":{ "error" : "玩家不存在", "errorId" : 187 }
+,"188":{ "errorId" : 188, "error" : "kick other avatars failed" }
+,"189":{ "error" : "玩家不在线", "errorId" : 189 }
+,"190":{ "errorId" : 190, "error" : "avatar in instance" }
+,"191":{ "errorId" : 191, "error" : "invalid avatar game id" }
+,"192":{ "errorId" : 192, "error" : "same game id" }
+,"193":{ "error" : "用户不存在", "errorId" : 193 }
+,"194":{ "error" : "玩家数达到上限", "errorId" : 194 }
+,"195":{ "error" : "无效的玩家名称", "errorId" : 195 }
+,"196":{ "errorId" : 196, "error" : "protocol error" }
+,"197":{ "errorId" : 197, "error" : "invalid game server" }
+,"198":{ "errorId" : 198, "error" : "session locked" }
+,"199":{ "errorId" : 199, "error" : "invalid instance id" }
+,"200":{ "errorId" : 200, "error" : "instance not found" }
+,"201":{ "errorId" : 201, "error" : "duplicate session id" }
+,"202":{ "errorId" : 202, "error" : "load user failed" }
+,"203":{ "error" : "不允许切线", "errorId" : 203 }
+,"204":{ "error" : "玩家正在战斗中", "errorId" : 204 }
+,"205":{ "error" : "场景不存在", "errorId" : 205 }
+,"206":{ "error" : "商店不存在", "errorId" : 206 }
+,"207":{ "error" : "页数无效", "errorId" : 207 }
+,"208":{ "error" : "货架不存在", "errorId" : 208 }
+,"209":{ "error" : "没有副本功能", "errorId" : 209 }
+,"210":{ "error" : "副本数据不存在", "errorId" : 210 }
+,"211":{ "errorId" : 211, "error" : "instance id not matched" }
+,"212":{ "errorId" : 212, "error" : "invalid type" }
+,"213":{ "error" : "你已经加入帮会了", "errorId" : 213 }
+,"214":{ "error" : "无效的帮会名字", "errorId" : 214 }
+,"215":{ "error" : "建帮会之前需要先建立家族", "errorId" : 215 }
+,"216":{ "error" : "建立帮会出错", "errorId" : 216 }
+,"217":{ "error" : "加入帮会之前需要先加入一个家族", "errorId" : 217 }
+,"218":{ "error" : "该帮会已经申请过了", "errorId" : 218 }
+,"219":{ "error" : "未找到相应帮会", "errorId" : 219 }
+,"220":{ "error" : "权限不足", "errorId" : 220 }
+,"221":{ "error" : "未找到相应家族", "errorId" : 221 }
+,"222":{ "error" : "该家族已经加入帮会了", "errorId" : 222 }
+,"223":{ "error" : "已经达到家族数目上限", "errorId" : 223 }
+,"224":{ "error" : "该家族不是帮会成员", "errorId" : 224 }
+,"225":{ "error" : "不能删除自己所在家族", "errorId" : 225 }
+,"226":{ "errorId" : 226, "error" : "玩家不是帮会的成员" }
+,"227":{ "error" : "副帮主数目不能大于2", "errorId" : 227 }
+,"228":{ "error" : "该玩家已经是副帮主了", "errorId" : 228 }
+,"229":{ "error" : "该玩家不是副帮主", "errorId" : 229 }
+,"230":{ "error" : "你已经加入家族了", "errorId" : 230 }
+,"231":{ "error" : "无效的家族名字", "errorId" : 231 }
+,"232":{ "error" : "建立家族出错", "errorId" : 232 }
+,"233":{ "error" : "你已经加入家族了", "errorId" : 233 }
+,"234":{ "error" : "该玩家不在线", "errorId" : 234 }
+,"235":{ "error" : "该玩家已经加入家族了", "errorId" : 235 }
+,"236":{ "error" : "该玩家未申请此家族", "errorId" : 236 }
+,"237":{ "error" : "该帮会未邀请你的家族或者邀请已经过期", "errorId" : 237 }
+,"238":{ "error" : "该家族未申请此帮会", "errorId" : 238 }
+,"239":{ "error" : "装备不能被洗炼", "errorId" : 239 }
+,"240":{ "error" : "你还活着呢", "errorId" : 240 }
+,"241":{ "error" : "消耗物品失败", "errorId" : 241 }
+,"242":{ "error" : "道具不够", "errorId" : 242 }
+,"243":{ "errorId" : 243, "error" : "revive point error" }
+,"244":{ "error" : "不能取消这个效果", "errorId" : 244 }
+,"245":{ "error" : "你已经死了", "errorId" : 245 }
+,"246":{ "error" : "这个场景没有回城点", "errorId" : 246 }
+,"247":{ "errorId" : 247, "error" : "back point error" }
+,"248":{ "errorId" : 248, "error" : "spell owner type not fit" }
+,"249":{ "error" : "等级不够", "errorId" : 249 }
+,"250":{ "errorId" : 250, "error" : "no spell space" }
+,"251":{ "errorId" : 251, "error" : "creature not fit" }
+,"252":{ "error" : "经验不足", "errorId" : 252 }
+,"253":{ "error" : "消费金钱出错", "errorId" : 253 }
+,"254":{ "error" : "扣经验出错", "errorId" : 254 }
+,"255":{ "error" : "已经是最高等级了", "errorId" : 255 }
+,"256":{ "error" : "升级技能出错", "errorId" : 256 }
+,"257":{ "errorId" : 257, "error" : "spell num is max" }
+,"258":{ "error" : "物品不存在", "errorId" : 258 }
+,"259":{ "error" : "目标角色不存在", "errorId" : 259 }
+,"260":{ "errorId" : 260, "error" : "DB" }
+,"261":{ "errorId" : 261, "error" : "target must be avatar" }
+,"262":{ "errorId" : 262, "error" : "target must be pet" }
+,"263":{ "error" : "不能学习这个技能", "errorId" : 263 }
+,"264":{ "error" : "观战或出战状态的宠物不能放生", "errorId" : 264 }
+,"265":{ "error" : "无字天书任务线不存在", "errorId" : 265 }
+,"266":{ "error" : "无字天书不存在", "errorId" : 266 }
+,"267":{ "error" : "您没有无字天书任务", "errorId" : 267 }
+,"268":{ "error" : "没有合适的任务", "errorId" : 268 }
+,"269":{ "error" : "无效的副本服务器", "errorId" : 269 }
+,"270":{ "error" : "参数错误", "errorId" : 270 }
+,"271":{ "error" : "需要的路径点不存在", "errorId" : 271 }
+,"272":{ "error" : "传送点不存在", "errorId" : 272 }
+,"274":{ "error" : "宝石镶嵌孔不存在", "errorId" : 274 }
+,"275":{ "error" : "目标已经死亡", "errorId" : 275 }
+,"277":{ "error" : "game line reach max avatar count", "errorId" : 277 }
+,"278":{ "error" : "src not found", "errorId" : 278 }
+,"279":{ "error" : "购买失败", "errorId" : 279 }
+,"280":{ "error" : "商店不存在", "errorId" : 280 }
+,"281":{ "error" : "perPage invlaid", "errorId" : 281 }
+,"282":{ "error" : "商品不存在", "errorId" : 282 }
+,"283":{ "error" : "元宝不够", "errorId" : 283 }
+,"284":{ "error" : "获取元宝数据失败", "errorId" : 284 }
+,"285":{ "error" : "用户不存在", "errorId" : 285 }
+,"286":{ "error" : "session not found", "errorId" : 286 }
+,"287":{ "error" : "货币类型不存在", "errorId" : 287 }
+,"288":{ "error" : "change money failed", "errorId" : 288 }
+,"289":{ "error" : "on sell item failed", "errorId" : 289 }
+,"290":{ "error" : "cancel sell failed", "errorId" : 290 }
+,"291":{ "error" : "enter game not allowed", "errorId" : 291 }
+,"292":{ "error" : "该家族未邀请您或邀请已过期", "errorId" : 292 }
+,"293":{ "error" : "该玩家已经邀请过了", "errorId" : 293 }
+,"294":{ "error" : "该家族已经邀请过了", "errorId" : 294 }
+,"295":{ "error" : "该家族已经申请过了", "errorId" : 295 }
+,"296":{ "error" : "已经到达玩家数目上限", "errorId" : 296 }
+,"297":{ "error" : "族长或长老不能移除", "errorId" : 297 }
+,"298":{ "error" : "玩家不是家族成员", "errorId" : 298 }
+,"299":{ "error" : "该玩家已经是长老了", "errorId" : 299 }
+,"300":{ "error" : "长老数目已经到达上限", "errorId" : 300 }
+,"301":{ "error" : "族长不能任命为长老", "errorId" : 301 }
+,"302":{ "error" : "该玩家不是长老", "errorId" : 302 }
+,"303":{ "error" : "族长不用禅让给自己", "errorId" : 303 }
+,"304":{ "error" : "不需要移动", "errorId" : 304 }
+,"305":{ "error" : "物品已经绑定", "errorId" : 305 }
+,"306":{ "error" : "挂售的物品只能下架到背包内", "errorId" : 306 }
+,"307":{ "error" : "不能移动物品到别人的仓库", "errorId" : 307 }
+,"308":{ "error" : "背包或者仓库空间不足", "errorId" : 308 }
+,"309":{ "error" : "未知错误", "errorId" : 309 }
+,"310":{ "error" : "族长不能退出家族", "errorId" : 310 }
+,"311":{ "error" : "帮主所在家族不能退出帮会", "errorId" : 311 }
+,"312":{ "error" : "帮主只能转让给其他族长或者本家族成员", "errorId" : 312 }
+,"313":{ "error" : "正在学习技能中，请稍后", "errorId" : 313 }
+,"314":{ "error" : "你现在还不能那样做", "errorId" : 314 }
+,"315":{ "error" : "这个名称不能用", "errorId" : 315 }
+,"316":{ "error" : "暂停注册", "errorId" : 316 }
+,"317":{ "error" : "注册人数已满", "errorId" : 317 }
+,"318":{ "error" : "名字中含有非法字符", "errorId" : 318 }
+,"319":{ "error" : "加入家族至少需要10级", "errorId" : 319 }
+,"320":{ "error" : "同时最多申请3个家族", "errorId" : 320 }
+,"321":{ "error" : "同时最多申请3个帮会", "errorId" : 321 }
+,"322":{ "error" : "级别不足", "errorId" : 322 }
+,"323":{ "error" : "级别不足", "errorId" : 323 }
+,"324":{ "error" : "任务物品只能移动到任务背包", "errorId" : 324 }
+,"325":{ "error" : "任务物品不能交易或赠送", "errorId" : 325 }
+,"326":{ "error" : "任务物品不能卖", "errorId" : 326 }
+,"327":{ "error" : "已绑定物品不能挂售", "errorId" : 327 }
+,"328":{ "error" : "任务物品不能挂售", "errorId" : 328 }
+,"329":{ "error" : "您还没有激活", "errorId" : 329 }
+,"330":{ "error" : "您不能采集该位置的物品", "errorId" : 330 }
+,"331":{ "error" : "您正在采集物品中,不能重复采集", "errorId" : 331 }
+,"333":{ "error" : "您采集的物品不存在", "errorId" : 333 }
+,"334":{ "error" : "未领取相关任务,无法采集", "errorId" : 334 }
+,"335":{ "error" : "采集过程被打断", "errorId" : 335 }
+,"336":{ "error" : "副本所有者不存在", "errorId" : 336 }
+,"337":{ "error" : "其他队员正在创建副本，请稍候", "errorId" : 337 }
+,"338":{ "error" : "你不是组队成员，不能创建组队副本", "errorId" : 338 }
+,"339":{ "error" : "您今天已经超出该副本允许进入次数", "errorId" : 339 }
+,"341":{ "error" : "该用户已经是您的好友", "errorId" : 341 }
+,"342":{ "error" : "该用户不在线", "errorId" : 342 }
+,"343":{ "error" : "该用户不是您的好友", "errorId" : 343 }
+,"344":{ "error" : "该用户已经是您的仇敌", "errorId" : 344 }
+,"345":{ "error" : "该用户不是您的仇敌", "errorId" : 345 }
+,"346":{ "error" : "该用户已经在您的黑名单中", "errorId" : 346 }
+,"347":{ "error" : "该用户不在您的黑名单中", "errorId" : 347 }
+,"348":{ "error" : "您搜索用户过于频繁，请稍候再试", "errorId" : 348 }
+,"349":{ "error" : "您的角色级别不满足该副本的等级限制", "errorId" : 349 }
+,"350":{ "error" : "队伍成员人数已满", "errorId" : 350 }
+,"351":{ "error" : "成员已经加入一个队伍", "errorId" : 351 }
+,"352":{ "error" : "该成员已经是队伍队长", "errorId" : 352 }
+,"353":{ "error" : "目标成员不是该队伍的成员", "errorId" : 353 }
+,"354":{ "error" : "目标成员不在线", "errorId" : 354 }
+,"355":{ "error" : "您的队伍成员权限不够", "errorId" : 355 }
+,"356":{ "error" : "用户已经激活", "errorId" : 356 }
+,"357":{ "error" : "该队伍信息不存在", "errorId" : 357 }
+,"359":{ "error" : "GM发放物品失败", "errorId" : 359 }
+,"360":{ "error" : "发放的物品数据有误", "errorId" : 360 }
+,"361":{ "error" : "物品模板不存在", "errorId" : 361 }
+,"362":{ "error" : "要修改的技能等级无效", "errorId" : 362 }
+,"363":{ "error" : "技能模板不存在", "errorId" : 363 }
+,"364":{ "error" : "创建技能出错", "errorId" : 364 }
+,"365":{ "error" : "地图切换失败", "errorId" : 365 }
+,"366":{ "error" : "场景不存在", "errorId" : 366 }
+,"367":{ "error" : "场景内没有路标点", "errorId" : 367 }
+,"368":{ "error" : "场景内没有入口点，不能到达", "errorId" : 368 }
+,"369":{ "error" : "镶嵌孔不存在", "errorId" : 369 }
+,"371":{ "error" : "角色处于在线状态，不能删除", "errorId" : 371 }
+,"372":{ "error" : "通知服务器更新参数出错", "errorId" : 372 }
+,"373":{ "error" : "物品正在使用中，稍后再用", "errorId" : 373 }
+,"374":{ "error" : "副本组信息有误", "errorId" : 374 }
+,"375":{ "error" : "邮件中发送的非绑定金钱数有误", "errorId" : 375 }
+,"376":{ "error" : "邮件中发送的非绑定金钱不足", "errorId" : 376 }
+,"377":{ "error" : "邮件中发送的物品不存在", "errorId" : 377 }
+,"378":{ "error" : "未找到任务线模板或重置数据", "errorId" : 378 }
+,"379":{ "error" : "邮件中发送的物品数量不足", "errorId" : 379 }
+,"380":{ "error" : "邮件中发送的物品数量有误", "errorId" : 380 }
+,"381":{ "error" : "邮件中发送的物品不在背包内", "errorId" : 381 }
+,"382":{ "error" : "已绑定的物品不能邮寄", "errorId" : 382 }
+,"383":{ "error" : "要收取的附件不存在", "errorId" : 383 }
+,"384":{ "error" : "收取附件中的金钱出错", "errorId" : 384 }
+,"385":{ "error" : "正在收取附件中，请稍等", "errorId" : 385 }
+,"386":{ "error" : "邮件编号有误或者拥有者有误", "errorId" : 386 }
+,"387":{ "error" : "邮件不存在", "errorId" : 387 }
+,"388":{ "error" : "邮件接收者名称不能为空", "errorId" : 388 }
+,"389":{ "error" : "不能给自己发邮件", "errorId" : 389 }
+,"391":{ "error" : "挂售价格超出上限", "errorId" : 391 }
+,"392":{ "error" : "家族经验不够", "errorId" : 392 }
+,"393":{ "error" : "帮会经验不足", "errorId" : 393 }
+,"394":{ "error" : "家族资金不足", "errorId" : 394 }
+,"395":{ "error" : "家族等级已达到顶级", "errorId" : 395 }
+,"396":{ "error" : "帮会等级已达到顶级", "errorId" : 396 }
+,"397":{ "error" : "帮会资金不足", "errorId" : 397 }
+,"398":{ "error" : "无", "errorId" : 398 }
+,"399":{ "error" : "无", "errorId" : 399 }
+,"400":{ "error" : "该任务已经发布了", "errorId" : 400 }
+,"401":{ "error" : "超过该任务最大发布次数", "errorId" : 401 }
+,"402":{ "error" : "超过商品单次购买数量上限", "errorId" : 402 }
+,"403":{ "error" : "强化消耗倍率无效", "errorId" : 403 }
+,"404":{ "error" : "强化需要消耗的道具数量有误", "errorId" : 404 }
+,"405":{ "error" : "profiler module not found", "errorId" : 405 }
+,"406":{ "error" : "不可批量操作", "errorId" : 406 }
+,"407":{ "error" : "批量操作次数不合法", "errorId" : 407 }
+,"408":{ "error" : "你今天已经领取过福利了", "errorId" : 408 }
+,"409":{ "error" : "你未申请此家族", "errorId" : 409 }
+,"410":{ "error" : "你未申请此帮会", "errorId" : 410 }
+,"411":{ "error" : "这个物品不能合成或分解", "errorId" : 411 }
+,"412":{ "error" : "已经加入下次自动施放", "errorId" : 412 }
+,"414":{ "error" : "正在合成中，请稍候", "errorId" : 414 }
+,"415":{ "error" : "付款失败，不能接收附件", "errorId" : 415 }
+,"416":{ "error" : "设定的付款金额超过上限", "errorId" : 416 }
+,"417":{ "error" : "没有附件或已经收取过附件的邮件无法拒收", "errorId" : 417 }
+,"418":{ "error" : "收件人信箱已满", "errorId" : 418 }
+,"419":{ "error" : "无药园信息", "errorId" : 419 }
+,"420":{ "error" : "该地还不能收获", "errorId" : 420 }
+,"421":{ "error" : "爱心行动力不足", "errorId" : 421 }
+,"422":{ "error" : "采摘行动力不足", "errorId" : 422 }
+,"423":{ "error" : "该地还不能偷", "errorId" : 423 }
+,"424":{ "error" : "仙府币不足", "errorId" : 424 }
+,"425":{ "error" : "该块地已经播种过了", "errorId" : 425 }
+,"426":{ "error" : "该地不需要翻土", "errorId" : 426 }
+,"427":{ "error" : "种植等级不够", "errorId" : 427 }
+,"428":{ "error" : "可卖数量不足", "errorId" : 428 }
+,"429":{ "error" : "不需要施肥", "errorId" : 429 }
+,"430":{ "error" : "你必须先加入家族才能接取家族任务", "errorId" : 430 }
+,"431":{ "error" : "你必须先加入帮会才能接取帮会任务", "errorId" : 431 }
+,"432":{ "error" : "每块地每人只能采摘一次", "errorId" : 432 }
+,"433":{ "error" : "非好友不能帮忙收获", "errorId" : 433 }
+,"434":{ "error" : "好友之间不能采摘", "errorId" : 434 }
+,"435":{ "error" : "种子不足", "errorId" : 435 }
+,"436":{ "error" : "该草药不能帮忙收获", "errorId" : 436 }
+,"437":{ "error" : "摇钱树现在不需要施肥", "errorId" : 437 }
+,"438":{ "error" : "你已经施过肥了", "errorId" : 438 }
+,"439":{ "error" : "摇钱树还未长成，不能摇钱", "errorId" : 439 }
+,"440":{ "error" : "排行榜不存在", "errorId" : 440 }
+,"441":{ "error" : "帮主不能把自己降级为副帮主", "errorId" : 441 }
+,"442":{ "error" : "玩家不存在", "errorId" : 442 }
+,"443":{ "error" : "玩家不存在或不在线", "errorId" : 443 }
+,"444":{ "error" : "玩家已经在副本中，不能使用组队平台", "errorId" : 444 }
+,"445":{ "error" : "已经有队伍了", "errorId" : 445 }
+,"446":{ "error" : "请求的副本不存在", "errorId" : 446 }
+,"447":{ "error" : "已经在平台中排队了", "errorId" : 447 }
+,"448":{ "error" : "部分请求未成功处理", "errorId" : 448 }
+,"449":{ "error" : "正在等待其他人回应组队", "errorId" : 449 }
+,"450":{ "error" : "该名字已存在", "errorId" : 450 }
+,"451":{ "error" : "帮会中的家族不能解散", "errorId" : 451 }
+,"452":{ "error" : "待确认队伍不存在", "errorId" : 452 }
+,"453":{ "error" : "角色已经达到最高等级", "errorId" : 453 }
+,"454":{ "error" : "玩家角色的属主或名称不匹配", "errorId" : 454 }
+,"455":{ "error" : "玩家等级不符合副本条件", "errorId" : 455 }
+,"456":{ "error" : "今日进入副本次数已经用完", "errorId" : 456 }
+,"457":{ "error" : "暂时不能对用户进行操作", "errorId" : 457 }
+,"458":{ "error" : "减少元宝数无效或超过现有元宝数", "errorId" : 458 }
+,"459":{ "error" : "要减少的物品数量超过堆叠数", "errorId" : 459 }
+,"460":{ "error" : "物品不在背包或仓库中", "errorId" : 460 }
+,"461":{ "error" : "生命值数据无效", "errorId" : 461 }
+,"462":{ "error" : "修改数据没有完全成功", "errorId" : 462 }
+,"463":{ "error" : "指定的生命值超过最大生命值", "errorId" : 463 }
+,"464":{ "error" : "法力值数据无效", "errorId" : 464 }
+,"465":{ "error" : "指定的法力值超过最大法力值", "errorId" : 465 }
+,"466":{ "error" : "指定的金钱数据无效", "errorId" : 466 }
+,"467":{ "error" : "修改金钱数据失败", "errorId" : 467 }
+,"468":{ "error" : "指定的经验数据无效", "errorId" : 468 }
+,"469":{ "error" : "指定的等级数无效", "errorId" : 469 }
+,"470":{ "error" : "家族名字重复，请换一个", "errorId" : 470 }
+,"471":{ "error" : "帮会名字重复，请换一个", "errorId" : 471 }
+,"472":{ "error" : "这件装备没有原有属性可维持", "errorId" : 472 }
+,"473":{ "error" : "正在使用其他物品，请稍候再用", "errorId" : 473 }
+,"474":{ "error" : "物品使用被打断", "errorId" : 474 }
+,"475":{ "error" : "开始使用物品", "errorId" : 475 }
+,"476":{ "error" : "通过组队平台组成的队伍成员不能直接踢除", "errorId" : 476 }
+,"477":{ "error" : "非组队平台组成的队伍不能投票踢出成员", "errorId" : 477 }
+,"478":{ "error" : "没有这个位置", "errorId" : 478 }
+,"479":{ "error" : "这个位置已经有人了", "errorId" : 479 }
+,"480":{ "error" : "已经在载具中", "errorId" : 480 }
+,"481":{ "error" : "玩家不在这个载具上", "errorId" : 481 }
+,"482":{ "error" : "骑乘坐骑的状态下不能进入载具", "errorId" : 482 }
+,"483":{ "error" : "您已经被禁言了", "errorId" : 483 }
+,"484":{ "error" : "在载具中不能使用自己的技能", "errorId" : 484 }
+,"485":{ "error" : "在载具中时不能使用物品", "errorId" : 485 }
+,"486":{ "error" : "在载具中时不能骑乘坐骑", "errorId" : 486 }
+,"487":{ "error" : "在载具中时宠物不能参战", "errorId" : 487 }
+,"488":{ "error" : "在载具中时宠物不能观战", "errorId" : 488 }
+,"490":{ "error" : "队伍还有未完成的同组副本，需要确认", "errorId" : 490 }
+,"491":{ "error" : "队伍还有未完成的同组副本，不能进入新副本", "errorId" : 491 }
+,"492":{ "error" : "销毁副本出错", "errorId" : 492 }
+,"493":{ "error" : "加入家族当天不能领取福利", "errorId" : 493 }
+,"494":{ "error" : "加入帮会当天不能领取福利", "errorId" : 494 }
+,"495":{ "error" : "距离太远", "errorId" : 495 }
+,"496":{ "error" : "暂时不能操作这个物品", "errorId" : 496 }
+,"497":{ "error" : "不在组队平台中，无需退出", "errorId" : 497 }
+,"498":{ "error" : "加入组队平台失败", "errorId" : 498 }
+,"499":{ "error" : "充值订单重复", "errorId" : 499 }
+,"500":{ "error" : "充值订单数额和已有失败记录不符", "errorId" : 500 }
+,"501":{ "error" : "坐骑配方不存在", "errorId" : 501 }
+,"502":{ "error" : "坐骑模板不存在", "errorId" : 502 }
+,"503":{ "error" : "拒收邮件出错", "errorId" : 503 }
+,"504":{ "error" : "没有可领的礼包", "errorId" : 504 }
+,"505":{ "error" : "还未到领取礼包的时间", "errorId" : 505 }
+,"506":{ "error" : "领取礼包中，请稍后", "errorId" : 506 }
+,"507":{ "error" : "账号被封", "errorId" : 507 }
+,"528":{ "error" : "该家族离开帮会不足24小时，不能邀请", "errorId" : 528 }
+,"527":{ "error" : "离开帮会24小时以后才能加入或创建帮会", "errorId" : 527 }
+,"526":{ "error" : "该玩家离开家族不足24小时，不能邀请", "errorId" : 526 }
+,"525":{ "error" : "离开家族24小时以后才能加入或创建家族", "errorId" : 525 }
+,"508":{ "error" : "不能放弃他人任务", "errorId" : 508 }
+,"509":{ "error" : "没有该活动信息", "errorId" : 509 }
+,"515":{ "error" : "不正确的帐号", "errorId" : 515 }
+,"519":{ "error" : "好友列表已满", "errorId" : 519 }
+,"521":{ "error" : "黑名单已满", "errorId" : 521 }
+,"522":{ "error" : "挂售价格已更新", "errorId" : 522 }
+,"523":{ "error" : "活动未开启", "errorId" : 523 }
+,"514":{ "error" : "不能添加自己为好友", "errorId" : 514 }
+,"516":{ "error" : "不能添加自己为仇敌", "errorId" : 516 }
+,"517":{ "error" : "不能添加好友为仇敌", "errorId" : 517 }
+,"518":{ "error" : "不能添加自己进黑名单", "errorId" : 518 }
+,"520":{ "error" : "目标位置不可到达", "errorId" : 520 }
+,"529":{ "error" : "洗炼需求数据不存在，不能洗炼", "errorId" : 529 }
+,"513":{ "error" : "领取活动奖励出错", "errorId" : 513 }
+,"512":{ "error" : "活动奖励领取中，请稍后", "errorId" : 512 }
+,"511":{ "error" : "超过当天领取次数", "errorId" : 511 }
+,"510":{ "error" : "你刚领取过奖励，请稍后领取", "errorId" : 510 }
+,"530":{ "error" : "邮件不存在", "errorId" : 530 }
+,"276":{ "error" : "该状态下不能使用药品", "errorId" : 276 }
+,"531":{ "error" : "发言过于频繁", "errorId" : 531 }
+,"532":{ "error" : "一次发放的物品数量过多", "errorId" : 532 }
+,"535":{ "error" : "聊天信息过长", "errorId" : 535 }
+,"536":{ "error" : "等级不够，不能领取奖励", "errorId" : 536 }
+,"537":{ "error" : "正在创建卡片中", "errorId" : 537 }
+,"538":{ "error" : "挂售背包已满", "errorId" : 538 }
+,"524":{ "error" : "服务器在线人数爆满，暂时不能进入", "errorId" : 524 }
+,"539":{ "error" : "此接口不能发放装备", "errorId" : 539 }
+,"540":{ "error" : "用户号或者角色ID错误", "errorId" : 540 }
+,"541":{ "error" : "目标容器不合法", "errorId" : 541 }
+,"542":{ "error" : "要移动到的位置超过容器最大位置", "errorId" : 542 }
+,"543":{ "error" : "移动物品失败", "errorId" : 543 }
+,"544":{ "error" : "合并物品失败", "errorId" : 544 }
+,"545":{ "error" : "交换物品位置失败", "errorId" : 545 }
+,"546":{ "error" : "不同物品不能合并", "errorId" : 546 }
+,"547":{ "error" : "物品不能移动到这个位置", "errorId" : 547 }
+,"548":{ "error" : "拆分的物品或数量不合法", "errorId" : 548 }
+,"549":{ "error" : "装备阶位不够", "errorId" : 549 }
+,"550":{ "error" : "家族已达到最高等级", "errorId" : 550 }
+,"551":{ "error" : "帮会已达到最高等级", "errorId" : 551 }
+,"552":{ "error" : "整理出错", "errorId" : 552 }
+,"553":{ "error" : "不可整理", "errorId" : 553 }
+,"554":{ "error" : "开启礼包或宝箱需要背包至少有一个空位", "errorId" : 554 }
+,"555":{ "error" : "临时箱不存在", "errorId" : 555 }
+,"557":{ "error" : "要取的物品不存在", "errorId" : 557 }
+,"556":{ "error" : "不合法的门派", "errorId" : 556 }
+,"558":{ "error" : "不正确的性别", "errorId" : 558 }
+,"559":{ "error" : "所取物品不在该临时箱内", "errorId" : 559 }
+,"560":{ "error" : "您没有这种仙草", "errorId" : 560 }
+,"561":{ "error" : "临时箱已经空了", "errorId" : 561 }
+,"562":{ "error" : "不能对别人的坐骑使用幻化丹", "errorId" : 562 }
+,"563":{ "error" : "数据错误，不是坐骑幻化丹", "errorId" : 563 }
+,"564":{ "error" : "不能对非坐骑使用坐骑幻化丹", "errorId" : 564 }
+,"565":{ "error" : "骑乘状态下不能对坐骑使用幻化丹", "errorId" : 565 }
+,"566":{ "error" : "扣元宝出错", "errorId" : 566 }
+,"567":{ "error" : "收费功能不存在", "errorId" : 567 }
+,"568":{ "error" : "收费功能使用错误", "errorId" : 568 }
+,"569":{ "error" : "背包扩展类型错误", "errorId" : 569 }
+,"570":{ "error" : "绑定元宝不够", "errorId" : 570 }
+,"571":{ "error" : "收费功能价格数据错误，无法购买", "errorId" : 571 }
+,"572":{ "error" : "该收费功能不能用此类货币购买", "errorId" : 572 }
+,"573":{ "error" : "仓库扩展类型错误", "errorId" : 573 }
+,"574":{ "error" : "坐骑栏位扩展类型错误", "errorId" : 574 }
+,"575":{ "error" : "已经开启的宝箱或礼包不能卖店", "errorId" : 575 }
+,"576":{ "error" : "已经开启的宝箱或礼包不能交易", "errorId" : 576 }
+,"94":{ "error" : "你不能拾取这个物品", "errorId" : 94 }
+,"577":{ "error" : "to use", "errorId" : 577 }
+,"370":{ "error" : "您现在处于不健康游戏时间，不能进行游戏操作。", "errorId" : 370 }
+,"578":{ "error" : "本源幻化之力已满，不需要使用幻化晶石", "errorId" : 578 }
+,"579":{ "error" : "背包已满", "errorId" : 579 }
+,"580":{ "error" : "回购失败", "errorId" : 580 }
+,"581":{ "error" : "对方处于不健康游戏时间，不能进行该操作。", "errorId" : 581 }
+,"582":{ "error" : "该物品不可出售到商店", "errorId" : 582 }
+,"583":{ "error" : "物品版本不匹配", "errorId" : 583 }
+,"584":{ "error" : "进入游戏出错，上个操作未完成", "errorId" : 584 }
+}

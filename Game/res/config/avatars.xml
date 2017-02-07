@@ -1,0 +1,3463 @@
+<things version="1">
+  <entity name="sheet-jiuzhou" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>4</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-attack">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-wound">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-death">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>41</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>41</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>41</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>41</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>41</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>41</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>41</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>0</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>0</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>0</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>0</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>0</y>
+        </_7>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>-41</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>-41</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>-41</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-41</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>-41</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>-41</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>-41</y>
+        </_7>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-critical">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-cast">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-55</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-jump">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-jiuzhou" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+  <template name="actor-jiuzhou" template="anim-jiuzhou,avatar-actor"/>
+  <template name="avatar-jiuzhou" template="anim-jiuzhou,avatar-controller"/>
+  <entity name="sheet-jiuzhou1" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>4</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>2</x>
+          <y>15</y>
+        </_0>
+        <_1>
+          <x>2</x>
+          <y>15</y>
+        </_1>
+        <_2>
+          <x>2</x>
+          <y>15</y>
+        </_2>
+        <_3>
+          <x>2</x>
+          <y>15</y>
+        </_3>
+        <_4>
+          <x>2</x>
+          <y>15</y>
+        </_4>
+        <_5>
+          <x>-2</x>
+          <y>15</y>
+        </_5>
+        <_6>
+          <x>-2</x>
+          <y>15</y>
+        </_6>
+        <_7>
+          <x>-2</x>
+          <y>15</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-40</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-98</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>44</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-44</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-attack">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-wound">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>40</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-40</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-death">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>40</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-40</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-critical">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>71</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-71</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-cast">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>44</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-44</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>22</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-22</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-jump">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-jiuzhou1" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+  <template name="actor-jiuzhou1" template="anim-jiuzhou1,avatar-actor"/>
+  <template name="avatar-jiuzhou1" template="anim-jiuzhou1,avatar-controller"/>
+  <entity name="sheet-leiyin" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>4</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-attack">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-wound">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-death">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-critical">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-cast">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-55</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle2">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>22</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-22</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-jump">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-leiyin" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+  <template name="actor-leiyin" template="anim-leiyin,avatar-actor"/>
+  <template name="avatar-leiyin" template="anim-leiyin,avatar-controller"/>
+  <entity name="sheet-leiyin1" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>4</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>16</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-38</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-107</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>42</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-42</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-attack">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>39</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-39</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-wound">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>37</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-37</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-death">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>37</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-37</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-critical">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>67</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-67</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-cast">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>37</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-37</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>19</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-19</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-jump">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-leiyin1" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+  <template name="actor-leiyin1" template="anim-leiyin1,avatar-actor"/>
+  <template name="avatar-leiyin1" template="anim-leiyin1,avatar-controller"/>
+  <entity name="sheet-taishang" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>4</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>15</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>-1</x>
+          <y>-41</y>
+        </_0>
+        <_1>
+          <x>-1</x>
+          <y>-41</y>
+        </_1>
+        <_2>
+          <x>-1</x>
+          <y>-41</y>
+        </_2>
+        <_3>
+          <x>-1</x>
+          <y>-41</y>
+        </_3>
+        <_4>
+          <x>-1</x>
+          <y>-41</y>
+        </_4>
+        <_5>
+          <x>1</x>
+          <y>-41</y>
+        </_5>
+        <_6>
+          <x>1</x>
+          <y>-41</y>
+        </_6>
+        <_7>
+          <x>1</x>
+          <y>-41</y>
+        </_7>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-2</x>
+          <y>-99</y>
+        </_0>
+        <_1>
+          <x>-2</x>
+          <y>-99</y>
+        </_1>
+        <_2>
+          <x>-2</x>
+          <y>-99</y>
+        </_2>
+        <_3>
+          <x>-2</x>
+          <y>-99</y>
+        </_3>
+        <_4>
+          <x>-2</x>
+          <y>-99</y>
+        </_4>
+        <_5>
+          <x>2</x>
+          <y>-99</y>
+        </_5>
+        <_6>
+          <x>2</x>
+          <y>-99</y>
+        </_6>
+        <_7>
+          <x>2</x>
+          <y>-99</y>
+        </_7>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-attack">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-wound">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>43</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-43</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-death">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-critical">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>67</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-67</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-cast">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>43</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-43</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>19</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-19</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-jump">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-taishang" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+  <template name="actor-taishang" template="anim-taishang,avatar-actor"/>
+  <template name="avatar-taishang" template="anim-taishang,avatar-controller"/>
+  <entity name="sheet-taishang1" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>4</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>-3</x>
+          <y>18</y>
+        </_0>
+        <_1>
+          <x>-3</x>
+          <y>18</y>
+        </_1>
+        <_2>
+          <x>-3</x>
+          <y>18</y>
+        </_2>
+        <_3>
+          <x>-3</x>
+          <y>18</y>
+        </_3>
+        <_4>
+          <x>-3</x>
+          <y>18</y>
+        </_4>
+        <_5>
+          <x>3</x>
+          <y>18</y>
+        </_5>
+        <_6>
+          <x>3</x>
+          <y>18</y>
+        </_6>
+        <_7>
+          <x>3</x>
+          <y>18</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>-6</x>
+          <y>-44</y>
+        </_0>
+        <_1>
+          <x>-6</x>
+          <y>-44</y>
+        </_1>
+        <_2>
+          <x>-6</x>
+          <y>-44</y>
+        </_2>
+        <_3>
+          <x>-6</x>
+          <y>-44</y>
+        </_3>
+        <_4>
+          <x>-6</x>
+          <y>-44</y>
+        </_4>
+        <_5>
+          <x>6</x>
+          <y>-44</y>
+        </_5>
+        <_6>
+          <x>6</x>
+          <y>-44</y>
+        </_6>
+        <_7>
+          <x>6</x>
+          <y>-44</y>
+        </_7>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>-5</x>
+          <y>-109</y>
+        </_0>
+        <_1>
+          <x>-5</x>
+          <y>-109</y>
+        </_1>
+        <_2>
+          <x>-5</x>
+          <y>-109</y>
+        </_2>
+        <_3>
+          <x>-5</x>
+          <y>-109</y>
+        </_3>
+        <_4>
+          <x>-5</x>
+          <y>-109</y>
+        </_4>
+        <_5>
+          <x>5</x>
+          <y>-109</y>
+        </_5>
+        <_6>
+          <x>5</x>
+          <y>-109</y>
+        </_6>
+        <_7>
+          <x>5</x>
+          <y>-109</y>
+        </_7>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-attack">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>42</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-42</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-wound">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>42</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-42</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-death">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-critical">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>71</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-71</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-cast">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>19</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-19</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-jump">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-taishang1" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+  <template name="actor-taishang1" template="anim-taishang1,avatar-actor"/>
+  <template name="avatar-taishang1" template="anim-taishang1,avatar-controller"/>
+  <entity name="sheet-tianlong" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>4</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-attack">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-wound">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-death">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>43</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>43</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>43</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>43</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>43</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>43</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>43</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>0</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>0</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>0</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>0</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>0</y>
+        </_7>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>-43</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>-43</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>-43</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-43</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>-43</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>-43</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>-43</y>
+        </_7>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-critical">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-cast">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-55</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-jump">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-tianlong" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+  <template name="actor-tianlong" template="anim-tianlong,avatar-actor"/>
+  <template name="avatar-tianlong" template="anim-tianlong,avatar-controller"/>
+  <entity name="sheet-tianlong1" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>4</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>4</x>
+          <y>16</y>
+        </_0>
+        <_1>
+          <x>4</x>
+          <y>16</y>
+        </_1>
+        <_2>
+          <x>4</x>
+          <y>16</y>
+        </_2>
+        <_3>
+          <x>4</x>
+          <y>16</y>
+        </_3>
+        <_4>
+          <x>4</x>
+          <y>16</y>
+        </_4>
+        <_5>
+          <x>-4</x>
+          <y>16</y>
+        </_5>
+        <_6>
+          <x>-4</x>
+          <y>16</y>
+        </_6>
+        <_7>
+          <x>-4</x>
+          <y>16</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>2</x>
+          <y>-44</y>
+        </_0>
+        <_1>
+          <x>2</x>
+          <y>-44</y>
+        </_1>
+        <_2>
+          <x>2</x>
+          <y>-44</y>
+        </_2>
+        <_3>
+          <x>2</x>
+          <y>-44</y>
+        </_3>
+        <_4>
+          <x>2</x>
+          <y>-44</y>
+        </_4>
+        <_5>
+          <x>-2</x>
+          <y>-44</y>
+        </_5>
+        <_6>
+          <x>-2</x>
+          <y>-44</y>
+        </_6>
+        <_7>
+          <x>-2</x>
+          <y>-44</y>
+        </_7>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-99</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-attack">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-wound">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>44</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-44</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-death">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>44</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-44</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-critical">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>62</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-62</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-cast">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>44</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-44</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>19</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-19</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-jump">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-tianlong1" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+  <template name="actor-tianlong1" template="anim-tianlong1,avatar-actor"/>
+  <template name="avatar-tianlong1" template="anim-tianlong1,avatar-controller"/>
+  <entity name="sheet-tianxiang" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>4</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-attack">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-wound">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-death">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>47</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>47</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>47</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>47</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>47</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>47</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>47</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>0</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>0</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>0</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>0</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>0</y>
+        </_7>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>-47</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>-47</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>-47</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-47</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>-47</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>-47</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>-47</y>
+        </_7>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-critical">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-cast">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-55</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-jump">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-tianxiang" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+  <template name="actor-tianxiang" template="anim-tianxiang,avatar-actor"/>
+  <template name="avatar-tianxiang" template="anim-tianxiang,avatar-controller"/>
+  <entity name="sheet-tianxiang1" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>4</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-37</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-109</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>41</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-41</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-attack">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>38</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-38</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-wound">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>37</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-37</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-death">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>39</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-39</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-critical">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>37</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-37</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-cast">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>19</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-19</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-jump">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-tianxiang1" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+  <template name="actor-tianxiang1" template="anim-tianxiang1,avatar-actor"/>
+  <template name="avatar-tianxiang1" template="anim-tianxiang1,avatar-controller"/>
+  <entity name="sheet-yaochi" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>4</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-attack">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-wound">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-death">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>44</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>44</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>44</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>44</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>44</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>44</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>44</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>0</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>0</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>0</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>0</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>0</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>0</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>0</y>
+        </_7>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>-44</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>-44</y>
+        </_2>
+        <_3>
+          <x>0</x>
+          <y>-44</y>
+        </_3>
+        <_4>
+          <x>0</x>
+          <y>-44</y>
+        </_4>
+        <_5>
+          <x>0</x>
+          <y>-44</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>-44</y>
+        </_6>
+        <_7>
+          <x>0</x>
+          <y>-44</y>
+        </_7>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-critical">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-cast">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-32</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-55</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-jump">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-yaochi" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+  <template name="actor-yaochi" template="anim-yaochi,avatar-actor"/>
+  <template name="avatar-yaochi" template="anim-yaochi,avatar-controller"/>
+  <entity name="sheet-yaochi1" template="resource-cache">
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-stand">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>4</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>5</x>
+          <y>19</y>
+        </_0>
+        <_1>
+          <x>5</x>
+          <y>19</y>
+        </_1>
+        <_2>
+          <x>3</x>
+          <y>19</y>
+        </_2>
+        <_3>
+          <x>-2</x>
+          <y>19</y>
+        </_3>
+        <_4>
+          <x>-3</x>
+          <y>19</y>
+        </_4>
+        <_5>
+          <x>2</x>
+          <y>19</y>
+        </_5>
+        <_6>
+          <x>-3</x>
+          <y>19</y>
+        </_6>
+        <_7>
+          <x>-5</x>
+          <y>19</y>
+        </_7>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>2</x>
+          <y>-33</y>
+        </_0>
+        <_1>
+          <x>2</x>
+          <y>-33</y>
+        </_1>
+        <_2>
+          <x>0</x>
+          <y>-33</y>
+        </_2>
+        <_3>
+          <x>-1</x>
+          <y>-33</y>
+        </_3>
+        <_4>
+          <x>-4</x>
+          <y>-33</y>
+        </_4>
+        <_5>
+          <x>1</x>
+          <y>-33</y>
+        </_5>
+        <_6>
+          <x>0</x>
+          <y>-33</y>
+        </_6>
+        <_7>
+          <x>-2</x>
+          <y>-33</y>
+        </_7>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-105</y>
+        </_0>
+        <_1>
+          <x>0</x>
+          <y>-105</y>
+        </_1>
+        <_2>
+          <x>-2</x>
+          <y>-105</y>
+        </_2>
+        <_3>
+          <x>-4</x>
+          <y>-105</y>
+        </_3>
+        <_4>
+          <x>-7</x>
+          <y>-105</y>
+        </_4>
+        <_5>
+          <x>4</x>
+          <y>-105</y>
+        </_5>
+        <_6>
+          <x>2</x>
+          <y>-105</y>
+        </_6>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-run">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>6</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-attack">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>8</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-wound">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>2</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>41</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-41</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-death">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>4</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>45</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-45</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-critical">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <frameRate>12</frameRate>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>42</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-42</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-cast">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>7</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>44</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-44</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-idle">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>19</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-19</y>
+        </_0>
+      </topOffset>
+    </component>
+    <component type="com.longtu.rendering.spritesheet.SpriteSheet5DComboComponent" name="sheet-jump">
+      <divider type="com.longtu.rendering.spritesheet.CellCountDivider">
+        <xCount>1</xCount>
+        <yCount>5</yCount>
+      </divider>
+      <image filename="image/default/empty.png"/>
+      <shadowOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>20</y>
+        </_0>
+      </shadowOffset>
+      <middleOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>0</y>
+        </_0>
+      </middleOffset>
+      <topOffset childType="flash.geom.Point">
+        <_0>
+          <x>0</x>
+          <y>-100</y>
+        </_0>
+      </topOffset>
+    </component>
+  </entity>
+  <template name="anim-yaochi1" template="spatial-mover,shadow-render,label-render,anim-render,anim-8d-ctrl"/>
+  <template name="actor-yaochi1" template="anim-yaochi1,avatar-actor"/>
+  <template name="avatar-yaochi1" template="anim-yaochi1,avatar-controller"/>
+</things>

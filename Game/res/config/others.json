@@ -1,0 +1,26 @@
+{
+  "leiyin":{
+    "weapon":["g1","g4","g5","g2"],
+    "dress":["a2","a5","a3","a4","g2","g3"]
+  },
+  "taishang":{
+    "weapon":["g1","g2","g4","g5","g3"],
+    "dress":["a2","a3","a4","a5","g3"]
+  },
+  "tianxiang":{
+    "weapon":["g1","g2","g3","g4","g5"],
+    "dress":["a2","a3","a4","a5"]
+  },
+  "yaochi":{
+    "weapon":["g3","g5","g1"],
+    "dress":["a2","a3","a4","a5","g2"]
+  },
+  "tianlong":{
+    "weapon":["g1","g2","g3","g4","g5"],
+    "dress":["a2","a3","a4","a5"]
+  },
+  "jiuzhou":{
+    "weapon":["g1","g2","g3","g4","g5"],
+    "dress":["a2","a3","a4","a5"]
+  }
+}
